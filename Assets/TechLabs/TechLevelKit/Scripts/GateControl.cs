@@ -16,8 +16,10 @@ public class GateControl : MonoBehaviour
 	public AudioClip soundfxOpen;
 	public AudioClip soundfxClose;
     public MeshCollider mesher;
-	
-	void Reset ()
+    public LayerMask level;
+
+
+    void Reset ()
 	{
 		if (transform.childCount > 0) 
 			leftDoor = transform.GetChild (0);
@@ -37,12 +39,14 @@ public class GateControl : MonoBehaviour
 		}
 		if(addTrigger) {
 			var sc = new GameObject("Trigger", typeof(SphereCollider)).GetComponent<SphereCollider>();
-			sc.radius = 2;
+            
+			sc.radius = 3.5f;
 			sc.isTrigger = true;
 			sc.transform.parent = this.transform;
 			sc.transform.position = transform.position + Vector3.up;
 			var gt = sc.gameObject.AddComponent<GateTrigger>();
-			gt.gate = this;
+            gt.gameObject.layer = LayerMask.NameToLayer("hitLayers");
+            gt.gate = this;
 		}
 		
 	}

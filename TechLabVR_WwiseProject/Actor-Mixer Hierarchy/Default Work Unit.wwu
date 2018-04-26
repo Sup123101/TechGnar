@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9B0E3987-A75F-4460-8CB8-A4A77F900B61}" SchemaVersion="85">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{9B0E3987-A75F-4460-8CB8-A4A77F900B61}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9B0E3987-A75F-4460-8CB8-A4A77F900B61}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="SFX" ID="{124FD433-EDDC-442D-B7FE-1F663F178C3A}" PersistMode="Reference"/>
+				<WorkUnit Name="Ambience" ID="{72E5E150-0BF0-41E9-9AA7-A94419058313}" PersistMode="Reference"/>
+				<WorkUnit Name="VOX" ID="{233BB6E7-8C1A-4201-A03D-145BD2BF7CA5}" PersistMode="Reference"/>
+				<WorkUnit Name="Weapons" ID="{37F458DA-8B47-4B50-9181-268FD8C6D92A}" PersistMode="Reference"/>
+				<WorkUnit Name="Monsters" ID="{D185419D-A168-4174-9AB3-2EBD62792C3B}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

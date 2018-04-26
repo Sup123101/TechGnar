@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="85">
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\Ambience.wwu" DateLow="1524782004" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1524782302" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\Monsters.wwu" DateLow="1524782049" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\SFX.wwu" DateLow="1524782426" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\VOX.wwu" DateLow="1524782015" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\Weapons.wwu" DateLow="1524782025" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1524781987" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Effects\Factory Effects.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Events\Default Work Unit.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1524782615" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1524782615" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Queries\Factory Queries.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1524781987" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\States\Default Work Unit.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\TechLabVR_WwiseProject.user.wsettings" DateLow="1524782620" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\TechLabVR_WwiseProject.wproj" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1524781036" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1524781036" DateHigh="0"/>
+</ValidationCache>
