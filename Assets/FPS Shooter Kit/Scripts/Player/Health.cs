@@ -24,6 +24,7 @@ public class Health : MonoBehaviour
 	{
 	
 		health = health - damage;
+        PlayerManager.health = health;
 
 		/*if (health == 20) {
 

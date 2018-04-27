@@ -56,9 +56,25 @@ public class EnemyAI : MonoBehaviour
 		}
 
 	}
+    void OnTriggerExit(Collider other)
+    {
+        if (enmHealth.health > 0)
+        {
+            if (navMeshEnable && other.gameObject.tag.Equals("Player"))
+            {
+                navAgent.isStopped = true;
+                PlayerVisible = false;
+                positionPlayer = GameObject.Find("[VRTK][AUTOGEN][HeadsetColliderContainer]");
+                //positionPlayer = GameObject.Find("Camera (eye)");
+                print("Player Ran Away");
+            }
+        }
 
- 
-	void SetMaxSpeed ()
+
+    }
+
+
+    void SetMaxSpeed ()
 	{
 		if (navMeshEnable && PlayerVisible) {
 			if (navAgent.speed != maxSpeed) {
