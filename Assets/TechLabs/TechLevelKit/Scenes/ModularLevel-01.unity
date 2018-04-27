@@ -362,6 +362,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+    type: 2}
 --- !u!23 &11019579
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -642,6 +644,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+    type: 2}
 --- !u!23 &61588424
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1427,6 +1431,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+    type: 2}
 --- !u!23 &139168214
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2153,6 +2159,12 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114292622269334190, guid: 3c67e63d208da9f45b19e314f668751b,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3c67e63d208da9f45b19e314f668751b, type: 2}
   m_IsPrefabParent: 0
@@ -2413,6 +2425,18 @@ Prefab:
     - target: {fileID: 400000, guid: 877573d083299483b8627cfa63613824, type: 2}
       propertyPath: m_RootOrder
       value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
       propertyPath: ShapeModule.radiusThickness
@@ -5143,6 +5167,96 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114339741765446408, guid: b53cb85e5b9070047ad79b40945816cb,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114534174249714248, guid: b53cb85e5b9070047ad79b40945816cb,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114534050204967710, guid: b53cb85e5b9070047ad79b40945816cb,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114574344415071452, guid: b53cb85e5b9070047ad79b40945816cb,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114028382830812704, guid: b53cb85e5b9070047ad79b40945816cb,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114513034475893882, guid: b53cb85e5b9070047ad79b40945816cb,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114704046228769384, guid: b53cb85e5b9070047ad79b40945816cb,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114937923048343376, guid: b53cb85e5b9070047ad79b40945816cb,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114586818421469658, guid: b53cb85e5b9070047ad79b40945816cb,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114525119433940360, guid: b53cb85e5b9070047ad79b40945816cb,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114782489185492174, guid: b53cb85e5b9070047ad79b40945816cb,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114620691989438092, guid: b53cb85e5b9070047ad79b40945816cb,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114978252569870154, guid: b53cb85e5b9070047ad79b40945816cb,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114541059684719884, guid: b53cb85e5b9070047ad79b40945816cb,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114504110634391690, guid: b53cb85e5b9070047ad79b40945816cb,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b53cb85e5b9070047ad79b40945816cb, type: 2}
   m_IsPrefabParent: 0
@@ -5775,34 +5889,180 @@ Prefab:
       propertyPath: m_Name
       value: magazine
       objectReference: {fileID: 0}
-    - target: {fileID: 4067119484546332, guid: 60393045952c69b4dbe8da6a94899813, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4067119484546332, guid: 60393045952c69b4dbe8da6a94899813, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4067119484546332, guid: 60393045952c69b4dbe8da6a94899813, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1803622501104616, guid: 60393045952c69b4dbe8da6a94899813, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4067119484546332, guid: 60393045952c69b4dbe8da6a94899813, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -6.8510003
-      objectReference: {fileID: 0}
-    - target: {fileID: 4067119484546332, guid: 60393045952c69b4dbe8da6a94899813, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 192.03699
-      objectReference: {fileID: 0}
-    - target: {fileID: 4067119484546332, guid: 60393045952c69b4dbe8da6a94899813, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 4.385
-      objectReference: {fileID: 0}
+    - target: {fileID: 114264792303567016, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114983380455103172, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114743497461545218, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114411247535372038, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114031815944135874, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114575063571302786, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114825955056981446, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114252445201077228, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114969078400590844, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114019832748726570, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114615635103667410, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114532996573494714, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114681370541616880, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114615170204312728, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114941260439550654, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114277503417003152, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114747793626979662, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114524816456934430, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114964888381161216, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114533943141643462, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114963603347541960, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114408242171079188, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114094787663219284, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114147279883273230, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114444593800418110, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114335228513761404, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114510081661873430, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114606237344926530, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114966289486229904, guid: 60393045952c69b4dbe8da6a94899813,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 60393045952c69b4dbe8da6a94899813, type: 2}
   m_IsPrefabParent: 0
@@ -6012,6 +6272,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+    type: 2}
 --- !u!23 &484886266
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6685,12 +6947,12 @@ Prefab:
     - target: {fileID: 224000012623161658, guid: d46cf6b1ad9d84a48ae7548a2a6b41b3,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 539
+      value: 779
       objectReference: {fileID: 0}
     - target: {fileID: 224000012623161658, guid: d46cf6b1ad9d84a48ae7548a2a6b41b3,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -70
       objectReference: {fileID: 0}
     - target: {fileID: 224000012623161658, guid: d46cf6b1ad9d84a48ae7548a2a6b41b3,
         type: 2}
@@ -6700,7 +6962,7 @@ Prefab:
     - target: {fileID: 224000012623161658, guid: d46cf6b1ad9d84a48ae7548a2a6b41b3,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 224000012326194302, guid: d46cf6b1ad9d84a48ae7548a2a6b41b3,
         type: 2}
@@ -8261,6 +8523,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+    type: 2}
 --- !u!23 &718510065
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8463,6 +8727,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+    type: 2}
 --- !u!23 &753692499
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10058,6 +10324,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+    type: 2}
 --- !u!23 &888078233
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10856,6 +11124,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+    type: 2}
 --- !u!23 &1041304838
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11464,6 +11734,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114668759478387134, guid: 02bac808155f4774aa71978db54137cc,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 02bac808155f4774aa71978db54137cc, type: 2}
   m_IsPrefabParent: 0
@@ -11712,6 +11988,18 @@ Prefab:
     - target: {fileID: 400000, guid: 877573d083299483b8627cfa63613824, type: 2}
       propertyPath: m_RootOrder
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
       propertyPath: ShapeModule.radiusThickness
@@ -13734,6 +14022,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+    type: 2}
 --- !u!1 &1212589862 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 2260501122d25476382983454eb47901, type: 2}
@@ -15565,6 +15855,18 @@ Prefab:
       propertyPath: ShapeModule.radiusThickness
       value: 1.0000
       objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 877573d083299483b8627cfa63613824, type: 2}
   m_IsPrefabParent: 0
@@ -15631,6 +15933,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+    type: 2}
 --- !u!23 &1233880181
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17331,6 +17635,18 @@ Prefab:
       propertyPath: ShapeModule.radiusThickness
       value: 1.0000
       objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 877573d083299483b8627cfa63613824, type: 2}
   m_IsPrefabParent: 0
@@ -17356,6 +17672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 0}
   shotgunPellets: 10
 --- !u!1 &1245069759
 GameObject:
@@ -18643,6 +18960,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+    type: 2}
 --- !u!23 &1405046237
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19566,6 +19885,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+    type: 2}
 --- !u!23 &1445900706
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19754,6 +20075,30 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 98.57001
       objectReference: {fileID: 0}
+    - target: {fileID: 114860024036813340, guid: 26b56422a2d526d4fae741d688c2be8b,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114490683578906972, guid: 26b56422a2d526d4fae741d688c2be8b,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114721241416999380, guid: 26b56422a2d526d4fae741d688c2be8b,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
+    - target: {fileID: 114691676306503494, guid: 26b56422a2d526d4fae741d688c2be8b,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 26b56422a2d526d4fae741d688c2be8b, type: 2}
   m_IsPrefabParent: 0
@@ -19988,6 +20333,12 @@ Prefab:
       propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114355831300304216, guid: bcf3c2dcb19dbe54d8f0ca31c188d7c4,
+        type: 2}
+      propertyPath: ParticleHited
+      value: 
+      objectReference: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+        type: 2}
     m_RemovedComponents:
     - {fileID: 114911224193242858, guid: bcf3c2dcb19dbe54d8f0ca31c188d7c4, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: bcf3c2dcb19dbe54d8f0ca31c188d7c4, type: 2}
@@ -20445,6 +20796,18 @@ Prefab:
     - target: {fileID: 400000, guid: 877573d083299483b8627cfa63613824, type: 2}
       propertyPath: m_RootOrder
       value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: 877573d083299483b8627cfa63613824, type: 2}
       propertyPath: ShapeModule.radiusThickness
@@ -22523,6 +22886,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+    type: 2}
 --- !u!23 &1551894550
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22943,6 +23308,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+    type: 2}
 --- !u!23 &1597477036
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23277,6 +23644,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+    type: 2}
 --- !u!23 &1617021329
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23782,6 +24151,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 1753322842457622, guid: e1fe5a25e169b9744bf357c3849916af,
+    type: 2}
 --- !u!23 &1677281118
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25699,6 +26070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotForce: 0
+  ParticleHited: {fileID: 0}
 --- !u!1001 &2069442120
 Prefab:
   m_ObjectHideFlags: 0

@@ -10,6 +10,7 @@ namespace VRWeapons.BulletTypes
     {
         [SerializeField]
         float shotForce;
+        public GameObject ParticleHited;
 
         public void DoBulletBehavior(Transform muzzleDir, float damage, float range, float bulletSpreadRange, Weapon thisWeapon, LayerMask shotMask)
         {
@@ -24,6 +25,9 @@ namespace VRWeapons.BulletTypes
                 if (hit.collider.gameObject.tag == "HitedEnemy")
                 {
                     print("hiting an enemy");
+                    GameObject HitBlood = Instantiate(ParticleHited);
+                    HitBlood.transform.position = hit.point;
+                    HitBlood.transform.rotation = hit.transform.rotation;
                     EnemyDamage enemDamage = hit.collider.gameObject.GetComponent<EnemyDamage>();
                     if (enemDamage != null)
                     { 

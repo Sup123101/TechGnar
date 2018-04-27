@@ -12,7 +12,7 @@ namespace VRWeapons.BulletTypes
 
         [SerializeField]
         float shotForce;
-
+        public GameObject ParticleHited;
         [Tooltip("Shotgun pellets per shell.")]
         [SerializeField]
         int shotgunPellets = 10;
@@ -29,6 +29,9 @@ namespace VRWeapons.BulletTypes
                     if (hit.collider.gameObject.tag == "HitedEnemy")
                     {
                         print("hiting an enemy");
+                        GameObject HitBlood = Instantiate(ParticleHited);
+                        HitBlood.transform.position = hit.point;
+                        HitBlood.transform.rotation = hit.transform.rotation;
                         EnemyDamage enemDamage = hit.collider.gameObject.GetComponent<EnemyDamage>();
                         enemDamage.SetDamage(3);
                     }
