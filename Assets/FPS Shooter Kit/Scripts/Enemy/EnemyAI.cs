@@ -18,8 +18,6 @@ public class EnemyAI : MonoBehaviour
 	public float minDistance = 5f;
 	public int attackCount = 0;
 	public string AnimationIdle, AnimationIdleOther;
-    private bool enemyAorD = true;
-    private bool playrbounds = false;
 
 	[HideInInspector]public bool Hited = false;
 
@@ -54,33 +52,13 @@ public class EnemyAI : MonoBehaviour
                 positionPlayer = GameObject.Find("[VRTK][AUTOGEN][HeadsetColliderContainer]");
                 //positionPlayer = GameObject.Find("Camera (eye)");
                 print("Player Detected");
-                playrbounds = true;
-                PlayerManager.enemiesnearby += 1;
 			}
 		}
 
 	}
-    void OnTriggerExit(Collider other)
-    {
-        if (enmHealth.health > 0)
-        {
-            if (navMeshEnable && other.gameObject.tag.Equals("Player"))
-            {
-                navAgent.isStopped = true;
-                PlayerVisible = false;
-                positionPlayer = GameObject.Find("[VRTK][AUTOGEN][HeadsetColliderContainer]");
-                //positionPlayer = GameObject.Find("Camera (eye)");
-                print("Player Ran Away");
-                playrbounds = false;
-                PlayerManager.enemiesnearby -= 1;
-            }
-        }
 
-
-    }
-
-
-    void SetMaxSpeed ()
+ 
+	void SetMaxSpeed ()
 	{
 		if (navMeshEnable && PlayerVisible) {
 			if (navAgent.speed != maxSpeed) {
@@ -157,11 +135,6 @@ public class EnemyAI : MonoBehaviour
 			navAgent.enabled = false;
 			enemyBehContrl.CurrentBehavior = EnemyBehaviorList.Dead;
 			//enmHealth.DeactivateCollider ();
-            if (enemyAorD == true && playrbounds == true)
-            {
-                enemyAorD = false;
-                PlayerManager.enemiesnearby -= 1;
-            }
 		}
 
 
