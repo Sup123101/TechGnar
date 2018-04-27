@@ -16,5 +16,13 @@ public class GateTrigger : MonoBehaviour {
         
         		
 	}
-	
+    void OnTriggerStay(Collider other)
+    {
+
+        if (other.gameObject.tag == "Player")
+        {
+            gate.Open();
+        }
+    }
+
 }
