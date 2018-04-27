@@ -10,17 +10,22 @@ public class PlayerManager : MonoBehaviour {
     public static int enemiesnearby = 0;
     private Rigidbody rc;
     public bool hasdied = false;
-    public Text textHealth;
+    public GameObject healthcanvas;
+    public GameObject bloodcanvas;
     public RawImage Blood;
+    public Text textHealth;
+    
     // Use this for initialization
     void Start () {
+        textHealth = healthcanvas.GetComponent<Text>();
+        Blood = bloodcanvas.GetComponent<RawImage>();
         textHealth.text = health + "%";
     }
 
     // Update is called once per frame
     void Update () {
         textHealth.text = health + "%";
-        print("enemies around" + enemiesnearby);
+        //print("enemies around" + enemiesnearby);
 		if (health <= 0 && hasdied == false)
         {
             hasdied = true;
@@ -29,9 +34,10 @@ public class PlayerManager : MonoBehaviour {
             {
                 cameraC = GameObject.Find("Camera");
             }
-            cameraC.SetActive(false);
-           
+            cameraC.gameObject.SetActive(false);
+            print("deactivating camera");
         }
+        
         if (health > 20)
         {
             Blood.color = new Color(1f, 1f, 1f, 0.0f);
@@ -42,6 +48,7 @@ public class PlayerManager : MonoBehaviour {
             Blood.color = new Color(1f, 1f, 1f, 0.2f + ((0.8f / 20f) * (20f - health)));
 
         }
+        
         
     }
 }

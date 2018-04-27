@@ -156,7 +156,7 @@ public class EnemyAI : MonoBehaviour
 		if (enmHealth.health <= 0) {
 			navAgent.enabled = false;
 			enemyBehContrl.CurrentBehavior = EnemyBehaviorList.Dead;
-			//enmHealth.DeactivateCollider ();
+			enmHealth.DeactivateCollider ();
             if (enemyAorD == true && playrbounds == true)
             {
                 enemyAorD = false;

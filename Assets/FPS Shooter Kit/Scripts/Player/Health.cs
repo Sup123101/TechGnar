@@ -24,7 +24,7 @@ public class Health : MonoBehaviour
 	{
 	
 		health = health - damage;
-
+        PlayerManager.health = health;
 		/*if (health == 20) {
 
 			Blood.color = new Color (1f, 1f, 1f, 0.20f);
