@@ -9,6 +9,14 @@
 							<ObjectRef Name="System" ID="{E9D87715-FC33-4DBD-825B-DB2A54788FD7}" WorkUnitID="{0831E4BB-7CF8-4407-ACFB-9F2B23F0CDD4}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Ambience" ID="{9B7A35DA-92D4-47C9-A5A8-5AF8952DBE6A}"/>
+						<Bus Name="Monsters" ID="{B830D18E-92F0-485A-8A87-D9F6EBC3B782}"/>
+						<Bus Name="Weapons" ID="{00116FEC-C3DD-432D-9EA3-EDDB8281CFCA}"/>
+						<Bus Name="SFX" ID="{5026E8F8-28EC-41D8-9357-6CC025A40C44}"/>
+						<Bus Name="VOX" ID="{30B4DEC8-B605-4F2F-B454-05A1FB684AF4}"/>
+						<Bus Name="Music" ID="{E71E00A3-439F-4479-819B-6CD4A4E9DBAD}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
