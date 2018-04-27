@@ -17,7 +17,7 @@ public class PlayerManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        
+        print("enemies around" + enemiesnearby);
 		if (health <= 0 && hasdied == false)
         {
             hasdied = true;

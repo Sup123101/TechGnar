@@ -38,8 +38,13 @@ public class Health : MonoBehaviour
 		} */
         
 	}
+    private void Update()
+    {
+        
 
-	void FixedUpdate ()
+    }
+
+    void FixedUpdate ()
 	{
         /*
 		textHealth.text = health + "%";
