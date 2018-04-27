@@ -20,6 +20,6 @@ public class DropCamera : MonoBehaviour
 			rbCamera.useGravity = true;
 
 		}
-        
-    }
+
+	}
 }

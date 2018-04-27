@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+
 public class PlayerManager : MonoBehaviour {
     //player health
     public static int health = 100;
@@ -10,16 +10,13 @@ public class PlayerManager : MonoBehaviour {
     public static int enemiesnearby = 0;
     private Rigidbody rc;
     public bool hasdied = false;
-    public Text textHealth;
-    public RawImage Blood;
-    // Use this for initialization
-    void Start () {
-        textHealth.text = health + "%";
-    }
-
-    // Update is called once per frame
-    void Update () {
-        textHealth.text = health + "%";
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
         print("enemies around" + enemiesnearby);
 		if (health <= 0 && hasdied == false)
         {
@@ -32,16 +29,5 @@ public class PlayerManager : MonoBehaviour {
             cameraC.SetActive(false);
            
         }
-        if (health > 20)
-        {
-            Blood.color = new Color(1f, 1f, 1f, 0.0f);
-        }
-        if (health < 20)
-        {
-
-            Blood.color = new Color(1f, 1f, 1f, 0.2f + ((0.8f / 20f) * (20f - health)));
-
-        }
-        
-    }
+	}
 }

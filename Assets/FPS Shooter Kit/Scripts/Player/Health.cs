@@ -24,6 +24,7 @@ public class Health : MonoBehaviour
 	{
 	
 		health = health - damage;
+        PlayerManager.health = health;
 
 		/*if (health == 20) {
 
@@ -37,8 +38,13 @@ public class Health : MonoBehaviour
 		} */
         
 	}
+    private void Update()
+    {
+        
 
-	void FixedUpdate ()
+    }
+
+    void FixedUpdate ()
 	{
         /*
 		textHealth.text = health + "%";
