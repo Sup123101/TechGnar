@@ -210,7 +210,6 @@ PlayerSettings:
   tvOSSmallIconLayers: []
   tvOSSmallIconLayers2x: []
   tvOSLargeIconLayers: []
-  tvOSLargeIconLayers2x: []
   tvOSTopShelfImageLayers: []
   tvOSTopShelfImageLayers2x: []
   tvOSTopShelfImageWideLayers: []
@@ -762,7 +761,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 42cd201e-1fb9-4b64-9c02-c03711a122ea
-  projectName: 
+  projectName: 180330_Project2_Environments.2_osx
   organizationId: daar
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
