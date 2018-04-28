@@ -287,7 +287,6 @@ namespace VRTK
                 ForceStopTouching();
                 triggerIsColliding = true;
             }
-            
         }
 
         protected virtual void OnTriggerExit(Collider collider)
