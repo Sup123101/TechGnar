@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0E30762B-55E6-4235-8EC6-330BED36FD86}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="One-Shots" ID="{0E30762B-55E6-4235-8EC6-330BED36FD86}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="ambience_oneshot_01" ID="{F74F100B-791B-47AC-B7CB-64DAB484CA1E}" ShortID="259557365">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ambience_oneshot_01" ID="{E3755591-FE55-4EAB-942C-1F1D16D2E3FC}" ShortID="841740776">
+							<Language>SFX</Language>
+							<AudioFile>ambience_oneshot_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ambience_oneshot_01" ID="{E3755591-FE55-4EAB-942C-1F1D16D2E3FC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ambience_oneshot_02" ID="{7465AA8E-60CD-4058-BAE1-A852B571E8F0}" ShortID="488112257">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ambience_oneshot_02" ID="{C3800EC9-73B6-41E4-8EEE-470F865889B1}" ShortID="790263733">
+							<Language>SFX</Language>
+							<AudioFile>ambience_oneshot_02.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ambience_oneshot_02" ID="{C3800EC9-73B6-41E4-8EEE-470F865889B1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ambience_oneshot_03" ID="{E29DEE6E-DA35-4286-9AA4-450596B03533}" ShortID="318811043">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ambience_oneshot_03" ID="{5996743E-3D9F-4069-A28D-65CC2FE3C6A4}" ShortID="1065987479">
+							<Language>SFX</Language>
+							<AudioFile>ambience_oneshot_03.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ambience_oneshot_03" ID="{5996743E-3D9F-4069-A28D-65CC2FE3C6A4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ambience_oneshot_04" ID="{7EBE689B-3460-4BAE-A661-F0F0EC763D62}" ShortID="948584486">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ambience_oneshot_04" ID="{F703F869-2422-40CA-952F-6D795BFBD088}" ShortID="275689647">
+							<Language>SFX</Language>
+							<AudioFile>ambience_oneshot_04.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ambience_oneshot_04" ID="{F703F869-2422-40CA-952F-6D795BFBD088}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ambience_oneshot_05" ID="{EE40554B-46E4-407A-AC91-7088920F4438}" ShortID="1066795566">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ambience_oneshot_05" ID="{AF0D1E57-69C8-4FC3-8BC1-7C3DD361F737}" ShortID="766243729">
+							<Language>SFX</Language>
+							<AudioFile>ambience_oneshot_05.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ambience_oneshot_05" ID="{AF0D1E57-69C8-4FC3-8BC1-7C3DD361F737}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ambience_oneshot_06" ID="{4427B3F7-AC7E-4793-A34A-B63FC0E34851}" ShortID="313557192">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ambience_oneshot_06" ID="{0D7FE2C6-1C4C-409B-881D-76164DA78D67}" ShortID="171961903">
+							<Language>SFX</Language>
+							<AudioFile>ambience_oneshot_06.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ambience_oneshot_06" ID="{0D7FE2C6-1C4C-409B-881D-76164DA78D67}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ambience_oneshot_07" ID="{2421697D-9A2B-49FA-B53B-1D74A29775EF}" ShortID="730438573">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ambience_oneshot_07" ID="{2639E310-B1B5-42CC-ABEC-E7593C3A51BD}" ShortID="453250862">
+							<Language>SFX</Language>
+							<AudioFile>ambience_oneshot_07.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ambience_oneshot_07" ID="{2639E310-B1B5-42CC-ABEC-E7593C3A51BD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ambience_oneshot_08" ID="{4F0C7E88-E9CF-4581-B499-56FDCE87FCFB}" ShortID="783380983">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ambience_oneshot_08" ID="{7049A324-9D5C-4AEE-A0A2-2E3281B41876}" ShortID="608476808">
+							<Language>SFX</Language>
+							<AudioFile>ambience_oneshot_08.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ambience_oneshot_08" ID="{7049A324-9D5C-4AEE-A0A2-2E3281B41876}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ambience_oneshot_09" ID="{B80B0395-21B6-4172-A3E7-43860DEF9D47}" ShortID="963285138">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ambience_oneshot_09" ID="{25478CD0-06C6-4C2D-A476-AFBC79A4F7A9}" ShortID="479637911">
+							<Language>SFX</Language>
+							<AudioFile>ambience_oneshot_09.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ambience_oneshot_09" ID="{25478CD0-06C6-4C2D-A476-AFBC79A4F7A9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ambience_oneshot_10" ID="{5544045C-2067-446F-A150-CEADE8054ADC}" ShortID="570836443">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ambience_oneshot_10" ID="{B0BF8EE8-A6F3-4060-AE9F-19D816731740}" ShortID="363771670">
+							<Language>SFX</Language>
+							<AudioFile>ambience_oneshot_10.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ambience_oneshot_10" ID="{B0BF8EE8-A6F3-4060-AE9F-19D816731740}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="monster_shriek_oneshot_01" ID="{1EB82881-1DDC-4059-9BF8-BF28C82B3846}" ShortID="386954544">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="monster_shriek_oneshot_01" ID="{1EF4332B-4CA4-4529-B7DD-34092C3A38C8}" ShortID="879676729">
+							<Language>SFX</Language>
+							<AudioFile>monster_shriek_oneshot_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="monster_shriek_oneshot_01" ID="{1EF4332B-4CA4-4529-B7DD-34092C3A38C8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="monster_shriek_oneshot_02" ID="{F0BD9400-68E6-4C3B-80A4-B8AFFC0A89CF}" ShortID="769775957">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="monster_shriek_oneshot_02" ID="{B61DB1BA-D339-4D5D-ADF0-C2E325799DBA}" ShortID="935957354">
+							<Language>SFX</Language>
+							<AudioFile>monster_shriek_oneshot_02.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="monster_shriek_oneshot_02" ID="{B61DB1BA-D339-4D5D-ADF0-C2E325799DBA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="monster_shriek_oneshot_03" ID="{63159688-BDD6-4068-BE79-C8BD3EB5EA74}" ShortID="68450219">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="monster_shriek_oneshot_03" ID="{B7FB5769-E1FF-4493-BCCF-C9E3CDE647A3}" ShortID="385406828">
+							<Language>SFX</Language>
+							<AudioFile>monster_shriek_oneshot_03.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="monster_shriek_oneshot_03" ID="{B7FB5769-E1FF-4493-BCCF-C9E3CDE647A3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

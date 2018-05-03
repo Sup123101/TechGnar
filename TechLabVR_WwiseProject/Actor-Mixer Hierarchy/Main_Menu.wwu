@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{467A9B16-CFA4-49DD-96C6-D8D6D796620E}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="Main_Menu" ID="{467A9B16-CFA4-49DD-96C6-D8D6D796620E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="main_menu_music_01" ID="{0617D5CB-3C62-4B50-BE96-708461831880}" ShortID="430199869">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="main_menu_music_01" ID="{DD426D9F-7DB4-431D-B5BD-BF1BBEF572F0}" ShortID="961051334">
+							<Language>SFX</Language>
+							<AudioFile>main_menu_music_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="main_menu_music_01" ID="{DD426D9F-7DB4-431D-B5BD-BF1BBEF572F0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="main_menu_music_02" ID="{31AA7E22-18C5-4D4F-8F78-BD92813E4E14}" ShortID="224601527">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="main_menu_music_02" ID="{64AE614A-DF70-497E-8A9F-87A3DDFCDDC1}" ShortID="840732369">
+							<Language>SFX</Language>
+							<AudioFile>main_menu_music_02.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="main_menu_music_02" ID="{64AE614A-DF70-497E-8A9F-87A3DDFCDDC1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="main_menu_start_game" ID="{44DA332F-1A5A-4F12-A4C3-40F1758D3C71}" ShortID="473791917">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="main_menu_start_game" ID="{2A5560D6-9ED1-4B33-86E5-08A5DEB90797}" ShortID="456608449">
+							<Language>SFX</Language>
+							<AudioFile>main_menu_start_game.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="main_menu_start_game" ID="{2A5560D6-9ED1-4B33-86E5-08A5DEB90797}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
