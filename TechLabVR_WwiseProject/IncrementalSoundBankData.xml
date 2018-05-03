@@ -5,13 +5,13 @@
 			<Language ID="393239870">
 				<File Name="Amb_Test" Hash="3920148867" Timestamp="1525307684"/>
 				<File Name="Ambience" Hash="2658716874" Timestamp="1525296904"/>
-				<File Name="Init" Hash="652521461" Timestamp="1525326486"/>
-				<File Name="amb_soundbank" Hash="8249079" Timestamp="1525326486"/>
+				<File Name="Init" Hash="652521461" Timestamp="1525329978"/>
+				<File Name="amb_soundbank" Hash="2839277071" Timestamp="1525329978"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="4041028771" Timestamp="1525326486"/>
+				<File Name="" Hash="973240241" Timestamp="1525331270"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -20,13 +20,13 @@
 			<Language ID="393239870">
 				<File Name="Amb_Test" Hash="3920148867" Timestamp="1525314720"/>
 				<File Name="Ambience" Hash="2658716874" Timestamp="1525296905"/>
-				<File Name="Init" Hash="3839063951" Timestamp="1525326624"/>
-				<File Name="amb_soundbank" Hash="8249079" Timestamp="1525326624"/>
+				<File Name="Init" Hash="3839063951" Timestamp="1525330944"/>
+				<File Name="amb_soundbank" Hash="2839277071" Timestamp="1525330944"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1909803441" Timestamp="1525326624"/>
+				<File Name="" Hash="3623764023" Timestamp="1525331271"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
