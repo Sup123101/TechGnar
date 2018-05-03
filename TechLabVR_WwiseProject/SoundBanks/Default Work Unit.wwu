@@ -3,33 +3,10 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{53D62207-31AA-4E2C-873D-FB300E05058F}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Ambience" ID="{86AB837A-7783-4BCD-9A73-00FB47517AD0}">
-					<ObjectInclusionList/>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="Music" ID="{227313F4-B14F-4630-AF93-751FA60569FD}">
-					<ObjectInclusionList/>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="SFX" ID="{EA3E42DE-6DD1-47E4-828C-70FF84CC1575}">
-					<ObjectInclusionList/>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="Weapons" ID="{6A832D00-277A-4F5A-AF4B-7625A0DA74A8}">
-					<ObjectInclusionList/>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="Monsters" ID="{BD146FF9-1451-47EB-827A-DD008157A4D8}">
-					<ObjectInclusionList/>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="VOX" ID="{29B52996-4B48-460E-89CE-B44F90BE84B9}">
-					<ObjectInclusionList/>
+				<SoundBank Name="amb_soundbank" ID="{1706A86B-6B67-40C2-A682-8859D0E672FF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="amb_event_01" ID="{15B67064-ED70-4BEB-8165-BA5A29CCD484}" WorkUnitID="{83A88437-73DD-4620-92E5-CB383B114A56}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
