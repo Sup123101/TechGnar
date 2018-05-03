@@ -6,7 +6,7 @@ public class ambient_start : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		AkSoundEngine.PostEvent ("amb_room_tone_01", this.gameObject);
+		AkSoundEngine.PostEvent ("amb_event_01", this.gameObject);
 	}
 	
 }

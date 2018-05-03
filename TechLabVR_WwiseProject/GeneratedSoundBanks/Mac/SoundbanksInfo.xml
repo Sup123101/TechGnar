@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>/Users/sup123101/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/Github/TechGnar/TechLabVR_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/sup123101/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/Github/TechGnar/TechLabVR_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/sup123101/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/Github/TechGnar/TechLabVR_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/sup123101/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/Github/TechGnar/TechLabVR_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -26,7 +26,7 @@
 			<IncludedMemoryFiles>
 				<File Id="856190010" Language="SFX">
 					<ShortName>ambience_room_tone_01.wav</ShortName>
-					<Path>SFX\ambience_room_tone_01_F17FB28C.wem</Path>
+					<Path>SFX/ambience_room_tone_01_F17FB28C.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
