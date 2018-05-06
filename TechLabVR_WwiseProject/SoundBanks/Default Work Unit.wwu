@@ -3,9 +3,9 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{53D62207-31AA-4E2C-873D-FB300E05058F}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="amb_soundbank" ID="{1706A86B-6B67-40C2-A682-8859D0E672FF}">
+				<SoundBank Name="amb_room_01_sb" ID="{1706A86B-6B67-40C2-A682-8859D0E672FF}">
 					<ObjectInclusionList>
-						<ObjectRef Name="amb_event_01" ID="{15B67064-ED70-4BEB-8165-BA5A29CCD484}" WorkUnitID="{83A88437-73DD-4620-92E5-CB383B114A56}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="amb_test_01_event" ID="{15B67064-ED70-4BEB-8165-BA5A29CCD484}" WorkUnitID="{83A88437-73DD-4620-92E5-CB383B114A56}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

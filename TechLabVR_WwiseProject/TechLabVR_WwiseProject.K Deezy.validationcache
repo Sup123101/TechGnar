@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="85">
-	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\Ambience.wwu" DateLow="1525156417" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1525325838" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\Monsters.wwu" DateLow="1525156417" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\SFX.wwu" DateLow="1525156417" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\Ambience.wwu" DateLow="1525358947" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\Bullet_Impact.wwu" DateLow="1525358947" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1525358947" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\Main_Menu.wwu" DateLow="1525358947" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\Monsters.wwu" DateLow="1525358947" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\One-Shots.wwu" DateLow="1525358947" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\Player.wwu" DateLow="1525358947" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\SFX.wwu" DateLow="1525358947" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\VOX.wwu" DateLow="1525156417" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\Weapons.wwu" DateLow="1525156417" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Actor-Mixer Hierarchy\Weapons.wwu" DateLow="1525358947" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1525156299" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1525156299" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1525156417" DateHigh="0"/>
@@ -14,9 +18,10 @@
 	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1525156299" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1525156299" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Effects\Factory Effects.wwu" DateLow="1525156299" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Events\Default Work Unit.wwu" DateLow="1525329319" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Events\Default Work Unit.wwu" DateLow="1525358482" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1525294684" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1525156417" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1525335936" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Interactive Music Hierarchy\Music.wwu" DateLow="1525335936" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1525156417" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1525156299" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1525156299" DateHigh="0"/>
@@ -27,8 +32,8 @@
 	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1525156299" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\States\Default Work Unit.wwu" DateLow="1525156299" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1525156299" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\TechLabVR_WwiseProject.K Deezy.wsettings" DateLow="1525329322" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\TechLabVR_WwiseProject.wproj" DateLow="1525325576" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\TechLabVR_WwiseProject.K Deezy.wsettings" DateLow="1525358947" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\TechLabVR_WwiseProject.wproj" DateLow="1525335936" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1525156299" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1525156299" DateHigh="0"/>
 </ValidationCache>

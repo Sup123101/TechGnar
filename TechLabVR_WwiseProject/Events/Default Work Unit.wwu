@@ -3,15 +3,15 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{83A88437-73DD-4620-92E5-CB383B114A56}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="amb_event_01" ID="{15B67064-ED70-4BEB-8165-BA5A29CCD484}">
+				<Event Name="amb_test_01_event" ID="{15B67064-ED70-4BEB-8165-BA5A29CCD484}">
 					<ChildrenList>
-						<Action Name="" ID="{FDB52368-616E-42F6-8003-42262B166CDF}" ShortID="581436392">
+						<Action Name="" ID="{F15238F6-2B69-43C2-A510-367DBBFE8C1B}" ShortID="842276297">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="amb_room_tone_01" ID="{CAEBA7AB-B264-4F6E-979F-9C846F17E45E}" WorkUnitID="{9B0E3987-A75F-4460-8CB8-A4A77F900B61}"/>
+									<ObjectRef Name="ambience_room_tone_01" ID="{76B77304-0403-4D9C-8B6E-483B4A883BB1}" WorkUnitID="{4872C14E-3F72-4626-AEC0-BAC76CD30F6B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

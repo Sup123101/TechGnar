@@ -13,7 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID AMB_EVENT_01 = 146835196U;
+        static const AkUniqueID AMB_ROOM_01_EVENT = 3177937170U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
@@ -24,7 +24,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID AMB_SOUNDBANK = 1692426037U;
+        static const AkUniqueID AMB_ROOM_01_SB = 779069673U;
     } // namespace BANKS
 
     namespace BUSSES

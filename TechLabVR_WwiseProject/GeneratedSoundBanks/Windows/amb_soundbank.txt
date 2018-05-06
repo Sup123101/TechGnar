@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	146835196	amb_event_01			\Default Work Unit\amb_event_01	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	856190010	amb_room_tone_01	Y:\Documents\Github\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\ambience_room_tone_01_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\amb_room_tone_01		5756996
-

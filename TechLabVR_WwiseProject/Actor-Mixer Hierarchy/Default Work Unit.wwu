@@ -3,9 +3,13 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{9B0E3987-A75F-4460-8CB8-A4A77F900B61}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="amb_room_tone_01" ID="{CAEBA7AB-B264-4F6E-979F-9C846F17E45E}" ShortID="262021713">
+				<RandomSequenceContainer Name="ambience_full_test" ID="{15291951-F7F5-42AF-B962-3015D10A4293}" ShortID="915813939">
 					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -16,18 +20,184 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="ambience_room_tone_01" ID="{9C7636D0-3447-44E0-AE14-A9E95139A803}" ShortID="953922903">
-							<Language>SFX</Language>
-							<AudioFile>ambience_room_tone_01.wav</AudioFile>
-							<ConvertedFileIDList>
-								<File ID="856190010"/>
-							</ConvertedFileIDList>
-						</AudioFileSource>
+						<Sound Name="ambience_room_tone_02" ID="{9A668BB0-2DCA-4DA1-8BA7-BED3661ECE75}" ShortID="759488417">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ambience_room_tone_02" ID="{451A9461-08FE-4ACD-8C16-24040BB9CD38}" ShortID="262226986">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\ambience_room_tone_02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ambience_room_tone_02" ID="{451A9461-08FE-4ACD-8C16-24040BB9CD38}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ambience_room_tone_03" ID="{B1F14BD1-774F-4E46-8B28-2612580D437D}" ShortID="293921856">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ambience_room_tone_03" ID="{F7DAC54D-B7D9-4DDA-8044-E4D28FEA81AA}" ShortID="198262764">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\ambience_room_tone_03.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="180869463"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ambience_room_tone_03" ID="{F7DAC54D-B7D9-4DDA-8044-E4D28FEA81AA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ambience_room_tone_04" ID="{61EE731C-EB51-40E9-A6A7-83F9BC02AD3D}" ShortID="298346755">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ambience_room_tone_04" ID="{E1B1B081-8E23-4779-8CA1-97249A876036}" ShortID="454503471">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\ambience_room_tone_04.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="488166276"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ambience_room_tone_04" ID="{E1B1B081-8E23-4779-8CA1-97249A876036}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ambience_room_tone_05" ID="{181198EB-68FE-4FDA-A786-95D986CC7671}" ShortID="538834452">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ambience_room_tone_05" ID="{DB0D5EE5-0513-47B0-9904-7C35E0B8E474}" ShortID="690742195">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\ambience_room_tone_05.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="456840905"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ambience_room_tone_05" ID="{DB0D5EE5-0513-47B0-9904-7C35E0B8E474}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ambience_hallway" ID="{223EEC38-A41F-4853-98CB-B4C308FE48DA}" ShortID="282234821">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ambience_hallway" ID="{20E9870E-4A85-498F-ABDE-796D1E5F012A}" ShortID="1023890285">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\ambience_hallway.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ambience_hallway" ID="{20E9870E-4A85-498F-ABDE-796D1E5F012A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ambience_room_tone_01" ID="{4B8B3752-BA13-40ED-B1BF-AA9AD9E78FE1}" ShortID="901389784">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ambience_room_tone_01" ID="{862BDBA5-DE22-4A9B-B531-8CEB00C153EB}" ShortID="923821362">
+									<Language>SFX</Language>
+									<AudioFile>Ambience\ambience_room_tone_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ambience_room_tone_01" ID="{862BDBA5-DE22-4A9B-B531-8CEB00C153EB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="ambience_room_tone_01" ID="{9C7636D0-3447-44E0-AE14-A9E95139A803}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+					<Playlist>
+						<ItemRef Name="ambience_room_tone_01" ID="{4B8B3752-BA13-40ED-B1BF-AA9AD9E78FE1}"/>
+						<ItemRef Name="ambience_hallway" ID="{223EEC38-A41F-4853-98CB-B4C308FE48DA}"/>
+						<ItemRef Name="ambience_room_tone_02" ID="{9A668BB0-2DCA-4DA1-8BA7-BED3661ECE75}"/>
+						<ItemRef Name="ambience_hallway" ID="{223EEC38-A41F-4853-98CB-B4C308FE48DA}"/>
+						<ItemRef Name="ambience_room_tone_03" ID="{B1F14BD1-774F-4E46-8B28-2612580D437D}"/>
+						<ItemRef Name="ambience_hallway" ID="{223EEC38-A41F-4853-98CB-B4C308FE48DA}"/>
+						<ItemRef Name="ambience_room_tone_04" ID="{61EE731C-EB51-40E9-A6A7-83F9BC02AD3D}"/>
+						<ItemRef Name="ambience_hallway" ID="{223EEC38-A41F-4853-98CB-B4C308FE48DA}"/>
+						<ItemRef Name="ambience_room_tone_05" ID="{181198EB-68FE-4FDA-A786-95D986CC7671}"/>
+					</Playlist>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
