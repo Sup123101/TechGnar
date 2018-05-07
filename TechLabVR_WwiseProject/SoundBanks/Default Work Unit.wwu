@@ -3,9 +3,20 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{53D62207-31AA-4E2C-873D-FB300E05058F}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="amb_room_01_sb" ID="{1706A86B-6B67-40C2-A682-8859D0E672FF}">
+				<SoundBank Name="SFX" ID="{D2975D63-1A81-43B2-8550-F47CB89792F1}">
 					<ObjectInclusionList>
-						<ObjectRef Name="amb_test_01_event" ID="{15B67064-ED70-4BEB-8165-BA5A29CCD484}" WorkUnitID="{83A88437-73DD-4620-92E5-CB383B114A56}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="turbine_fan" ID="{C1578AE2-981D-4002-987C-6653B126F80E}" WorkUnitID="{8574EEF3-7BAB-4444-AEEC-EEEA83EFB252}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="rotating_pillar_amb_02" ID="{18C499F0-9FA1-44E0-9080-B6A1B1E34B16}" WorkUnitID="{8574EEF3-7BAB-4444-AEEC-EEEA83EFB252}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="rotating_pillar_amb_01" ID="{97116055-5770-4A80-BF3F-2C703ED14B00}" WorkUnitID="{8574EEF3-7BAB-4444-AEEC-EEEA83EFB252}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="rotating_pillar_amb_03" ID="{BA05019D-96DA-4B4D-9917-D361ADCA787E}" WorkUnitID="{8574EEF3-7BAB-4444-AEEC-EEEA83EFB252}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambience" ID="{A3FFAB91-CE3C-4D9A-8D47-8FE318F777ED}">
+					<ObjectInclusionList>
+						<ObjectRef Name="amb_hallway" ID="{314D77A1-3C17-4A49-B56F-0F5FF5B8CDB0}" WorkUnitID="{382F1BD1-8B7C-49CD-9D9D-234544CE3E39}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="amb_rooms" ID="{15B67064-ED70-4BEB-8165-BA5A29CCD484}" WorkUnitID="{382F1BD1-8B7C-49CD-9D9D-234544CE3E39}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

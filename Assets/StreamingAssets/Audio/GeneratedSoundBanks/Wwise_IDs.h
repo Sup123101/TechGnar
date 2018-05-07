@@ -13,18 +13,19 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID AMB_ROOM_01_EVENT = 3177937170U;
+        static const AkUniqueID AMB_HALLWAY = 2160321640U;
+        static const AkUniqueID AMB_ROOMS = 836873062U;
+        static const AkUniqueID ROTATING_PILLAR_AMB_01 = 1363715233U;
+        static const AkUniqueID ROTATING_PILLAR_AMB_02 = 1363715234U;
+        static const AkUniqueID ROTATING_PILLAR_AMB_03 = 1363715235U;
+        static const AkUniqueID TURBINE_FAN = 3513896636U;
     } // namespace EVENTS
-
-    namespace GAME_PARAMETERS
-    {
-        static const AkUniqueID AMBIENCE = 85412153U;
-    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID AMB_ROOM_01_SB = 779069673U;
+        static const AkUniqueID AMBIENCE = 85412153U;
+        static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS
 
     namespace BUSSES

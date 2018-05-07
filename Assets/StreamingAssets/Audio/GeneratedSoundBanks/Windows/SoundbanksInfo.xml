@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="85412153" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
+			<ShortName>Ambience</ShortName>
+			<Path>Ambience.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2160321640" Name="amb_hallway" ObjectPath="\Events\Ambience\amb_hallway"/>
+				<Event Id="836873062" Name="amb_rooms" ObjectPath="\Events\Ambience\amb_rooms"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="198262764" Language="SFX">
+					<ShortName>Ambience\ambience_room_tone_03.wav</ShortName>
+					<Path>SFX\Ambience\ambience_room_tone_03_5D14F7FF.wem</Path>
+				</File>
+				<File Id="201798180" Language="SFX">
+					<ShortName>Ambience\ambience_room_tone_01.wav</ShortName>
+					<Path>SFX\Ambience\ambience_room_tone_01_7E369249.wem</Path>
+				</File>
+				<File Id="417865825" Language="SFX">
+					<ShortName>Ambience\ambience_room_tone_05.wav</ShortName>
+					<Path>SFX\Ambience\ambience_room_tone_05_0453224A.wem</Path>
+				</File>
+				<File Id="431006005" Language="SFX">
+					<ShortName>Ambience\ambience_room_tone_02.wav</ShortName>
+					<Path>SFX\Ambience\ambience_room_tone_02_F22AA0A2.wem</Path>
+				</File>
+				<File Id="454503471" Language="SFX">
+					<ShortName>Ambience\ambience_room_tone_04.wav</ShortName>
+					<Path>SFX\Ambience\ambience_room_tone_04_886848B5.wem</Path>
+				</File>
+				<File Id="540937567" Language="SFX">
+					<ShortName>Ambience\ambience_hallway.wav</ShortName>
+					<Path>SFX\Ambience\ambience_hallway_F17FB28C.wem</Path>
+				</File>
+				<File Id="625160649" Language="SFX">
+					<ShortName>Ambience\ambience_room_tone_03.wav</ShortName>
+					<Path>SFX\Ambience\ambience_room_tone_03_EF3342E4.wem</Path>
+				</File>
+				<File Id="690742195" Language="SFX">
+					<ShortName>Ambience\ambience_room_tone_05.wav</ShortName>
+					<Path>SFX\Ambience\ambience_room_tone_05_E01C14A4.wem</Path>
+				</File>
+				<File Id="744544597" Language="SFX">
+					<ShortName>Ambience\ambience_room_tone_04.wav</ShortName>
+					<Path>SFX\Ambience\ambience_room_tone_04_45FABDEC.wem</Path>
+				</File>
+				<File Id="927353822" Language="SFX">
+					<ShortName>Ambience\ambience_room_tone_01.wav</ShortName>
+					<Path>SFX\Ambience\ambience_room_tone_01_9C9E2B0C.wem</Path>
+				</File>
+				<File Id="1005860630" Language="SFX">
+					<ShortName>Ambience\ambience_room_tone_02.wav</ShortName>
+					<Path>SFX\Ambience\ambience_room_tone_02_54F82D50.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="393239870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1363715233" Name="rotating_pillar_amb_01" ObjectPath="\Events\SFX\rotating_pillar_amb_01" MaxAttenuation="10.000000"/>
+				<Event Id="1363715234" Name="rotating_pillar_amb_02" ObjectPath="\Events\SFX\rotating_pillar_amb_02" MaxAttenuation="10.000000"/>
+				<Event Id="1363715235" Name="rotating_pillar_amb_03" ObjectPath="\Events\SFX\rotating_pillar_amb_03" MaxAttenuation="10.000000"/>
+				<Event Id="3513896636" Name="turbine_fan" ObjectPath="\Events\SFX\turbine_fan" MaxAttenuation="10.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="613481814" Language="SFX">
+					<ShortName>SFX\rotating_pillar_ambience_loop.wav</ShortName>
+					<Path>SFX\SFX\rotating_pillar_ambience_loop_482EB2D5.wem</Path>
+				</File>
+				<File Id="811640702" Language="SFX">
+					<ShortName>SFX\rotating_pillar_loop.wav</ShortName>
+					<Path>SFX\SFX\rotating_pillar_loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="1025574941" Language="SFX">
+					<ShortName>SFX\rotating_pillar_loop.wav</ShortName>
+					<Path>SFX\SFX\rotating_pillar_loop_B31F02AC.wem</Path>
+				</File>
+				<File Id="1053339145" Language="SFX">
+					<ShortName>SFX\turbine_loop.wav</ShortName>
+					<Path>SFX\SFX\turbine_loop_F17FB28C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -11,24 +11,180 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8517c35d4e189dd43a5a16b8039d6f48, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
+  AcousticTextureWwu:
+  - Guid: '{07C8E27A-7508-419E-8C34-C0EFFCAE45D4}'
+    m_lastTimePart2: -1999261907
+    m_lastTimePsrt1: 844935258
+    ParentPhysicalPath: 
+    PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    List: []
   autoPopulateEnabled: 1
-  AuxBusWwu: []
-  BankWwu: []
+  AuxBusWwu:
+  - Guid: '{4AAFD399-6878-488D-9662-CCA6D16F6617}'
+    m_lastTimePart2: -1999261907
+    m_lastTimePsrt1: 2022930572
+    ParentPhysicalPath: 
+    PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    List: []
+  BankWwu:
+  - Guid: '{53D62207-31AA-4E2C-873D-FB300E05058F}'
+    m_lastTimePart2: -1999260699
+    m_lastTimePsrt1: -195638599
+    ParentPhysicalPath: 
+    PhysicalPath: SoundBanks\Default Work Unit.wwu
+    List:
+    - Guid: 91abffa33cce9a4d8d478fe318f777ed
+      ID: 85412153
+      Name: Ambience
+      Path: Default Work Unit\Ambience
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambience
+        ObjectType: 7
+    - Guid: 635d97d2811ab2438550f47cb89792f1
+      ID: 393239870
+      Name: SFX
+      Path: Default Work Unit\SFX
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 7
   basePath: Audio\GeneratedSoundBanks
   callbackManagerBufferSize: 4
   CurrentPluginConfig: 
   defaultPoolSize: 4096
-  EventWwu: []
-  ExpandedItems: []
+  EventWwu:
+  - Guid: '{382F1BD1-8B7C-49CD-9D9D-234544CE3E39}'
+    m_lastTimePart2: -1999260701
+    m_lastTimePsrt1: 263454051
+    ParentPhysicalPath: 
+    PhysicalPath: Events\Ambience.wwu
+    List:
+    - Guid: a1774d31173c494ab56f0f5ff5b8cdb0
+      ID: -2134645656
+      Name: amb_hallway
+      Path: Ambience\amb_hallway
+      PathAndIcons:
+      - ElementName: Ambience
+        ObjectType: 12
+      - ElementName: amb_hallway
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 6470b61570edeb4b8165ba5a29ccd484
+      ID: 836873062
+      Name: amb_rooms
+      Path: Ambience\amb_rooms
+      PathAndIcons:
+      - ElementName: Ambience
+        ObjectType: 12
+      - ElementName: amb_rooms
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - Guid: '{83A88437-73DD-4620-92E5-CB383B114A56}'
+    m_lastTimePart2: -1999260709
+    m_lastTimePsrt1: -45144561
+    ParentPhysicalPath: 
+    PhysicalPath: Events\Default Work Unit.wwu
+    List: []
+  - Guid: '{8574EEF3-7BAB-4444-AEEC-EEEA83EFB252}'
+    m_lastTimePart2: -1999260699
+    m_lastTimePsrt1: -195208432
+    ParentPhysicalPath: 
+    PhysicalPath: Events\SFX.wwu
+    List:
+    - Guid: 556011977057804abf3f2c703ed14b00
+      ID: 1363715233
+      Name: rotating_pillar_amb_01
+      Path: SFX\rotating_pillar_amb_01
+      PathAndIcons:
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: rotating_pillar_amb_01
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: f099c418a19fe0449080b6a1b1e34b16
+      ID: 1363715234
+      Name: rotating_pillar_amb_02
+      Path: SFX\rotating_pillar_amb_02
+      PathAndIcons:
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: rotating_pillar_amb_02
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 9d0105bada964d4b9917d361adca787e
+      ID: 1363715235
+      Name: rotating_pillar_amb_03
+      Path: SFX\rotating_pillar_amb_03
+      PathAndIcons:
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: rotating_pillar_amb_03
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e28a57c11d980240987c6653b126f80e
+      ID: -781070660
+      Name: turbine_fan
+      Path: SFX\turbine_fan
+      PathAndIcons:
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: turbine_fan
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  ExpandedItems:
+  - /TechLabVR_WwiseProject
+  - /TechLabVR_WwiseProject/Events
+  - /TechLabVR_WwiseProject/Events/Ambience
+  - /TechLabVR_WwiseProject/Events/SFX
+  - /TechLabVR_WwiseProject/SoundBanks
+  - /TechLabVR_WwiseProject/SoundBanks/Default Work Unit
   language: English(US)
   lowerPoolSize: 2048
   m_lastPopulateTimePart2: 0
   m_lastPopulateTimePsrt1: 0
   memoryCutoffThreshold: 0.95
   preparePoolSize: 0
-  RtpcWwu: []
-  StateWwu: []
+  RtpcWwu:
+  - Guid: '{87EF9656-E20F-47A6-82F8-2676FFE3C972}'
+    m_lastTimePart2: -1999260876
+    m_lastTimePsrt1: -285082087
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Default Work Unit.wwu
+    List: []
+  StateWwu:
+  - Guid: '{4D9E19FF-CBE6-4768-B15E-810E8EB6254D}'
+    m_lastTimePart2: -1999261907
+    m_lastTimePsrt1: 844855366
+    ParentPhysicalPath: 
+    PhysicalPath: States\Default Work Unit.wwu
+    List: []
   streamingPoolSize: 1024
-  SwitchWwu: []
-  TriggerWwu: []
+  SwitchWwu:
+  - Guid: '{A7A88C5A-7E4D-4275-8929-C004C2CF7E66}'
+    m_lastTimePart2: -1999260876
+    m_lastTimePsrt1: 1966654618
+    ParentPhysicalPath: 
+    PhysicalPath: Switches\Default Work Unit.wwu
+    List: []
+  TriggerWwu:
+  - Guid: '{43B4D872-F383-4122-A91F-F0AB692F789E}'
+    m_lastTimePart2: -1999261907
+    m_lastTimePsrt1: 844935258
+    ParentPhysicalPath: 
+    PhysicalPath: Triggers\Default Work Unit.wwu
+    List: []
