@@ -5,7 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3513896636	turbine_fan			\SFX\turbine_fan	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	613481814	rotating_pillar_ambience_loop_02	C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\.cache\Mac\SFX\SFX\rotating_pillar_ambience_loop_482EB2D5.wem		\Actor-Mixer Hierarchy\SFX\rotating_pillar_ambience_02\rotating_pillar_ambience_loop_02		801664
+	613481814	rotating_pillar_ambience_loop_02	C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\.cache\Mac\SFX\SFX\rotating_pillar_ambience_loop_3922F7D2.wem		\Actor-Mixer Hierarchy\SFX\rotating_pillar_ambience_02\rotating_pillar_ambience_loop_02		801664
 	811640702	rotating_pillar_loop_01	C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\.cache\Mac\SFX\SFX\rotating_pillar_loop_F17FB28C.wem		\Actor-Mixer Hierarchy\SFX\rotating_pillar_ambience_01\rotating_pillar_loop_01		352864
 	1025574941	rotating_pillar_loop_02	C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\.cache\Mac\SFX\SFX\rotating_pillar_loop_B31F02AC.wem		\Actor-Mixer Hierarchy\SFX\rotating_pillar_ambience_02\rotating_pillar_loop_02		352864
 	1053339145	turbine_loop	C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\.cache\Mac\SFX\SFX\turbine_loop_F17FB28C.wem		\Actor-Mixer Hierarchy\SFX\turbine_loop		281200

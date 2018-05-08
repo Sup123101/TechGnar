@@ -40,10 +40,6 @@
 					<ShortName>Ambience\ambience_room_tone_04.wav</ShortName>
 					<Path>SFX\Ambience\ambience_room_tone_04_886848B5.wem</Path>
 				</File>
-				<File Id="540937567" Language="SFX">
-					<ShortName>Ambience\ambience_hallway.wav</ShortName>
-					<Path>SFX\Ambience\ambience_hallway_F17FB28C.wem</Path>
-				</File>
 				<File Id="625160649" Language="SFX">
 					<ShortName>Ambience\ambience_room_tone_03.wav</ShortName>
 					<Path>SFX\Ambience\ambience_room_tone_03_EF3342E4.wem</Path>
@@ -79,7 +75,7 @@
 			<IncludedMemoryFiles>
 				<File Id="613481814" Language="SFX">
 					<ShortName>SFX\rotating_pillar_ambience_loop.wav</ShortName>
-					<Path>SFX\SFX\rotating_pillar_ambience_loop_482EB2D5.wem</Path>
+					<Path>SFX\SFX\rotating_pillar_ambience_loop_3922F7D2.wem</Path>
 				</File>
 				<File Id="811640702" Language="SFX">
 					<ShortName>SFX\rotating_pillar_loop.wav</ShortName>
