@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\user\Documents\GitHub\TechGnar\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -51,6 +51,7 @@
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
+				<Event Id="128625444" Name="door_close" ObjectPath="\Events\SFX\door_close"/>
 				<Event Id="535830432" Name="door_open" ObjectPath="\Events\SFX\door_open"/>
 				<Event Id="3855638709" Name="exhaust_vent" ObjectPath="\Events\SFX\exhaust_vent"/>
 				<Event Id="3931031181" Name="reaktor" ObjectPath="\Events\SFX\reaktor"/>
@@ -81,6 +82,10 @@
 					<ShortName>SFX\rotating_pillar_loop.wav</ShortName>
 					<Path>SFX\SFX\rotating_pillar_loop_F17FB28C.wem</Path>
 				</File>
+				<File Id="992565190" Language="SFX">
+					<ShortName>SFX\door_close.wav</ShortName>
+					<Path>SFX\SFX\door_close_1C9C67B2.wem</Path>
+				</File>
 				<File Id="1001242266" Language="SFX">
 					<ShortName>SFX\steam_loop.wav</ShortName>
 					<Path>SFX\SFX\steam_loop_F17FB28C.wem</Path>
@@ -104,6 +109,24 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Music\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Music\Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="43484705" Language="SFX">
+					<ShortName>Music\01_Intro_Loop\01_intro_loop_full.wav</ShortName>
+					<Path>SFX\Music\01_Intro_Loop\01_intro_loop_full_F17FB28C.wem</Path>
+				</File>
+				<File Id="684270713" Language="SFX">
+					<ShortName>Music\04_Drop_Loop\04_drop_loop_full.wav</ShortName>
+					<Path>SFX\Music\04_Drop_Loop\04_drop_loop_full_F17FB28C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

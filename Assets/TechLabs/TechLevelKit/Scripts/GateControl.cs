@@ -66,10 +66,10 @@ public class GateControl : MonoBehaviour
 		if (!inTransition) {
 			inTransition = true;
 			StartCoroutine (_Open ());
-			//if (laststatus == 0) {
+			if (laststatus == 0) {
 				AkSoundEngine.PostEvent ("door_open", this.gameObject);
-			//	laststatus = 1;
-			//}
+				laststatus = 1;
+			}
 		}
 	}
 	
@@ -79,10 +79,10 @@ public class GateControl : MonoBehaviour
 		if (!inTransition) {
 			inTransition = true;
 			StartCoroutine (_Close ());
-			//if (laststatus == 1) {
+			if (laststatus == 1) {
 				AkSoundEngine.PostEvent ("door_close", this.gameObject);
-			//	laststatus = 0;
-			//}
+				laststatus = 0;
+			}
 
 		}
 	}

@@ -8,15 +8,38 @@ public class PlayerManager : MonoBehaviour {
     //amount of enemies nearby
     private GameObject cameraC;
     public static int enemiesnearby = 0;
+    private int previousstate = 0; //0 no enemies 1 being has enemies
     private Rigidbody rc;
     public bool hasdied = false;
 	// Use this for initialization
 	void Start () {
-		
-	}
+        AkSoundEngine.PostEvent("Music", this.gameObject);
+        AkSoundEngine.SetState("EnemiesNearby", "Normal");
+        
+    }
 	
 	// Update is called once per frame
 	void Update () {
+
+        if (enemiesnearby > 0)
+        {
+            if(previousstate == 0)
+            {
+                previousstate = 1;
+                AkSoundEngine.SetState("EnemiesNearby", "UnderAttack");
+                
+            }
+        }
+        if (enemiesnearby == 0)
+        {
+            if (previousstate == 1)
+            {
+                previousstate = 0;
+                AkSoundEngine.SetState("EnemiesNearby", "Normal");
+
+            }
+        }
+    
 //        print("enemies around" + enemiesnearby);
 		if (health <= 0 && hasdied == false)
         {
