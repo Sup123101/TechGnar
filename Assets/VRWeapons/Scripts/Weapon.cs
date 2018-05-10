@@ -310,6 +310,10 @@ namespace VRWeapons
                     soundToPlay = SlideBack;
                     break;
                 case AudioClips.DryFire:
+                    if(gameObject.name = "lowpoly_glock")
+                    {
+
+                    }
                     soundToPlay = DryFire;
                     break;
             }
