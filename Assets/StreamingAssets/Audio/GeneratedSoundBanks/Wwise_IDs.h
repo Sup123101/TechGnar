@@ -17,6 +17,8 @@ namespace AK
         static const AkUniqueID AMB_ROOMS = 836873062U;
         static const AkUniqueID DOOR_OPEN = 535830432U;
         static const AkUniqueID EXHAUST_VENT = 3855638709U;
+        static const AkUniqueID GLOCK_FIRE = 1072738028U;
+        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID REAKTOR = 3931031181U;
         static const AkUniqueID ROTATING_PILLAR_AMB_01 = 1363715233U;
         static const AkUniqueID ROTATING_PILLAR_AMB_02 = 1363715234U;
@@ -37,6 +39,17 @@ namespace AK
                 static const AkUniqueID DEAD = 2044049779U;
             } // namespace STATE
         } // namespace LIFE
+
+        namespace STATUS
+        {
+            static const AkUniqueID GROUP = 939730931U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ATTACKING = 1641806523U;
+                static const AkUniqueID NORMAL = 1160234136U;
+            } // namespace STATE
+        } // namespace STATUS
 
     } // namespace STATES
 
@@ -69,6 +82,7 @@ namespace AK
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID AMBIENCE = 85412153U;
         static const AkUniqueID GUNS = 688956056U;
+        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS
 

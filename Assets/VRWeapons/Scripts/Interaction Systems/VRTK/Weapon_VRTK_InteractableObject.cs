@@ -140,6 +140,7 @@ namespace VRWeapons.InteractionSystems.VRTK
             {
                 base.StartUsing(usingObject);
                 thisWeap.StartFiring(usingObject.gameObject);
+              
             }
         }
 

@@ -4,7 +4,9 @@
 		<WorkUnit Name="Weapons" ID="{5052B89B-ACC5-46D0-BC59-ADC3E880B3E8}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Guns" ID="{14484BF3-7118-4BEF-8CCD-FA3503B901A4}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Glock_Fire" ID="{45F218B3-92D9-487B-8395-032F6218A154}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

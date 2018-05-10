@@ -15,7 +15,20 @@
 				<Folder Name="Glock" ID="{288A8C9C-C218-44B3-AD87-C4F9256258EB}" ShortID="397410639">
 					<ChildrenList>
 						<Event Name="Glock_Cock" ID="{1BC95D0C-3DC8-48C0-96A6-9D6140A63194}"/>
-						<Event Name="Glock_Fire" ID="{45F218B3-92D9-487B-8395-032F6218A154}"/>
+						<Event Name="Glock_Fire" ID="{45F218B3-92D9-487B-8395-032F6218A154}">
+							<ChildrenList>
+								<Action Name="" ID="{7D3B848A-0525-4DF4-8826-D88062E2DF7F}" ShortID="684556399">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="glock_fire" ID="{17490994-6B4B-494B-8421-3C9872F0913B}" WorkUnitID="{6F6B0E93-3719-4632-81DC-7E4C66573C47}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Glock_Handle" ID="{CC8A2285-0BAB-4057-973E-89BDF4902E16}"/>
 						<Event Name="Glock_Magazine_Load" ID="{242B6480-FEC8-4F6D-82A4-CC2C24EC5CC6}"/>
 						<Event Name="Glock_Magazine_Drop" ID="{44A5FD14-6B2C-499B-B42C-5FFC0760567F}"/>

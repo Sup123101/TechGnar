@@ -310,6 +310,13 @@ namespace VRWeapons
                     soundToPlay = SlideBack;
                     break;
                 case AudioClips.DryFire:
+                    if(gameObject.name == "lowpoly_glock")
+                    {
+                        AkSoundEngine.PostEvent("Glock_Fire", this.gameObject);
+                        print("firing");
+                    }
+                    print("firing2");
+                    print("object name is " + gameObject.name);
                     soundToPlay = DryFire;
                     break;
             }
@@ -404,6 +411,9 @@ namespace VRWeapons
                     else if (!justFired && Time.time - nextFire >= fireRate)
                     {
                         PlaySound(AudioClips.DryFire);
+                        print("firing Weapon");
+                        print("this gameobject is " + gameObject.name);
+
                         nextFire = Time.time;
                         justFired = true;
                     }

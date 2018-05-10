@@ -19,7 +19,7 @@
 				</Event>
 				<Event Name="amb_hallway" ID="{314D77A1-3C17-4A49-B56F-0F5FF5B8CDB0}">
 					<ChildrenList>
-						<Action Name="" ID="{E179B6D8-8E6C-4904-A313-AB2FF4EFF6F6}" ShortID="1013530646">
+						<Action Name="" ID="{E811EE30-A0B9-4DA7-AA40-C17E628975F3}" ShortID="473773142">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
