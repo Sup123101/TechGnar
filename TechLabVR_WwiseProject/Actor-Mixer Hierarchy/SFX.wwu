@@ -276,6 +276,7 @@
 				</BlendContainer>
 				<Sound Name="door_close" ID="{DE4B3EE3-D887-4DDA-94E9-CE379F69BB21}" ShortID="458136225">
 					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-40</Value>
@@ -431,6 +432,7 @@
 				</Sound>
 				<Sound Name="door_open" ID="{719E2A99-06F2-4DDF-A062-3B7B29BFF4CA}" ShortID="892668648">
 					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-40</Value>

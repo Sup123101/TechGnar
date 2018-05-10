@@ -59,7 +59,30 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="door" ID="{798535E4-40E4-4263-8961-D5C1B935D5DA}"/>
+				<Event Name="door" ID="{798535E4-40E4-4263-8961-D5C1B935D5DA}">
+					<ChildrenList>
+						<Action Name="" ID="{D1BF6F56-5D1B-4127-A6D4-ED066615E27A}" ShortID="511115420">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="door_open" ID="{719E2A99-06F2-4DDF-A062-3B7B29BFF4CA}" WorkUnitID="{755FAD23-AD0A-4261-BFD5-0801EF5992FF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{86D8354E-9DF7-4903-BD7F-6B7A4058CA22}" ShortID="638335035">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="door_close" ID="{DE4B3EE3-D887-4DDA-94E9-CE379F69BB21}" WorkUnitID="{755FAD23-AD0A-4261-BFD5-0801EF5992FF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="reaktor" ID="{8B8D8106-F18A-4416-9B95-C75B1FCF1A1E}">
 					<ChildrenList>
 						<Action Name="" ID="{A5C98744-826E-4A8B-995D-2301C247072B}" ShortID="417177561">
