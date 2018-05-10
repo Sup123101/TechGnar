@@ -97,6 +97,18 @@ namespace VRWeapons.InteractionSystems.VRTK
             GetComponent<Rigidbody>().isKinematic = true;
 
             base.OnInteractableObjectGrabbed(e);
+            if (gameObject.name == "lowpoly_glock")
+            {
+                AkSoundEngine.PostEvent("Glock_Handle", this.gameObject);
+            }
+            if (gameObject.name == "lowpoly_shotgun")
+            {
+                AkSoundEngine.PostEvent("shotgun_handle", this.gameObject);
+            }
+            if (gameObject.name == "lowpoly_ak47")
+            {
+                AkSoundEngine.PostEvent("AK47_Handle", this.gameObject);
+            }
         }
 
         public override void OnInteractableObjectUngrabbed(InteractableObjectEventArgs e)
@@ -140,7 +152,8 @@ namespace VRWeapons.InteractionSystems.VRTK
             {
                 base.StartUsing(usingObject);
                 thisWeap.StartFiring(usingObject.gameObject);
-              
+               
+                
             }
         }
 
@@ -150,6 +163,11 @@ namespace VRWeapons.InteractionSystems.VRTK
             {
                 base.StopUsing(previousUsingObject);
                 thisWeap.StopFiring(previousUsingObject.gameObject);
+                print("stop firing");
+                if (gameObject.name == "lowpoly_ak47")
+                {
+                    AkSoundEngine.PostEvent("AK47_Stop", this.gameObject);
+                }
             }
         }
 

@@ -128,6 +128,7 @@ namespace VRWeapons
         public void BoltBack()
         {
             movingBack = true;
+            
         }
 
         public void BoltRelease()
@@ -138,6 +139,7 @@ namespace VRWeapons
                 movingForward = true;
                 doNotPlaySound = false;
                 justPlayedSoundForward = false;
+                
             }
         }
 
@@ -148,7 +150,7 @@ namespace VRWeapons
                 // Getting Rigidbody and Transform to snap into position and eject correctly
                 chamberedRoundRB = thisWeap.Magazine.GetRoundRigidBody();
                 chamberedRoundT = thisWeap.Magazine.GetRoundTransform();
-
+               
                 // Setting round in correct position on bolt face
                 if (chamberedRoundT != null)
                 {
@@ -193,6 +195,7 @@ namespace VRWeapons
                     else
                     {
                         lockedBack = true;
+                       
                     }
                 }
             }
@@ -204,6 +207,7 @@ namespace VRWeapons
                 {
                     boltLerpVal = 0;
                     movingForward = false;
+                    
                 }
             }
             
@@ -218,6 +222,7 @@ namespace VRWeapons
                     thisWeap.ChamberNewRound(ChamberNewRound());
                     justEjected = false;
                     canChamberNewRound = false;
+                    
                 }
             }
 
@@ -230,6 +235,7 @@ namespace VRWeapons
                 thisWeap.chamberedRound = null;
                 justEjected = true;
                 canChamberNewRound = true;
+                
             }
             
 
@@ -260,6 +266,7 @@ namespace VRWeapons
 
         void DoBoltMovement(float lerpVal)
         {
+            
             if (lerpVal <= BoltRotatesUntil)
             {
                 bolt.transform.localPosition = BoltStartPosition;

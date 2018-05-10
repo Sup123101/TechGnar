@@ -55,7 +55,9 @@
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
+				<Event Id="128625444" Name="door_close" ObjectPath="\Events\SFX\door_close"/>
 				<Event Id="535830432" Name="door_open" ObjectPath="\Events\SFX\door_open"/>
+				<Event Id="823792036" Name="Enemy_Impact" ObjectPath="\Events\SFX\Enemy_Impact"/>
 				<Event Id="3855638709" Name="exhaust_vent" ObjectPath="\Events\SFX\exhaust_vent"/>
 				<Event Id="3931031181" Name="reaktor" ObjectPath="\Events\SFX\reaktor"/>
 				<Event Id="1363715233" Name="rotating_pillar_amb_01" ObjectPath="\Events\SFX\rotating_pillar_amb_01" MaxAttenuation="10.000000"/>
@@ -69,6 +71,10 @@
 					<ShortName>SFX\reactor_loop.wav</ShortName>
 					<Path>SFX\SFX\reactor_loop_F17FB28C.wem</Path>
 				</File>
+				<File Id="357225778" Language="SFX">
+					<ShortName>Bullet_Impact\bullet_impact_body_02.wav</ShortName>
+					<Path>SFX\Bullet_Impact\bullet_impact_body_02_1C9C67B2.wem</Path>
+				</File>
 				<File Id="581330187" Language="SFX">
 					<ShortName>SFX\vent_exhaust_loop.wav</ShortName>
 					<Path>SFX\SFX\vent_exhaust_loop_F17FB28C.wem</Path>
@@ -81,9 +87,21 @@
 					<ShortName>SFX\door_open.wav</ShortName>
 					<Path>SFX\SFX\door_open_1C9C67B2.wem</Path>
 				</File>
+				<File Id="751770877" Language="SFX">
+					<ShortName>Bullet_Impact\bullet_impact_body_01.wav</ShortName>
+					<Path>SFX\Bullet_Impact\bullet_impact_body_01_1C9C67B2.wem</Path>
+				</File>
 				<File Id="811640702" Language="SFX">
 					<ShortName>SFX\rotating_pillar_loop.wav</ShortName>
 					<Path>SFX\SFX\rotating_pillar_loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="816466795" Language="SFX">
+					<ShortName>Bullet_Impact\bullet_impact_body_wet.wav</ShortName>
+					<Path>SFX\Bullet_Impact\bullet_impact_body_wet_1C9C67B2.wem</Path>
+				</File>
+				<File Id="992565190" Language="SFX">
+					<ShortName>SFX\door_close.wav</ShortName>
+					<Path>SFX\SFX\door_close_1C9C67B2.wem</Path>
 				</File>
 				<File Id="1001242266" Language="SFX">
 					<ShortName>SFX\steam_loop.wav</ShortName>
@@ -104,12 +122,90 @@
 			<ShortName>Guns</ShortName>
 			<Path>Guns.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3305383501" Name="AK47_Fire" ObjectPath="\Events\Weapons\AK47\AK47_Fire"/>
+				<Event Id="4090582527" Name="AK47_Handle" ObjectPath="\Events\Weapons\AK47\AK47_Handle"/>
+				<Event Id="1532367873" Name="AK47_Magazine_Drop" ObjectPath="\Events\Weapons\AK47\AK47_Magazine_Drop"/>
+				<Event Id="3280450433" Name="AK47_Stop" ObjectPath="\Events\Weapons\AK47\AK47_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="3915038840" Name="Glock_Cock" ObjectPath="\Events\Weapons\Glock\Glock_Cock" MaxAttenuation="10.000000"/>
 				<Event Id="1072738028" Name="Glock_Fire" ObjectPath="\Events\Weapons\Glock\Glock_Fire"/>
+				<Event Id="256833090" Name="Glock_Handle" ObjectPath="\Events\Weapons\Glock\Glock_Handle"/>
+				<Event Id="775637278" Name="Glock_Magazine_Drop" ObjectPath="\Events\Weapons\Glock\Glock_Magazine_Drop"/>
+				<Event Id="2469014961" Name="Glock_Magazine_Load" ObjectPath="\Events\Weapons\Glock\Glock_Magazine_Load"/>
+				<Event Id="3982195600" Name="shotgun_fire" ObjectPath="\Events\Weapons\Shotgun\shotgun_fire"/>
+				<Event Id="1742261478" Name="shotgun_handle" ObjectPath="\Events\Weapons\Shotgun\shotgun_handle"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="47819783" Language="SFX">
+					<ShortName>Weapons\AK47\AK47_handling_04.wav</ShortName>
+					<Path>SFX\Weapons\AK47\AK47_handling_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="177346667" Language="SFX">
+					<ShortName>Weapons\Shotgun\shotgun_handling_03.wav</ShortName>
+					<Path>SFX\Weapons\Shotgun\shotgun_handling_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="193196945" Language="SFX">
+					<ShortName>Weapons\Glock\glock_cock_close.wav</ShortName>
+					<Path>SFX\Weapons\Glock\glock_cock_close_1C9C67B2.wem</Path>
+				</File>
+				<File Id="232090594" Language="SFX">
+					<ShortName>Weapons\Glock\glock_handling_01.wav</ShortName>
+					<Path>SFX\Weapons\Glock\glock_handling_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="426118636" Language="SFX">
+					<ShortName>Weapons\AK47\AK47_handling_02.wav</ShortName>
+					<Path>SFX\Weapons\AK47\AK47_handling_02_1C9C67B2.wem</Path>
+				</File>
 				<File Id="511788316" Language="SFX">
 					<ShortName>Weapons\Glock\glock_fire.wav</ShortName>
 					<Path>SFX\Weapons\Glock\glock_fire_1C9C67B2.wem</Path>
+				</File>
+				<File Id="516201628" Language="SFX">
+					<ShortName>Weapons\Glock\glock_handling_03.wav</ShortName>
+					<Path>SFX\Weapons\Glock\glock_handling_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="525658761" Language="SFX">
+					<ShortName>Weapons\Shotgun\shotgun_handling_04.wav</ShortName>
+					<Path>SFX\Weapons\Shotgun\shotgun_handling_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="588354083" Language="SFX">
+					<ShortName>Weapons\AK47\AK47_magazine_drop.wav</ShortName>
+					<Path>SFX\Weapons\AK47\AK47_magazine_drop_1C9C67B2.wem</Path>
+				</File>
+				<File Id="600128573" Language="SFX">
+					<ShortName>Weapons\Shotgun\shotgun_fire.wav</ShortName>
+					<Path>SFX\Weapons\Shotgun\shotgun_fire_1C9C67B2.wem</Path>
+				</File>
+				<File Id="686176446" Language="SFX">
+					<ShortName>Weapons\AK47\AK47_handling_01.wav</ShortName>
+					<Path>SFX\Weapons\AK47\AK47_handling_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="815946321" Language="SFX">
+					<ShortName>Weapons\Glock\glock_cock_open.wav</ShortName>
+					<Path>SFX\Weapons\Glock\glock_cock_open_1C9C67B2.wem</Path>
+				</File>
+				<File Id="820372991" Language="SFX">
+					<ShortName>Weapons\Glock\glock_magazine_drop.wav</ShortName>
+					<Path>SFX\Weapons\Glock\glock_magazine_drop_1C9C67B2.wem</Path>
+				</File>
+				<File Id="829583925" Language="SFX">
+					<ShortName>Weapons\AK47\AK47_handling_03.wav</ShortName>
+					<Path>SFX\Weapons\AK47\AK47_handling_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="870671133" Language="SFX">
+					<ShortName>Weapons\Shotgun\shotgun_handling_02.wav</ShortName>
+					<Path>SFX\Weapons\Shotgun\shotgun_handling_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="938478499" Language="SFX">
+					<ShortName>Weapons\AK47\AK47_fire_loop.wav</ShortName>
+					<Path>SFX\Weapons\AK47\AK47_fire_loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="979201449" Language="SFX">
+					<ShortName>Weapons\Shotgun\shotgun_handling_01.wav</ShortName>
+					<Path>SFX\Weapons\Shotgun\shotgun_handling_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1004413430" Language="SFX">
+					<ShortName>Weapons\Glock\glock_handling_02.wav</ShortName>
+					<Path>SFX\Weapons\Glock\glock_handling_02_1C9C67B2.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

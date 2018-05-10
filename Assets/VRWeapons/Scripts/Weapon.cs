@@ -177,6 +177,7 @@ namespace VRWeapons
                     if (mag.GetComponent<Rigidbody>() != null && mag.gameObject != this.gameObject)
                     {
                         mag.GetComponent<Rigidbody>().isKinematic = true;
+                        
                     }
                     IgnoreCollision(mag.GetComponent<Collider>(), true);
                 }
@@ -238,6 +239,7 @@ namespace VRWeapons
             if (Bolt != null)
             {
                 Bolt.BoltRelease();
+                
             }
         }
 
@@ -310,13 +312,7 @@ namespace VRWeapons
                     soundToPlay = SlideBack;
                     break;
                 case AudioClips.DryFire:
-                    if(gameObject.name == "lowpoly_glock")
-                    {
-                        AkSoundEngine.PostEvent("Glock_Fire", this.gameObject);
-                        print("firing");
-                    }
-                    print("firing2");
-                    print("object name is " + gameObject.name);
+                    
                     soundToPlay = DryFire;
                     break;
             }
@@ -381,6 +377,13 @@ namespace VRWeapons
         {
             if (isFiring)
             {
+                if(burstCount > burstAmount)
+                {
+                    if (gameObject.name == "lowpoly_ak47")
+                    {
+                        AkSoundEngine.PostEvent("AK47_Stop", this.gameObject);
+                    }
+                }
                 if (((FireMode)currentFireMode != FireMode.Safe && !justFired) || (FireMode)currentFireMode == FireMode.Automatic || ((FireMode)currentFireMode == FireMode.Burst && burstCount < burstAmount))
                 {
                     if ((Time.time - nextFire >= fireRate) && IsChambered())
@@ -399,6 +402,18 @@ namespace VRWeapons
                         nextFire = Time.time;
                         justFired = true;
                         burstCount++;
+                        if (gameObject.name == "lowpoly_glock")
+                        {
+                            AkSoundEngine.PostEvent("Glock_Fire", this.gameObject);
+                        }
+                        if (gameObject.name == "lowpoly_shotgun")
+                        {
+                            AkSoundEngine.PostEvent("shotgun_fire", this.gameObject);
+                        }
+                        if (gameObject.name == "lowpoly_ak47")
+                        {
+                            AkSoundEngine.PostEvent("AK47_Fire", this.gameObject);
+                        }
                         if (shotHaptics != null)
                         {
                             shotHaptics.Invoke();
@@ -411,9 +426,8 @@ namespace VRWeapons
                     else if (!justFired && Time.time - nextFire >= fireRate)
                     {
                         PlaySound(AudioClips.DryFire);
-                        print("firing Weapon");
-                        print("this gameobject is " + gameObject.name);
 
+                       
                         nextFire = Time.time;
                         justFired = true;
                     }
@@ -421,6 +435,10 @@ namespace VRWeapons
             }
             else if (stopFiring)
             {
+                if (gameObject.name == "lowpoly_ak47")
+                {
+                    AkSoundEngine.PostEvent("AK47_Stop", this.gameObject);
+                }
                 stopFiring = false;
                 justFired = false;
                 burstCount = 0;
@@ -468,6 +486,7 @@ namespace VRWeapons
                     if (go != null)
                     {
                         Bolt.ReplaceRoundWithEmptyShell(go);
+                       
                     }
                 }
                 if (boltMovesOnFiring)
@@ -486,6 +505,8 @@ namespace VRWeapons
             if (OnMagInserted != null)
             {
                 OnMagInserted.Invoke(this, newMag);
+
+                
             }
         }
 
@@ -494,10 +515,19 @@ namespace VRWeapons
             if (OnMagRemoved != null)
             {
                 OnMagRemoved.Invoke(this, Magazine);
+                
             }
             if (Magazine != null)
             {
                 Magazine.MagOut(this);
+                if (gameObject.name == "lowpoly_glock")
+                {
+                    AkSoundEngine.PostEvent("Glock_Magazine_Drop", this.gameObject);
+                }
+                if (gameObject.name == "lowpoly_ak47")
+                {
+                    AkSoundEngine.PostEvent("AK47_Magazine_Drop", this.gameObject);
+                }
             }
         }
 

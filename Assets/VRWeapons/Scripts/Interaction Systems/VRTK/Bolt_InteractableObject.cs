@@ -71,6 +71,7 @@ namespace VRWeapons.InteractionSystems.VRTK
                 lerpValue = VRWControl.V3InverseLerp(boltClosedPosition, boltOpenPosition, transform.localPosition);
                 ClampControllerToTrack();
                 bolt.boltLerpVal = lerpValue;
+                
             }
 
             else if (hasMoved)
@@ -78,16 +79,19 @@ namespace VRWeapons.InteractionSystems.VRTK
                 bolt.IsCurrentlyBeingManipulated(false);
                 hasMoved = false;
                 transform.localPosition = lastGoodPosition;
+                
             }
 
             else
             {
                 lerpValue = bolt.boltLerpVal;
+                
             }
 
             if (lerpValue != oldLerpValue)                                                                                      // Moves the manipulator to be in the correct position (with the bolt object). Only 
             {                                                                                                                   // moves it if the lerp value has changed - doesn't need adjustment otherwise.
                 transform.localPosition = Vector3.Lerp(boltClosedPosition, boltOpenPosition, lerpValue);
+                
             }
 
             base.Update();
@@ -99,6 +103,7 @@ namespace VRWeapons.InteractionSystems.VRTK
         {
             transform.localPosition = Vector3.Lerp(boltClosedPosition, boltOpenPosition, lerpValue);
             lastGoodPosition = transform.localPosition;
+
         }
     }
 }

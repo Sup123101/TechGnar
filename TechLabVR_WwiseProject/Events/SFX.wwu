@@ -129,6 +129,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Enemy_Impact" ID="{5B65A241-4554-43B7-8689-5C36319291C6}">
+					<ChildrenList>
+						<Action Name="" ID="{2411BECE-286B-4D50-87C1-760D84781F05}" ShortID="348937287">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy_Hit" ID="{0AC49FB9-156A-495D-8A31-1221FD67039F}" WorkUnitID="{00C15B8B-AD37-4E36-96AA-FCA79F84BC80}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -29,6 +29,7 @@ namespace VRWeapons.BulletTypes
                     if (hit.collider.gameObject.tag == "HitedEnemy")
                     {
                         print("hiting an enemy");
+                        AkSoundEngine.PostEvent("Enemy_Impact", hit.collider.gameObject);
                         GameObject HitBlood = Instantiate(ParticleHited);
                         HitBlood.transform.position = hit.point;
                         HitBlood.transform.rotation = hit.transform.rotation;

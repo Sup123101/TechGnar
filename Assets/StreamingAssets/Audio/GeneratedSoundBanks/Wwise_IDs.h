@@ -13,16 +13,28 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AK47_FIRE = 3305383501U;
+        static const AkUniqueID AK47_HANDLE = 4090582527U;
+        static const AkUniqueID AK47_MAGAZINE_DROP = 1532367873U;
+        static const AkUniqueID AK47_STOP = 3280450433U;
         static const AkUniqueID AMB_HALLWAY = 2160321640U;
         static const AkUniqueID AMB_ROOMS = 836873062U;
+        static const AkUniqueID DOOR_CLOSE = 128625444U;
         static const AkUniqueID DOOR_OPEN = 535830432U;
+        static const AkUniqueID ENEMY_IMPACT = 823792036U;
         static const AkUniqueID EXHAUST_VENT = 3855638709U;
+        static const AkUniqueID GLOCK_COCK = 3915038840U;
         static const AkUniqueID GLOCK_FIRE = 1072738028U;
+        static const AkUniqueID GLOCK_HANDLE = 256833090U;
+        static const AkUniqueID GLOCK_MAGAZINE_DROP = 775637278U;
+        static const AkUniqueID GLOCK_MAGAZINE_LOAD = 2469014961U;
         static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID REAKTOR = 3931031181U;
         static const AkUniqueID ROTATING_PILLAR_AMB_01 = 1363715233U;
         static const AkUniqueID ROTATING_PILLAR_AMB_02 = 1363715234U;
         static const AkUniqueID ROTATING_PILLAR_AMB_03 = 1363715235U;
+        static const AkUniqueID SHOTGUN_FIRE = 3982195600U;
+        static const AkUniqueID SHOTGUN_HANDLE = 1742261478U;
         static const AkUniqueID STEAM = 1433397863U;
         static const AkUniqueID TURBINE_FAN = 3513896636U;
     } // namespace EVENTS

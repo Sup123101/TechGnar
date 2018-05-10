@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Bullet_Impact" ID="{00C15B8B-AD37-4E36-96AA-FCA79F84BC80}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchContainer Name="Bullet_Impact" ID="{2BC84B16-2D92-43B0-A538-EEFCC78C43F1}" ShortID="1064770543">
+				<RandomSequenceContainer Name="Enemy_Hit" ID="{0AC49FB9-156A-495D-8A31-1221FD67039F}" ShortID="100149833">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -71,20 +71,7 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
-					<GroupingInfo>
-						<GroupingBehaviorList>
-							<GroupingBehavior>
-								<ItemRef Name="bullet_impact_body_02" ID="{EE69A860-9506-4BB5-827B-2B2FC1F47EC7}"/>
-							</GroupingBehavior>
-							<GroupingBehavior>
-								<ItemRef Name="bullet_impact_body_01" ID="{4282EC6D-53B5-4814-A045-68A802B21F8F}"/>
-							</GroupingBehavior>
-							<GroupingBehavior>
-								<ItemRef Name="bullet_impact_body_wet" ID="{B84877F4-1B02-447B-956F-F10994D1EB27}"/>
-							</GroupingBehavior>
-						</GroupingBehaviorList>
-					</GroupingInfo>
-				</SwitchContainer>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
