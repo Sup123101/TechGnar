@@ -213,11 +213,6 @@
 				</RandomSequenceContainer>
 				<SwitchContainer Name="Rooms" ID="{DD89187A-166F-4E9E-B0CE-965A1E520828}" ShortID="589877474">
 					<PropertyList>
-						<Property Name="Inclusion" Type="bool">
-							<ValueList>
-								<Value>False</Value>
-							</ValueList>
-						</Property>
 						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
@@ -235,33 +230,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="ambience_hallway" ID="{613EA5AA-938A-49D0-997C-3036E89209F3}" ShortID="635761050">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-6</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="ambience_hallway" ID="{14FBCF8B-5E03-4447-B121-E8E0FC9613ED}" ShortID="540937567">
-									<Language>SFX</Language>
-									<AudioFile>Ambience\ambience_hallway.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="ambience_hallway" ID="{14FBCF8B-5E03-4447-B121-E8E0FC9613ED}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<SwitchContainer Name="Room_02" ID="{7EFA5129-8AEF-4DF0-BD10-8967DC00A64A}" ShortID="595256996">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -341,9 +309,6 @@
 								<ItemRef Name="Room_05" ID="{31ED9199-333D-4EFD-8EE0-E221ED9EA115}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="ambience_hallway" ID="{613EA5AA-938A-49D0-997C-3036E89209F3}"/>
-							</GroupingBehavior>
-							<GroupingBehavior>
 								<ItemRef Name="Room_01" ID="{F9DD67CF-2A05-4E47-AC92-C591DC84AB83}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
@@ -355,6 +320,33 @@
 						</GroupingBehaviorList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<Sound Name="ambience_hallway" ID="{613EA5AA-938A-49D0-997C-3036E89209F3}" ShortID="635761050">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ambience_hallway" ID="{14FBCF8B-5E03-4447-B121-E8E0FC9613ED}" ShortID="540937567">
+							<Language>SFX</Language>
+							<AudioFile>Ambience\ambience_hallway.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ambience_hallway" ID="{14FBCF8B-5E03-4447-B121-E8E0FC9613ED}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

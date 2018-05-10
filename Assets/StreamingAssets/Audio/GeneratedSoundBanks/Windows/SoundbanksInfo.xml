@@ -20,29 +20,9 @@
 				<Event Id="836873062" Name="amb_rooms" ObjectPath="\Events\Ambience\amb_rooms"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="201798180" Language="SFX">
-					<ShortName>Ambience\ambience_room_tone_01.wav</ShortName>
-					<Path>SFX\Ambience\ambience_room_tone_01_C48A0388.wem</Path>
-				</File>
-				<File Id="417865825" Language="SFX">
-					<ShortName>Ambience\ambience_room_tone_05.wav</ShortName>
-					<Path>SFX\Ambience\ambience_room_tone_05_32CC547A.wem</Path>
-				</File>
-				<File Id="625160649" Language="SFX">
-					<ShortName>Ambience\ambience_room_tone_03.wav</ShortName>
-					<Path>SFX\Ambience\ambience_room_tone_03_D4840DA9.wem</Path>
-				</File>
-				<File Id="734053125" Language="SFX">
-					<ShortName>ambience_room_tone_06.wav</ShortName>
-					<Path>SFX\ambience_room_tone_06_C1A6DEAA.wem</Path>
-				</File>
-				<File Id="744544597" Language="SFX">
-					<ShortName>Ambience\ambience_room_tone_04.wav</ShortName>
-					<Path>SFX\Ambience\ambience_room_tone_04_1E95D5AE.wem</Path>
-				</File>
-				<File Id="1005860630" Language="SFX">
-					<ShortName>Ambience\ambience_room_tone_02.wav</ShortName>
-					<Path>SFX\Ambience\ambience_room_tone_02_C892F798.wem</Path>
+				<File Id="540937567" Language="SFX">
+					<ShortName>Ambience\ambience_hallway.wav</ShortName>
+					<Path>SFX\Ambience\ambience_hallway_F17FB28C.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
