@@ -1,14 +1,10 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	2137943	Life			\Player\Life	
-	1542416594	EnemiesNearby			\Player\EnemiesNearby	
 
 State	ID	Name	State Group			Notes
 	0	None	Life			
 	655265632	Alive	Life			
 	2044049779	Dead	Life			
-	0	None	EnemiesNearby			
-	1160234136	Normal	EnemiesNearby			
-	2862835585	UnderAttack	EnemiesNearby			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	

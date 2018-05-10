@@ -10,13 +10,6 @@
 						<State Name="Dead" ID="{BA5C2666-B038-45ED-B79A-0B16AD6E0BA7}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="EnemiesNearby" ID="{15099643-B193-4B6E-BD88-91B3D115CAEF}">
-					<ChildrenList>
-						<State Name="None" ID="{397452A6-CDF2-4217-90F1-33A9E4CB9B98}"/>
-						<State Name="Normal" ID="{6A7A73D3-67C1-4620-9F20-D0981D351148}"/>
-						<State Name="UnderAttack" ID="{21085136-F61E-4050-9BAE-49CDA3C4ADA7}"/>
-					</ChildrenList>
-				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
