@@ -12,7 +12,7 @@
 						<ObjectRef Name="steam" ID="{C65ADB04-48EC-4886-AAF2-B908D70DE7B5}" WorkUnitID="{8574EEF3-7BAB-4444-AEEC-EEEA83EFB252}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="door_close" ID="{461AA24C-DEC9-49A0-89A8-64EA94A89A8E}" WorkUnitID="{8574EEF3-7BAB-4444-AEEC-EEEA83EFB252}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="exhaust_vent" ID="{86A707CE-288F-4A7D-B8AB-358EFF2CFF16}" WorkUnitID="{8574EEF3-7BAB-4444-AEEC-EEEA83EFB252}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="rotating_pillar_amb_01" ID="{97116055-5770-4A80-BF3F-2C703ED14B00}" WorkUnitID="{8574EEF3-7BAB-4444-AEEC-EEEA83EFB252}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="rotating_pillar" ID="{97116055-5770-4A80-BF3F-2C703ED14B00}" WorkUnitID="{8574EEF3-7BAB-4444-AEEC-EEEA83EFB252}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="rotating_pillar_amb_03" ID="{BA05019D-96DA-4B4D-9917-D361ADCA787E}" WorkUnitID="{8574EEF3-7BAB-4444-AEEC-EEEA83EFB252}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

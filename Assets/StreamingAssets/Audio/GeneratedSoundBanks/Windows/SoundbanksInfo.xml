@@ -55,7 +55,7 @@
 				<Event Id="535830432" Name="door_open" ObjectPath="\Events\SFX\door_open"/>
 				<Event Id="3855638709" Name="exhaust_vent" ObjectPath="\Events\SFX\exhaust_vent"/>
 				<Event Id="3931031181" Name="reaktor" ObjectPath="\Events\SFX\reaktor"/>
-				<Event Id="1363715233" Name="rotating_pillar_amb_01" ObjectPath="\Events\SFX\rotating_pillar_amb_01" MaxAttenuation="10.000000"/>
+				<Event Id="4131734268" Name="rotating_pillar" ObjectPath="\Events\SFX\rotating_pillar" MaxAttenuation="10.000000"/>
 				<Event Id="1363715234" Name="rotating_pillar_amb_02" ObjectPath="\Events\SFX\rotating_pillar_amb_02" MaxAttenuation="10.000000"/>
 				<Event Id="1363715235" Name="rotating_pillar_amb_03" ObjectPath="\Events\SFX\rotating_pillar_amb_03" MaxAttenuation="10.000000"/>
 				<Event Id="1433397863" Name="steam" ObjectPath="\Events\SFX\steam"/>
@@ -69,10 +69,6 @@
 				<File Id="581330187" Language="SFX">
 					<ShortName>SFX\vent_exhaust_loop.wav</ShortName>
 					<Path>SFX\SFX\vent_exhaust_loop_F17FB28C.wem</Path>
-				</File>
-				<File Id="613481814" Language="SFX">
-					<ShortName>SFX\rotating_pillar_ambience_loop.wav</ShortName>
-					<Path>SFX\SFX\rotating_pillar_ambience_loop_3922F7D2.wem</Path>
 				</File>
 				<File Id="698957205" Language="SFX">
 					<ShortName>SFX\door_open.wav</ShortName>
@@ -89,10 +85,6 @@
 				<File Id="1001242266" Language="SFX">
 					<ShortName>SFX\steam_loop.wav</ShortName>
 					<Path>SFX\SFX\steam_loop_F17FB28C.wem</Path>
-				</File>
-				<File Id="1025574941" Language="SFX">
-					<ShortName>SFX\rotating_pillar_loop.wav</ShortName>
-					<Path>SFX\SFX\rotating_pillar_loop_B31F02AC.wem</Path>
 				</File>
 				<File Id="1053339145" Language="SFX">
 					<ShortName>SFX\turbine_loop.wav</ShortName>

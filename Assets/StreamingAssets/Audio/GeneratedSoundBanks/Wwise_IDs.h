@@ -20,7 +20,7 @@ namespace AK
         static const AkUniqueID EXHAUST_VENT = 3855638709U;
         static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID REAKTOR = 3931031181U;
-        static const AkUniqueID ROTATING_PILLAR_AMB_01 = 1363715233U;
+        static const AkUniqueID ROTATING_PILLAR = 4131734268U;
         static const AkUniqueID ROTATING_PILLAR_AMB_02 = 1363715234U;
         static const AkUniqueID ROTATING_PILLAR_AMB_03 = 1363715235U;
         static const AkUniqueID STEAM = 1433397863U;

@@ -7,15 +7,15 @@
 				<File Name="Ambience" Hash="2484017697" Timestamp="1525930132"/>
 				<File Name="Guns" Hash="1819840405" Timestamp="1525930132"/>
 				<File Name="Init" Hash="2525805050" Timestamp="1525933524"/>
-				<File Name="Music" Hash="2139252028" Timestamp="1525934221"/>
-				<File Name="SFX" Hash="1320813961" Timestamp="1525930132"/>
+				<File Name="Music" Hash="2942275730" Timestamp="1525935022"/>
+				<File Name="SFX" Hash="2862952069" Timestamp="1525935359"/>
 				<File Name="amb_room_01_sb" Hash="451167462" Timestamp="1525554467"/>
 				<File Name="amb_soundbank" Hash="2839277071" Timestamp="1525329978"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="69692578" Timestamp="1525934221"/>
+				<File Name="" Hash="3499178732" Timestamp="1525935359"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -26,15 +26,15 @@
 				<File Name="Ambience" Hash="2484017697" Timestamp="1525930132"/>
 				<File Name="Guns" Hash="1819840405" Timestamp="1525930132"/>
 				<File Name="Init" Hash="1497928560" Timestamp="1525933524"/>
-				<File Name="Music" Hash="2139252028" Timestamp="1525934221"/>
-				<File Name="SFX" Hash="1320813961" Timestamp="1525930132"/>
+				<File Name="Music" Hash="2942275730" Timestamp="1525935022"/>
+				<File Name="SFX" Hash="2862952069" Timestamp="1525935359"/>
 				<File Name="amb_room_01_sb" Hash="451167462" Timestamp="1525554468"/>
 				<File Name="amb_soundbank" Hash="2839277071" Timestamp="1525330944"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3560857148" Timestamp="1525934221"/>
+				<File Name="" Hash="635894534" Timestamp="1525935359"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
