@@ -1,9 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
+	535830432	door_open			\SFX\door_open	
 	1363715233	rotating_pillar_amb_01			\SFX\rotating_pillar_amb_01	
 	1363715234	rotating_pillar_amb_02			\SFX\rotating_pillar_amb_02	
 	1363715235	rotating_pillar_amb_03			\SFX\rotating_pillar_amb_03	
 	1433397863	steam			\SFX\steam	
-	1877847629	door			\SFX\door	
 	3513896636	turbine_fan			\SFX\turbine_fan	
 	3855638709	exhaust_vent			\SFX\exhaust_vent	
 	3931031181	reaktor			\SFX\reaktor	
@@ -14,7 +14,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	613481814	rotating_pillar_ambience_loop_02	C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\.cache\Mac\SFX\SFX\rotating_pillar_ambience_loop_3922F7D2.wem		\Actor-Mixer Hierarchy\SFX\rotating_pillar_ambience_02\rotating_pillar_ambience_loop_02		801664
 	698957205	door_open	C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\.cache\Mac\SFX\SFX\door_open_1C9C67B2.wem		\Actor-Mixer Hierarchy\SFX\door_open		231400
 	811640702	rotating_pillar_loop_01	C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\.cache\Mac\SFX\SFX\rotating_pillar_loop_F17FB28C.wem		\Actor-Mixer Hierarchy\SFX\rotating_pillar_ambience_01\rotating_pillar_loop_01		352864
-	992565190	door_close	C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\.cache\Mac\SFX\SFX\door_close_1C9C67B2.wem		\Actor-Mixer Hierarchy\SFX\door_close		126064
 	1001242266	steam_loop	C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\.cache\Mac\SFX\SFX\steam_loop_F17FB28C.wem		\Actor-Mixer Hierarchy\SFX\steam_loop		904114
 	1025574941	rotating_pillar_loop_02	C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\.cache\Mac\SFX\SFX\rotating_pillar_loop_B31F02AC.wem		\Actor-Mixer Hierarchy\SFX\rotating_pillar_ambience_02\rotating_pillar_loop_02		352864
 	1053339145	turbine_loop	C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\.cache\Mac\SFX\SFX\turbine_loop_F17FB28C.wem		\Actor-Mixer Hierarchy\SFX\turbine_loop		281200

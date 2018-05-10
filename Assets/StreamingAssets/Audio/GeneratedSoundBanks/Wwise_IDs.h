@@ -15,7 +15,7 @@ namespace AK
     {
         static const AkUniqueID AMB_HALLWAY = 2160321640U;
         static const AkUniqueID AMB_ROOMS = 836873062U;
-        static const AkUniqueID DOOR = 1877847629U;
+        static const AkUniqueID DOOR_OPEN = 535830432U;
         static const AkUniqueID EXHAUST_VENT = 3855638709U;
         static const AkUniqueID REAKTOR = 3931031181U;
         static const AkUniqueID ROTATING_PILLAR_AMB_01 = 1363715233U;

@@ -59,7 +59,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="door" ID="{798535E4-40E4-4263-8961-D5C1B935D5DA}">
+				<Event Name="door_open" ID="{798535E4-40E4-4263-8961-D5C1B935D5DA}">
 					<ChildrenList>
 						<Action Name="" ID="{D1BF6F56-5D1B-4127-A6D4-ED066615E27A}" ShortID="511115420">
 							<PropertyList>
@@ -68,16 +68,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="door_open" ID="{719E2A99-06F2-4DDF-A062-3B7B29BFF4CA}" WorkUnitID="{755FAD23-AD0A-4261-BFD5-0801EF5992FF}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{86D8354E-9DF7-4903-BD7F-6B7A4058CA22}" ShortID="638335035">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="door_close" ID="{DE4B3EE3-D887-4DDA-94E9-CE379F69BB21}" WorkUnitID="{755FAD23-AD0A-4261-BFD5-0801EF5992FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -120,6 +110,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="steam_loop" ID="{60000680-9497-42B1-80B0-C9575C32EC97}" WorkUnitID="{755FAD23-AD0A-4261-BFD5-0801EF5992FF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="door_close" ID="{461AA24C-DEC9-49A0-89A8-64EA94A89A8E}">
+					<ChildrenList>
+						<Action Name="" ID="{15C680A2-2AB1-468E-9496-67AAE50F8B2A}" ShortID="968638404">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="door_close" ID="{DE4B3EE3-D887-4DDA-94E9-CE379F69BB21}" WorkUnitID="{755FAD23-AD0A-4261-BFD5-0801EF5992FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
