@@ -213,13 +213,10 @@
 				</RandomSequenceContainer>
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 				<SwitchContainer Name="Rooms" ID="{DD89187A-166F-4E9E-B0CE-965A1E520828}" ShortID="589877474">
 					<PropertyList>
 =======
-=======
->>>>>>> parent of ea88bb2... necessary for sync
 				<SwitchContainer Name="Rooms" ID="{DD89187A-166F-4E9E-B0CE-965A1E520828}" ShortID="589877474">
 					<PropertyList>
 						<Property Name="Inclusion" Type="bool">
@@ -227,9 +224,6 @@
 								<Value>False</Value>
 							</ValueList>
 						</Property>
-<<<<<<< HEAD
->>>>>>> parent of ea88bb2... necessary for sync
-=======
 >>>>>>> parent of ea88bb2... necessary for sync
 						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
 					</PropertyList>
@@ -249,10 +243,7 @@
 					</ReferenceList>
 					<ChildrenList>
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
-=======
->>>>>>> parent of ea88bb2... necessary for sync
 						<Sound Name="ambience_hallway" ID="{613EA5AA-938A-49D0-997C-3036E89209F3}" ShortID="635761050">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -280,9 +271,6 @@
 								<ActiveSource Name="ambience_hallway" ID="{14FBCF8B-5E03-4447-B121-E8E0FC9613ED}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-<<<<<<< HEAD
->>>>>>> parent of ea88bb2... necessary for sync
-=======
 >>>>>>> parent of ea88bb2... necessary for sync
 						<SwitchContainer Name="Room_02" ID="{7EFA5129-8AEF-4DF0-BD10-8967DC00A64A}" ShortID="595256996">
 							<ReferenceList>
@@ -364,12 +352,6 @@
 							</GroupingBehavior>
 							<GroupingBehavior>
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-								<ItemRef Name="ambience_hallway" ID="{613EA5AA-938A-49D0-997C-3036E89209F3}"/>
-							</GroupingBehavior>
-							<GroupingBehavior>
->>>>>>> parent of ea88bb2... necessary for sync
 =======
 								<ItemRef Name="ambience_hallway" ID="{613EA5AA-938A-49D0-997C-3036E89209F3}"/>
 							</GroupingBehavior>
@@ -386,7 +368,6 @@
 						</GroupingBehaviorList>
 					</GroupingInfo>
 				</SwitchContainer>
-<<<<<<< HEAD
 <<<<<<< HEAD
 				<Sound Name="ambience_hallway" ID="{613EA5AA-938A-49D0-997C-3036E89209F3}" ShortID="635761050">
 					<PropertyList>
@@ -416,8 +397,6 @@
 					</ActiveSourceList>
 				</Sound>
 >>>>>>> aa56f7f87201aa4914b988d49a0a4fd9f109c902
-=======
->>>>>>> parent of ea88bb2... necessary for sync
 =======
 >>>>>>> parent of ea88bb2... necessary for sync
 			</ChildrenList>
