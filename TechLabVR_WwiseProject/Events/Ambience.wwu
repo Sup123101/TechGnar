@@ -11,7 +11,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ambience_rooms" ID="{76B77304-0403-4D9C-8B6E-483B4A883BB1}" WorkUnitID="{9B0E3987-A75F-4460-8CB8-A4A77F900B61}"/>
+									<ObjectRef Name="Room_Tones" ID="{76B77304-0403-4D9C-8B6E-483B4A883BB1}" WorkUnitID="{3166E2F6-7850-4533-ADEE-BB69039DB46E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -25,7 +25,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ambience_hallway" ID="{613EA5AA-938A-49D0-997C-3036E89209F3}" WorkUnitID="{9B0E3987-A75F-4460-8CB8-A4A77F900B61}"/>
+									<ObjectRef Name="ambience_hallway" ID="{613EA5AA-938A-49D0-997C-3036E89209F3}" WorkUnitID="{3166E2F6-7850-4533-ADEE-BB69039DB46E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

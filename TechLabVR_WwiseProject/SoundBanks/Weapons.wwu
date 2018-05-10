@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5052B89B-ACC5-46D0-BC59-ADC3E880B3E8}" SchemaVersion="85">
+	<SoundBanks>
+		<WorkUnit Name="Weapons" ID="{5052B89B-ACC5-46D0-BC59-ADC3E880B3E8}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Guns" ID="{14484BF3-7118-4BEF-8CCD-FA3503B901A4}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

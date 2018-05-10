@@ -59,6 +59,49 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="door" ID="{798535E4-40E4-4263-8961-D5C1B935D5DA}"/>
+				<Event Name="reaktor" ID="{8B8D8106-F18A-4416-9B95-C75B1FCF1A1E}">
+					<ChildrenList>
+						<Action Name="" ID="{A5C98744-826E-4A8B-995D-2301C247072B}" ShortID="417177561">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="reaktor_loop" ID="{70256D1F-309A-4593-A8D8-9EF9242E112A}" WorkUnitID="{755FAD23-AD0A-4261-BFD5-0801EF5992FF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="exhaust_vent" ID="{86A707CE-288F-4A7D-B8AB-358EFF2CFF16}">
+					<ChildrenList>
+						<Action Name="" ID="{223840BD-00D3-4502-B632-5219C8B74D44}" ShortID="986699991">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="exhaust_vent_loop" ID="{1CC81672-8774-44FD-9F51-E11BD1A21E6B}" WorkUnitID="{755FAD23-AD0A-4261-BFD5-0801EF5992FF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="steam" ID="{C65ADB04-48EC-4886-AAF2-B908D70DE7B5}">
+					<ChildrenList>
+						<Action Name="" ID="{F1DD067E-198D-4DEA-87DA-DDAB29A7D58E}" ShortID="987509114">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="steam_loop" ID="{60000680-9497-42B1-80B0-C9575C32EC97}" WorkUnitID="{755FAD23-AD0A-4261-BFD5-0801EF5992FF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

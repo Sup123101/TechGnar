@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Weapons" ID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="AK47" ID="{1309F9DB-574E-4E75-88DA-CA51F0F18ABF}" ShortID="480685140">
+					<ChildrenList>
+						<Event Name="AK47_Fire" ID="{F5CEA04B-6976-40CF-8E0D-3E8F5A1B0A97}"/>
+						<Event Name="AK47_Handle" ID="{81BEC7E1-9AD4-40CE-8534-94330E5D1DCB}"/>
+						<Event Name="AK47_Magazine_Load" ID="{80A521EF-121E-4BCD-BB26-094E747828F8}"/>
+						<Event Name="AK47_Magazine_Drop" ID="{FFB14899-7D29-411C-8130-10DF844B62B6}"/>
+						<Event Name="AK47_Cock" ID="{E8B05099-7541-4CD6-837F-A23EB893BC5E}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Glock" ID="{288A8C9C-C218-44B3-AD87-C4F9256258EB}" ShortID="397410639">
+					<ChildrenList>
+						<Event Name="Glock_Cock" ID="{1BC95D0C-3DC8-48C0-96A6-9D6140A63194}"/>
+						<Event Name="Glock_Fire" ID="{45F218B3-92D9-487B-8395-032F6218A154}"/>
+						<Event Name="Glock_Handle" ID="{CC8A2285-0BAB-4057-973E-89BDF4902E16}"/>
+						<Event Name="Glock_Magazine_Load" ID="{242B6480-FEC8-4F6D-82A4-CC2C24EC5CC6}"/>
+						<Event Name="Glock_Magazine_Drop" ID="{44A5FD14-6B2C-499B-B42C-5FFC0760567F}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Shotgun" ID="{1D2857DF-408D-4627-9B8B-22B4CFC9F3A7}" ShortID="306975756">
+					<ChildrenList>
+						<Event Name="shotgun_cock" ID="{2D38E527-2D2F-4E13-895F-8BAE62468CBE}"/>
+						<Event Name="shotgun_handle" ID="{0972B594-E9CD-438C-99A1-597F82A8F746}"/>
+						<Event Name="shotgun_load" ID="{C03DDBED-8F8F-4B06-9B30-9F48257981DB}"/>
+						<Event Name="shotgun_fire" ID="{F719C16C-4C8C-480C-8FC1-97A84B53517A}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

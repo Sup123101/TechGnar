@@ -14,7 +14,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="rotating_pillar_amb" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{E7C1DB28-3EB4-4AA7-9EAA-4D3057C90178}"/>
+							<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -36,7 +36,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="rotating_pillar_amb" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{E7C1DB28-3EB4-4AA7-9EAA-4D3057C90178}"/>
+									<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -73,7 +73,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="rotating_pillar_amb" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{E7C1DB28-3EB4-4AA7-9EAA-4D3057C90178}"/>
+									<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -103,7 +103,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="rotating_pillar_amb" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{E7C1DB28-3EB4-4AA7-9EAA-4D3057C90178}"/>
+							<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -125,7 +125,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="rotating_pillar_amb" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{E7C1DB28-3EB4-4AA7-9EAA-4D3057C90178}"/>
+									<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -162,7 +162,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="rotating_pillar_amb" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{E7C1DB28-3EB4-4AA7-9EAA-4D3057C90178}"/>
+									<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -197,7 +197,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="rotating_pillar_amb" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{E7C1DB28-3EB4-4AA7-9EAA-4D3057C90178}"/>
+							<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -219,7 +219,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="rotating_pillar_amb" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{E7C1DB28-3EB4-4AA7-9EAA-4D3057C90178}"/>
+									<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -253,7 +253,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="rotating_pillar_amb" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{E7C1DB28-3EB4-4AA7-9EAA-4D3057C90178}"/>
+									<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -275,6 +275,13 @@
 					</ChildrenList>
 				</BlendContainer>
 				<Sound Name="door_close" ID="{DE4B3EE3-D887-4DDA-94E9-CE379F69BB21}" ShortID="458136225">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-40</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -293,13 +300,13 @@
 						<ActiveSource Name="door_close" ID="{F184131F-5DCD-4446-8F64-10FECB4D9120}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="reactor_loop" ID="{70256D1F-309A-4593-A8D8-9EF9242E112A}" ShortID="84113104">
+				<Sound Name="reaktor_loop" ID="{70256D1F-309A-4593-A8D8-9EF9242E112A}" ShortID="84113104">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-18</Value>
+								<Value>-42</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -321,9 +328,15 @@
 						<ActiveSource Name="reactor_loop" ID="{6277784F-4174-4E91-8754-0C60DEDCCF2D}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="vent_exhaust_loop" ID="{1CC81672-8774-44FD-9F51-E11BD1A21E6B}" ShortID="135620766">
+				<Sound Name="exhaust_vent_loop" ID="{1CC81672-8774-44FD-9F51-E11BD1A21E6B}" ShortID="135620766">
 					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-40</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -347,6 +360,11 @@
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-34</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -358,6 +376,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="steam_loop" ID="{9FAB540E-7EAC-4A76-AE2C-FBBA5D15D86F}" ShortID="1001242266">
+							<PropertyList>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>SFX\steam_loop.wav</AudioFile>
 						</AudioFileSource>
@@ -372,13 +397,13 @@
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-34</Value>
+								<Value>-40</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="turbine_fans" ID="{355785BC-6C50-4BE6-A182-114D43007BB1}" WorkUnitID="{E7C1DB28-3EB4-4AA7-9EAA-4D3057C90178}"/>
+							<ObjectRef Name="turbine_fan" ID="{355785BC-6C50-4BE6-A182-114D43007BB1}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -389,6 +414,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="turbine_loop" ID="{953C188C-1F55-40FA-BECA-3A71941E6280}" ShortID="1053339145">
+							<PropertyList>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>SFX\turbine_loop.wav</AudioFile>
 						</AudioFileSource>
@@ -398,6 +430,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="door_open" ID="{719E2A99-06F2-4DDF-A062-3B7B29BFF4CA}" ShortID="892668648">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-40</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>

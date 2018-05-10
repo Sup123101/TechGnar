@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7E97C21D-5954-419F-A0F9-A86BF2CC9AB7}" SchemaVersion="85">
+	<Switches>
+		<WorkUnit Name="Ambience_Rooms" ID="{7E97C21D-5954-419F-A0F9-A86BF2CC9AB7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Rooms" ID="{C75365C3-C68F-4E16-8D47-17915203DC94}">
+					<ChildrenList>
+						<Switch Name="Room_01" ID="{1E453BE7-BA9A-4EF8-9CE5-065A498E5775}"/>
+						<Switch Name="Room_02" ID="{94408941-7796-4139-A4E4-5909862CDBAC}"/>
+						<Switch Name="Room_03" ID="{016EE033-10D3-4320-AF46-9F8100197E0E}"/>
+						<Switch Name="Room_04" ID="{C5457163-FFCB-4EB1-A1F9-491198075D5D}"/>
+						<Switch Name="Room_05" ID="{5272823B-32C8-4C31-A95C-D346A1285DF2}"/>
+						<Switch Name="Room_Hallway" ID="{FF0A5268-0245-472F-B89E-14156600755B}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
