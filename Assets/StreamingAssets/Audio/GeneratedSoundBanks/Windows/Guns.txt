@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1072738028	Glock_Fire			\Weapons\Glock\Glock_Fire	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	511788316	glock_fire	C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Glock\glock_fire_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\glock_fire		100704
+

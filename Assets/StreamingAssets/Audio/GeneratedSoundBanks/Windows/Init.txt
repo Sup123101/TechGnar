@@ -1,10 +1,14 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	2137943	Life			\Player\Life	
+	939730931	Status			\Player\Status	
 
 State	ID	Name	State Group			Notes
 	0	None	Life			
 	655265632	Alive	Life			
 	2044049779	Dead	Life			
+	0	None	Status			
+	1160234136	Normal	Status			
+	1641806523	Attacking	Status			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	

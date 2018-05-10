@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\user\Documents\GitHub\TechGnar\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -27,6 +27,10 @@
 				<File Id="417865825" Language="SFX">
 					<ShortName>Ambience\ambience_room_tone_05.wav</ShortName>
 					<Path>SFX\Ambience\ambience_room_tone_05_32CC547A.wem</Path>
+				</File>
+				<File Id="540937567" Language="SFX">
+					<ShortName>Ambience\ambience_hallway.wav</ShortName>
+					<Path>SFX\Ambience\ambience_hallway_F17FB28C.wem</Path>
 				</File>
 				<File Id="625160649" Language="SFX">
 					<ShortName>Ambience\ambience_room_tone_03.wav</ShortName>
@@ -99,11 +103,38 @@
 			<ObjectPath>\SoundBanks\Weapons\Guns</ObjectPath>
 			<ShortName>Guns</ShortName>
 			<Path>Guns.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1072738028" Name="Glock_Fire" ObjectPath="\Events\Weapons\Glock\Glock_Fire"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="511788316" Language="SFX">
+					<ShortName>Weapons\Glock\glock_fire.wav</ShortName>
+					<Path>SFX\Weapons\Glock\glock_fire_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Music\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Music\Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="43484705" Language="SFX">
+					<ShortName>Music\01_Intro_Loop\01_intro_loop_full.wav</ShortName>
+					<Path>SFX\Music\01_Intro_Loop\01_intro_loop_full_F17FB28C.wem</Path>
+				</File>
+				<File Id="684270713" Language="SFX">
+					<ShortName>Music\04_Drop_Loop\04_drop_loop_full.wav</ShortName>
+					<Path>SFX\Music\04_Drop_Loop\04_drop_loop_full_F17FB28C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
