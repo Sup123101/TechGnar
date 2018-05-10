@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Event Name="rotating_pillar" ID="{97116055-5770-4A80-BF3F-2C703ED14B00}">
 					<ChildrenList>
-						<Action Name="" ID="{E21D851C-BA6F-4FB7-A805-10AD4259A78E}" ShortID="511084904">
+						<Action Name="" ID="{4CF7D49F-8844-40A2-92EC-DA623CA175EA}" ShortID="816030749">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>

@@ -290,762 +290,11 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
 								</Reference>
 							</ReferenceList>
-							<ChildrenList>
-								<RandomSequenceContainer Name="parafat_foosteps_left" ID="{BE24AC00-3A75-405F-88F9-8DC97A32C2F9}" ShortID="255996694">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="parafat_fs_l_01" ID="{2A56CD49-7CD0-49A8-B940-2DE9056CF1DF}" ShortID="550263957">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parafat_fs_l_01" ID="{FE863709-EE17-4DFD-A212-DE7519BC7038}" ShortID="829009623">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_01.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parafat_fs_l_01" ID="{FE863709-EE17-4DFD-A212-DE7519BC7038}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parafat_fs_l_02" ID="{ADE839D7-942C-4E3C-8BC8-9A410DBFF66B}" ShortID="175744698">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parafat_fs_l_02" ID="{AC419CDB-9474-4C61-8418-F00DE65DA75A}" ShortID="1056522826">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_02.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parafat_fs_l_02" ID="{AC419CDB-9474-4C61-8418-F00DE65DA75A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parafat_fs_l_03" ID="{C59BA82A-F00E-4085-84C8-EFAC622287FD}" ShortID="188054207">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parafat_fs_l_03" ID="{761347E6-6EE1-4468-BF25-177D1AD0866A}" ShortID="777632788">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_03.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parafat_fs_l_03" ID="{761347E6-6EE1-4468-BF25-177D1AD0866A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parafat_fs_l_04" ID="{362B1AEB-A154-4D26-B260-A6587FC70AF1}" ShortID="180056156">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parafat_fs_l_04" ID="{02CBCBEF-7CB8-42F0-B00A-C271AD08A8D8}" ShortID="387095746">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_04.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parafat_fs_l_04" ID="{02CBCBEF-7CB8-42F0-B00A-C271AD08A8D8}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parafat_fs_l_05" ID="{A9138A80-1FA6-41A7-91B7-EC76223FA09B}" ShortID="351925608">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parafat_fs_l_05" ID="{D6324A39-A328-48FE-A16E-A602FF0E2F46}" ShortID="209022651">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_05.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parafat_fs_l_05" ID="{D6324A39-A328-48FE-A16E-A602FF0E2F46}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parafat_fs_l_06" ID="{96D4B8A9-1B45-4E38-91E3-A2890E19E865}" ShortID="22474723">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parafat_fs_l_06" ID="{FFAD0149-A387-4D54-A6FF-9A4BB15D451A}" ShortID="334023153">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_06.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parafat_fs_l_06" ID="{FFAD0149-A387-4D54-A6FF-9A4BB15D451A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="parazite_slider_foosteps_right" ID="{1B1A5FB5-716E-42CF-8C2E-ABE27E0C61FF}" ShortID="975090888">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="parazite_slider_fs_r_01" ID="{F59E4005-71FC-4985-BC72-381FE654440B}" ShortID="762891053">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_slider_fs_r_01" ID="{C9B7FA85-B7D2-4388-B5E1-043D85C3AC75}" ShortID="910526488">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_01.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_slider_fs_r_01" ID="{C9B7FA85-B7D2-4388-B5E1-043D85C3AC75}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parazite_slider_fs_r_02" ID="{5F0D88E9-B007-4139-AA67-5D7B5E5CF2AB}" ShortID="938160020">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_slider_fs_r_02" ID="{EF123C52-7240-4E9B-B704-AB71E647123B}" ShortID="238313399">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_02.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_slider_fs_r_02" ID="{EF123C52-7240-4E9B-B704-AB71E647123B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parazite_slider_fs_r_03" ID="{0D43D30B-5009-4DD9-8B53-C82EABC1AF2D}" ShortID="636147065">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_slider_fs_r_03" ID="{CFE2C85F-2B6C-4412-BC41-1754811C420D}" ShortID="646649483">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_03.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_slider_fs_r_03" ID="{CFE2C85F-2B6C-4412-BC41-1754811C420D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parazite_slider_fs_r_04" ID="{72DD4BBA-885E-47F4-BB05-45F529EDEFFE}" ShortID="815357586">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_slider_fs_r_04" ID="{3C74A4DD-E9AE-4E04-A071-E736A9B4EC5C}" ShortID="752115054">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_04.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_slider_fs_r_04" ID="{3C74A4DD-E9AE-4E04-A071-E736A9B4EC5C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parazite_slider_fs_r_05" ID="{3E7BD1DB-88A3-47D9-AE0F-DFF0D5712A40}" ShortID="500163956">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_slider_fs_r_05" ID="{8AD5EAF0-6311-42A3-959C-5A4389458761}" ShortID="666459443">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_05.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_slider_fs_r_05" ID="{8AD5EAF0-6311-42A3-959C-5A4389458761}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="parazite_spider_foosteps_right" ID="{FE20FB31-BD17-4BC4-A793-FC3A75799AB7}" ShortID="812679539">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="parazite_spider_fs_r_01" ID="{A6B34A07-1DFF-4564-815D-7E61A4A22458}" ShortID="781605686">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_spider_fs_r_01" ID="{8E8D39DB-2CD8-49C3-A9CB-AF5DB60C44D4}" ShortID="950207451">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_01.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_spider_fs_r_01" ID="{8E8D39DB-2CD8-49C3-A9CB-AF5DB60C44D4}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parazite_spider_fs_r_02" ID="{EFDAC1AE-0A08-4A7A-A26A-EF4A31A40611}" ShortID="575137440">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_spider_fs_r_02" ID="{034AF61E-CCD5-4881-89E9-88675562D76A}" ShortID="714754446">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_02.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_spider_fs_r_02" ID="{034AF61E-CCD5-4881-89E9-88675562D76A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parazite_spider_fs_r_03" ID="{FC3695E5-80C8-4BC7-9AA0-B31BC64C290A}" ShortID="732310770">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_spider_fs_r_03" ID="{9B1651F3-0CA2-43CA-AC30-7EE9B3848174}" ShortID="450946323">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_03.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_spider_fs_r_03" ID="{9B1651F3-0CA2-43CA-AC30-7EE9B3848174}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parazite_spider_fs_r_04" ID="{CE022F2D-65F3-47D3-B974-9165251D6470}" ShortID="187346711">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_spider_fs_r_04" ID="{7A9AD2D0-D75C-4D03-8EF8-6E7A4EA5D06A}" ShortID="1017871053">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_04.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_spider_fs_r_04" ID="{7A9AD2D0-D75C-4D03-8EF8-6E7A4EA5D06A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parazite_spider_fs_r_05" ID="{BB435A4C-5532-4CDC-9024-584E40B09656}" ShortID="272474166">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_spider_fs_r_05" ID="{A5FFAAA8-5465-47A8-8D50-B4DC35998520}" ShortID="574127620">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_05.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_spider_fs_r_05" ID="{A5FFAAA8-5465-47A8-8D50-B4DC35998520}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="parafat_foosteps_right" ID="{6DFCD3F9-855D-4990-B6DD-A4795F7117D8}" ShortID="355127116">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="parafat_fs_r_01" ID="{9FA33E01-3175-4722-9FA0-E6A37A73744C}" ShortID="900725885">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parafat_fs_r_01" ID="{3D3CC9E2-6B6F-4CA6-9B3D-A05BF7F5FE38}" ShortID="784260791">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="354246350"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parafat_fs_r_01" ID="{3D3CC9E2-6B6F-4CA6-9B3D-A05BF7F5FE38}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parafat_fs_r_02" ID="{5417376A-E887-40E7-8E5B-472374082012}" ShortID="741722287">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parafat_fs_r_02" ID="{9A3B0A67-0CD1-433A-98D8-2DAB7CF5DD3F}" ShortID="740776386">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="700129184"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parafat_fs_r_02" ID="{9A3B0A67-0CD1-433A-98D8-2DAB7CF5DD3F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parafat_fs_r_03" ID="{8AB4974C-2348-40AA-84D9-DF314D9DFAB4}" ShortID="535984281">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parafat_fs_r_03" ID="{DC6E068B-284D-4EB5-99DF-9427FB689B6E}" ShortID="404305654">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="404228874"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parafat_fs_r_03" ID="{DC6E068B-284D-4EB5-99DF-9427FB689B6E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parafat_fs_r_04" ID="{27828A8B-9452-45CF-A514-6D88B71FE70A}" ShortID="347678254">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parafat_fs_r_04" ID="{A65137EC-2C70-47BF-AA18-361421FE6EDC}" ShortID="452785520">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_04.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="8528658"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parafat_fs_r_04" ID="{A65137EC-2C70-47BF-AA18-361421FE6EDC}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parafat_fs_r_05" ID="{85A9DB69-B9AB-4537-B7B9-6678B1DB08B3}" ShortID="220655979">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parafat_fs_r_05" ID="{E790852E-CB27-431F-A753-EFA8857AB80B}" ShortID="44004867">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_05.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="8995030"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parafat_fs_r_05" ID="{E790852E-CB27-431F-A753-EFA8857AB80B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parafat_fs_r_06" ID="{56B71B9A-19DF-4AC4-8419-2CD44A999C0A}" ShortID="829174238">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parafat_fs_r_06" ID="{1336BBCA-520A-4967-A87C-57F14DCFACA6}" ShortID="72746764">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_06.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="927329085"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parafat_fs_r_06" ID="{1336BBCA-520A-4967-A87C-57F14DCFACA6}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="parazite_slider_foosteps_left" ID="{C5353CE2-0CA1-41BB-90AB-E43ED25C8F6A}" ShortID="381317334">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="parazite_slider_fs_l_01" ID="{1BA7418E-0DA6-44AE-9444-CA5F54F90F92}" ShortID="945093731">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_slider_fs_l_01" ID="{A7EDFB2A-05CE-40F6-AA0C-DE0654F5D8CE}" ShortID="564117148">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="325761520"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_slider_fs_l_01" ID="{A7EDFB2A-05CE-40F6-AA0C-DE0654F5D8CE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parazite_slider_fs_l_02" ID="{D3F9E72B-2BF3-4CEF-81DE-3AF491CE193F}" ShortID="383203392">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_slider_fs_l_02" ID="{113B94F1-B772-4E93-9AFC-295A406EB1A6}" ShortID="555439417">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="44237600"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_slider_fs_l_02" ID="{113B94F1-B772-4E93-9AFC-295A406EB1A6}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parazite_slider_fs_l_03" ID="{748C4461-EF91-4CDE-BCD3-E722A8CD6D4E}" ShortID="752769517">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_slider_fs_l_03" ID="{3C77A0DA-C2B3-4AC1-8D5E-C52FC7300A2D}" ShortID="979816979">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="327672237"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_slider_fs_l_03" ID="{3C77A0DA-C2B3-4AC1-8D5E-C52FC7300A2D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parazite_slider_fs_l_04" ID="{B54D3C3D-A1BC-4377-A681-3C8A743DDD09}" ShortID="994066088">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_slider_fs_l_04" ID="{9068729F-F6EC-4619-B40F-DAF1FEDD365A}" ShortID="389815067">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_04.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="319432036"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_slider_fs_l_04" ID="{9068729F-F6EC-4619-B40F-DAF1FEDD365A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parazite_slider_fs_l_05" ID="{F784E3B3-2A45-440F-9E38-49244318D6DE}" ShortID="556751742">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_slider_fs_l_05" ID="{9193A175-12EA-4139-B632-449D7726446F}" ShortID="598734012">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_05.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="286759907"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_slider_fs_l_05" ID="{9193A175-12EA-4139-B632-449D7726446F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="parazite_spider_foosteps_left" ID="{8ABAB177-4438-423A-AA6D-25106DB44412}" ShortID="699834595">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="parazite_spider_fs_l_01" ID="{71EF194D-C153-4514-B058-F8EF7BB3B41A}" ShortID="632277499">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_spider_fs_l_01" ID="{60919841-C3FF-4B50-BF69-B1B013B418F0}" ShortID="899685373">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="939968845"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_spider_fs_l_01" ID="{60919841-C3FF-4B50-BF69-B1B013B418F0}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parazite_spider_fs_l_02" ID="{FC312A4F-1559-4630-8C60-269BDE5B1C6B}" ShortID="31247874">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_spider_fs_l_02" ID="{A5634099-69AE-4A6A-BCE5-987CC5A735F0}" ShortID="168982002">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="306957271"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_spider_fs_l_02" ID="{A5634099-69AE-4A6A-BCE5-987CC5A735F0}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parazite_spider_fs_l_03" ID="{DEACE1D8-E756-4007-A8D9-0FF8D38C7FAE}" ShortID="714756285">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_spider_fs_l_03" ID="{7E53ADD9-1C4F-4120-B0C3-9C9129521E0B}" ShortID="756245281">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="132571646"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_spider_fs_l_03" ID="{7E53ADD9-1C4F-4120-B0C3-9C9129521E0B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parazite_spider_fs_l_04" ID="{DBD26D61-69A3-4F71-9CF0-42C79FA66A85}" ShortID="1001970931">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_spider_fs_l_04" ID="{26570142-075D-49D1-9FBF-6B75D2D37F14}" ShortID="605685705">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_04.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="348496548"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_spider_fs_l_04" ID="{26570142-075D-49D1-9FBF-6B75D2D37F14}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="parazite_spider_fs_l_05" ID="{A8A39439-1840-4573-A03B-B8A02AC184D3}" ShortID="182117987">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="parazite_spider_fs_l_05" ID="{9FD176D0-64E5-49BA-848E-2CBE338874EA}" ShortID="542299296">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_05.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="875352032"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_spider_fs_l_05" ID="{9FD176D0-64E5-49BA-848E-2CBE338874EA}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-							</ChildrenList>
-							<GroupingInfo>
-								<GroupingBehaviorList>
-									<GroupingBehavior>
-										<ItemRef Name="parafat_foosteps_left" ID="{BE24AC00-3A75-405F-88F9-8DC97A32C2F9}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="parazite_spider_foosteps_right" ID="{FE20FB31-BD17-4BC4-A793-FC3A75799AB7}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="parazite_spider_foosteps_left" ID="{8ABAB177-4438-423A-AA6D-25106DB44412}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="parazite_slider_foosteps_right" ID="{1B1A5FB5-716E-42CF-8C2E-ABE27E0C61FF}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="parazite_slider_foosteps_left" ID="{C5353CE2-0CA1-41BB-90AB-E43ED25C8F6A}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="parafat_foosteps_right" ID="{6DFCD3F9-855D-4990-B6DD-A4795F7117D8}"/>
-									</GroupingBehavior>
-								</GroupingBehaviorList>
-							</GroupingInfo>
+							<GroupingInfo/>
 						</SwitchContainer>
 					</ChildrenList>
 				</BlendContainer>
-				<SwitchContainer Name="Monster_Type" ID="{EBD2B3BB-DCCC-4C1B-88D7-0EDA444C8080}" ShortID="551910161">
+				<SwitchContainer Name="Monster_Type" ID="{60589950-59EB-4D0C-97C3-8170CB3FF6E2}" ShortID="843440062">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -1055,7 +304,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<SwitchContainer Name="Parazite" ID="{060EE2EA-8340-49C4-92C3-E56DBF07DBAF}" ShortID="705481844">
+						<SwitchContainer Name="Parazite" ID="{E4A5176C-9CDD-4A59-91E2-D2A6B2D4398A}" ShortID="448237275">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -1065,45 +314,38 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="parazite_deathcry" ID="{EF92C2B9-ED81-4ABA-AC92-9EECE518CA05}" ShortID="970487505">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="parazite_deathcry" ID="{331F0C9E-60A9-4ED2-81B9-429AC056163F}" ShortID="946951483">
-											<Language>SFX</Language>
-											<AudioFile>Monsters\Parazite\parazite_deathcry.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="parazite_deathcry" ID="{331F0C9E-60A9-4ED2-81B9-429AC056163F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="parazite_hurt" ID="{04759CA2-5A06-45E7-B108-1483816B7DC5}" ShortID="752845365">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="parazite_hurt" ID="{499A9895-4979-4309-92F7-588D61E31A4C}" ShortID="221561305">
-											<Language>SFX</Language>
-											<AudioFile>Monsters\Parazite\parazite_hurt.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="parazite_hurt" ID="{499A9895-4979-4309-92F7-588D61E31A4C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="parazite_idle_01" ID="{9F553593-C9BF-4334-B533-0BA700F2FABA}" ShortID="382736825">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DF332E68-D29E-4A88-ABA8-573490254573}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="400"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-24</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{59A524D2-A979-47E6-8640-0D27092F20A1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -1122,26 +364,38 @@
 										<ActiveSource Name="parazite_idle_01" ID="{FDEB2691-B35F-45C6-BA7E-23CBBC119617}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="parazite_idle_02" ID="{3778C2E3-1D32-4157-9528-A814B85F2767}" ShortID="674341875">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="parazite_idle_02" ID="{797B08C4-C52B-4C0B-8E6A-657898B8574D}" ShortID="949746928">
-											<Language>SFX</Language>
-											<AudioFile>Monsters\Parazite\parazite_idle_02.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="parazite_idle_02" ID="{797B08C4-C52B-4C0B-8E6A-657898B8574D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="parazite_roar" ID="{A4FD7143-C6D9-4EF2-BABF-6804E93DF10F}" ShortID="389826794">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FF0D65EE-6E6F-4ABF-8E76-B4F02F938657}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="400"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-24</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CB0AEDB2-053C-4F0B-BB8C-397E4633681E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -1160,7 +414,88 @@
 										<ActiveSource Name="parazite_roar" ID="{2757B392-9B67-4D2D-84A1-7E2964DEA238}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="parazite_idle_02" ID="{3778C2E3-1D32-4157-9528-A814B85F2767}" ShortID="674341875">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{89B008D9-0445-46C3-92F0-4D5044CFF57E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="400"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-24</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2977299C-F22C-42E5-8FAA-D85B822DDC29}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="parazite_idle_02" ID="{797B08C4-C52B-4C0B-8E6A-657898B8574D}" ShortID="949746928">
+											<Language>SFX</Language>
+											<AudioFile>Monsters\Parazite\parazite_idle_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="parazite_idle_02" ID="{797B08C4-C52B-4C0B-8E6A-657898B8574D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 								<RandomSequenceContainer Name="parazite_attack" ID="{B0D2B64B-5874-4FE9-9200-204BE6195AB6}" ShortID="696973821">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FF3F579D-0F14-4B43-949C-502F79657E41}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="400"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-24</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{44F5B1F2-A0D0-47EF-B27C-F1BCF3CA4085}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -1229,9 +564,441 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="parafat_footsteps" ID="{6DE28353-35BC-4827-AE8B-781556B1C644}" ShortID="835097896">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{332AD6FD-1F16-4914-8920-55708132F2FD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-400"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-30</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{889487A4-98A7-427A-8825-C0F7907B98BB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="parafat_foosteps_left" ID="{BE24AC00-3A75-405F-88F9-8DC97A32C2F9}" ShortID="255996694">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="parafat_fs_l_01" ID="{2A56CD49-7CD0-49A8-B940-2DE9056CF1DF}" ShortID="550263957">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_l_01" ID="{FE863709-EE17-4DFD-A212-DE7519BC7038}" ShortID="829009623">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_l_01" ID="{FE863709-EE17-4DFD-A212-DE7519BC7038}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_l_02" ID="{ADE839D7-942C-4E3C-8BC8-9A410DBFF66B}" ShortID="175744698">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_l_02" ID="{AC419CDB-9474-4C61-8418-F00DE65DA75A}" ShortID="1056522826">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_l_02" ID="{AC419CDB-9474-4C61-8418-F00DE65DA75A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_l_03" ID="{C59BA82A-F00E-4085-84C8-EFAC622287FD}" ShortID="188054207">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_l_03" ID="{761347E6-6EE1-4468-BF25-177D1AD0866A}" ShortID="777632788">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_l_03" ID="{761347E6-6EE1-4468-BF25-177D1AD0866A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_l_04" ID="{362B1AEB-A154-4D26-B260-A6587FC70AF1}" ShortID="180056156">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_l_04" ID="{02CBCBEF-7CB8-42F0-B00A-C271AD08A8D8}" ShortID="387095746">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_04.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_l_04" ID="{02CBCBEF-7CB8-42F0-B00A-C271AD08A8D8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_l_05" ID="{A9138A80-1FA6-41A7-91B7-EC76223FA09B}" ShortID="351925608">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_l_05" ID="{D6324A39-A328-48FE-A16E-A602FF0E2F46}" ShortID="209022651">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_05.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_l_05" ID="{D6324A39-A328-48FE-A16E-A602FF0E2F46}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_l_06" ID="{96D4B8A9-1B45-4E38-91E3-A2890E19E865}" ShortID="22474723">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_l_06" ID="{FFAD0149-A387-4D54-A6FF-9A4BB15D451A}" ShortID="334023153">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_06.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_l_06" ID="{FFAD0149-A387-4D54-A6FF-9A4BB15D451A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="parafat_foosteps_right" ID="{6DFCD3F9-855D-4990-B6DD-A4795F7117D8}" ShortID="355127116">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="parafat_fs_r_01" ID="{9FA33E01-3175-4722-9FA0-E6A37A73744C}" ShortID="900725885">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_r_01" ID="{3D3CC9E2-6B6F-4CA6-9B3D-A05BF7F5FE38}" ShortID="784260791">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="354246350"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_r_01" ID="{3D3CC9E2-6B6F-4CA6-9B3D-A05BF7F5FE38}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_r_02" ID="{5417376A-E887-40E7-8E5B-472374082012}" ShortID="741722287">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_r_02" ID="{9A3B0A67-0CD1-433A-98D8-2DAB7CF5DD3F}" ShortID="740776386">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="700129184"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_r_02" ID="{9A3B0A67-0CD1-433A-98D8-2DAB7CF5DD3F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_r_03" ID="{8AB4974C-2348-40AA-84D9-DF314D9DFAB4}" ShortID="535984281">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_r_03" ID="{DC6E068B-284D-4EB5-99DF-9427FB689B6E}" ShortID="404305654">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_03.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="404228874"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_r_03" ID="{DC6E068B-284D-4EB5-99DF-9427FB689B6E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_r_04" ID="{27828A8B-9452-45CF-A514-6D88B71FE70A}" ShortID="347678254">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_r_04" ID="{A65137EC-2C70-47BF-AA18-361421FE6EDC}" ShortID="452785520">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_04.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="8528658"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_r_04" ID="{A65137EC-2C70-47BF-AA18-361421FE6EDC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_r_05" ID="{85A9DB69-B9AB-4537-B7B9-6678B1DB08B3}" ShortID="220655979">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_r_05" ID="{E790852E-CB27-431F-A753-EFA8857AB80B}" ShortID="44004867">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_05.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="8995030"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_r_05" ID="{E790852E-CB27-431F-A753-EFA8857AB80B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_r_06" ID="{56B71B9A-19DF-4AC4-8419-2CD44A999C0A}" ShortID="829174238">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_r_06" ID="{1336BBCA-520A-4967-A87C-57F14DCFACA6}" ShortID="72746764">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_06.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="927329085"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_r_06" ID="{1336BBCA-520A-4967-A87C-57F14DCFACA6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="parafat_foosteps_left" ID="{BE24AC00-3A75-405F-88F9-8DC97A32C2F9}"/>
+										<ItemRef Name="parafat_foosteps_right" ID="{6DFCD3F9-855D-4990-B6DD-A4795F7117D8}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<Sound Name="parazite_deathcry" ID="{DD770385-D166-46A2-A3D6-3C4DAB3C2361}" ShortID="711478012">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0B5FDFB2-AAAD-4A7F-86F6-598F7C6235BF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="400"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-24</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7983E8E3-FCEC-47EF-BC2C-B5DB585838ED}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="parazite_deathcry" ID="{DE3280C0-EEC5-479E-BC34-D398D4D25DC2}" ShortID="546588607">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.151530206677265"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.63950715421304"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>parazite_deathcry.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="parazite_deathcry" ID="{DE3280C0-EEC5-479E-BC34-D398D4D25DC2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="parazite_hurt" ID="{28C75538-B980-49FE-B8C3-86B13280C8B6}" ShortID="713263929">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A4F66E00-4E1C-491A-8915-1638E1D6EFCE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="400"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-24</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D0A107B7-35C9-4502-9316-753E249CBF1E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="parazite_hurt" ID="{8349DA8D-68A7-4B92-B2C3-82561E530784}" ShortID="389249030">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="7.91807432432433E-03"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.72334558823529E-02"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>parazite_hurt.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="parazite_hurt" ID="{8349DA8D-68A7-4B92-B2C3-82561E530784}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="parazite_hurt" ID="{28C75538-B980-49FE-B8C3-86B13280C8B6}"/>
+									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="parazite_roar" ID="{A4FD7143-C6D9-4EF2-BABF-6804E93DF10F}"/>
 									</GroupingBehavior>
@@ -1239,13 +1006,13 @@
 										<ItemRef Name="parazite_attack" ID="{B0D2B64B-5874-4FE9-9200-204BE6195AB6}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
+										<ItemRef Name="parafat_footsteps" ID="{6DE28353-35BC-4827-AE8B-781556B1C644}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="parazite_deathcry" ID="{DD770385-D166-46A2-A3D6-3C4DAB3C2361}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
 										<ItemRef Name="parazite_idle_01" ID="{9F553593-C9BF-4334-B533-0BA700F2FABA}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="parazite_hurt" ID="{04759CA2-5A06-45E7-B108-1483816B7DC5}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="parazite_deathcry" ID="{EF92C2B9-ED81-4ABA-AC92-9EECE518CA05}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="parazite_idle_02" ID="{3778C2E3-1D32-4157-9528-A814B85F2767}"/>
@@ -1253,7 +1020,7 @@
 								</GroupingBehaviorList>
 							</GroupingInfo>
 						</SwitchContainer>
-						<SwitchContainer Name="Parazite_Fat" ID="{7236409F-B980-4E0E-8C47-CA0D22999C51}" ShortID="990985158">
+						<SwitchContainer Name="Parazite_Fat" ID="{422BD2A4-1E57-416C-B5B0-2D35DFAF69FB}" ShortID="428778679">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -1264,6 +1031,37 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="parazite_fat_deathcry" ID="{DB374975-18F2-4E91-AA9F-EACE9A96EFA2}" ShortID="904405667">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C9FB8D4D-0300-4AA3-B321-93086D06BBDC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="400"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-24</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3F987FC2-4482-4FD7-8907-A0ECAB993A24}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -1282,45 +1080,25 @@
 										<ActiveSource Name="parazite_fat_deathcry" ID="{5FEF753E-383C-40A6-BCCC-C4631A0B8C73}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="parazite_fat_hurt" ID="{E9B01F22-A618-4FF0-BCC3-A30C80718483}" ShortID="823079433">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="parazite_fat_hurt" ID="{39659869-3574-4153-8497-AFEF4495EB2F}" ShortID="252372873">
-											<Language>SFX</Language>
-											<AudioFile>Monsters\Parazite_Fat\parazite_fat_hurt.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="parazite_fat_hurt" ID="{39659869-3574-4153-8497-AFEF4495EB2F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="parazite_fat_idle_01" ID="{362EC338-16C7-4268-83EB-3B78D8731864}" ShortID="258079718">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="parazite_fat_idle_01" ID="{B322DAD5-F2AA-4D4E-905F-03EF517D9ADF}" ShortID="99033449">
-											<Language>SFX</Language>
-											<AudioFile>Monsters\Parazite_Fat\parazite_fat_idle_01.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="parazite_fat_idle_01" ID="{B322DAD5-F2AA-4D4E-905F-03EF517D9ADF}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="parazite_fat_idle_02" ID="{982A35A0-BBC9-4C3D-ABCB-FFBC69A45623}" ShortID="720624990">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-24</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{846A4C78-628F-4E63-B59E-3DB4DFB8A509}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -1337,6 +1115,56 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="parazite_fat_idle_02" ID="{C5EC99BB-6033-4D30-B30E-7A39CC903DE7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="parazite_fat_hurt" ID="{E9B01F22-A618-4FF0-BCC3-A30C80718483}" ShortID="823079433">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{074F9AF8-48AB-40E3-8140-34377BFF29DC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="400"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-24</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{81B3CB1D-5DDE-4297-89AC-94EEBA0BF7C1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="parazite_fat_hurt" ID="{39659869-3574-4153-8497-AFEF4495EB2F}" ShortID="252372873">
+											<Language>SFX</Language>
+											<AudioFile>Monsters\Parazite_Fat\parazite_fat_hurt.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="parazite_fat_hurt" ID="{39659869-3574-4153-8497-AFEF4495EB2F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="parazite_fat_roar" ID="{01D881DB-4EEE-4CBC-8630-32418E594215}" ShortID="674273347">
@@ -1358,7 +1186,25 @@
 										<ActiveSource Name="parazite_fat_roar" ID="{56BF7E94-0F2B-4361-AB44-3CBB2301C749}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<RandomSequenceContainer Name="parazite_fat_attack" ID="{50078B03-ED8E-4442-81D1-BB601A6B8F7C}" ShortID="279307137">
+								<Sound Name="parazite_fat_idle_01" ID="{362EC338-16C7-4268-83EB-3B78D8731864}" ShortID="258079718">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-24</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CCF54665-1421-4760-8C30-F0DCB18D55B6}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -1368,7 +1214,61 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="parazite_fat_attack_01" ID="{500AB31E-C934-4105-9E36-BF30DB550498}" ShortID="966206912">
+										<AudioFileSource Name="parazite_fat_idle_01" ID="{B322DAD5-F2AA-4D4E-905F-03EF517D9ADF}" ShortID="99033449">
+											<Language>SFX</Language>
+											<AudioFile>Monsters\Parazite_Fat\parazite_fat_idle_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="parazite_fat_idle_01" ID="{B322DAD5-F2AA-4D4E-905F-03EF517D9ADF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="parafat_footsteps" ID="{E367DBA5-F33A-4286-95CC-552C4823EF77}" ShortID="762154363">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{46925249-3556-4407-AAC1-75E3736AD9B0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-400"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-30</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9D448F40-8576-46D6-B10C-58B69543DD44}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="parafat_foosteps_left" ID="{C83934A1-C8A4-4F1B-9D21-AAA8D181A1D5}" ShortID="186822327">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -1378,15 +1278,331 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="parazite_fat_attack_01" ID="{0D7D76A4-317B-4FE6-A954-BBDABC192E2E}" ShortID="27039593">
-													<Language>SFX</Language>
-													<AudioFile>Monsters\Parazite_Fat\parazite_fat_attack_01.wav</AudioFile>
-												</AudioFileSource>
+												<Sound Name="parafat_fs_l_01" ID="{F278A510-C463-43CD-9979-3522A94318E7}" ShortID="654000482">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_l_01" ID="{A61CCD06-F3FF-4E08-BAA5-3CCDA99207F9}" ShortID="598208736">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="829009623"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_l_01" ID="{A61CCD06-F3FF-4E08-BAA5-3CCDA99207F9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_l_02" ID="{09EFFB7C-4CAE-4E2A-83BD-E185A4E44AC1}" ShortID="161696546">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_l_02" ID="{8833FE14-04B5-4A14-8823-0104752A1C1A}" ShortID="406696782">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="1056522826"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_l_02" ID="{8833FE14-04B5-4A14-8823-0104752A1C1A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_l_03" ID="{B327CA56-C482-466B-8ADE-D091AFB8F309}" ShortID="904551928">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_l_03" ID="{9B09D326-C928-467F-930D-D79B16296E3B}" ShortID="119145285">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_03.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="777632788"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_l_03" ID="{9B09D326-C928-467F-930D-D79B16296E3B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_l_04" ID="{7B444F27-4438-40A2-BCC2-E402B996B028}" ShortID="947892577">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_l_04" ID="{F36A0BE9-80B9-4510-A199-B37FBA825682}" ShortID="387908042">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_04.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="387095746"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_l_04" ID="{F36A0BE9-80B9-4510-A199-B37FBA825682}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_l_05" ID="{00E32C4E-3DBA-4975-89BE-67D1A80E03BE}" ShortID="760701100">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_l_05" ID="{4050875E-2E3D-4F9A-8820-F5486DC3252B}" ShortID="1058745380">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_05.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="209022651"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_l_05" ID="{4050875E-2E3D-4F9A-8820-F5486DC3252B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_l_06" ID="{44DE4B3E-79B0-4ED6-8D55-FF67639F3393}" ShortID="559674173">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_l_06" ID="{E78E4076-8386-4199-9571-60D8F8584E1C}" ShortID="710390008">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_06.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="334023153"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_l_06" ID="{E78E4076-8386-4199-9571-60D8F8584E1C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="parazite_fat_attack_01" ID="{0D7D76A4-317B-4FE6-A954-BBDABC192E2E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="parafat_foosteps_right" ID="{39800711-9E0B-4D67-97E4-A210B3576F68}" ShortID="1067447922">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="parafat_fs_r_01" ID="{DEEA1F73-2D73-4C54-A30B-3C5B95799B9D}" ShortID="235265745">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_r_01" ID="{5858576F-2076-4709-BFA4-461F706D5520}" ShortID="148137647">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="354246350"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_r_01" ID="{5858576F-2076-4709-BFA4-461F706D5520}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_r_02" ID="{0BDAA6E4-EAFD-44D2-8BC6-79F9AE41394A}" ShortID="876823329">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_r_02" ID="{EB70BD16-A87F-47A3-A310-349006A34B0F}" ShortID="320138712">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="700129184"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_r_02" ID="{EB70BD16-A87F-47A3-A310-349006A34B0F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_r_03" ID="{47178A00-71BD-4593-9314-921945BB7028}" ShortID="738610431">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_r_03" ID="{A152BAB6-D412-4497-8A23-4193358CFEA2}" ShortID="713591143">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_03.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="404228874"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_r_03" ID="{A152BAB6-D412-4497-8A23-4193358CFEA2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_r_04" ID="{A5A3DD5A-B38C-4B69-8BC2-63A66E3283B2}" ShortID="623154734">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_r_04" ID="{8AE68F7A-626A-47BB-A322-7C0656360480}" ShortID="854565000">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_04.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="8528658"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_r_04" ID="{8AE68F7A-626A-47BB-A322-7C0656360480}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_r_05" ID="{E8282905-039A-4701-9C32-4A243127F027}" ShortID="134130414">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_r_05" ID="{F193C598-4E3E-4EF3-A555-E8B7DB445962}" ShortID="632205927">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_05.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="8995030"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_r_05" ID="{F193C598-4E3E-4EF3-A555-E8B7DB445962}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parafat_fs_r_06" ID="{97972FD0-C46C-4010-8FB9-D72A42ED3F27}" ShortID="605262344">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parafat_fs_r_06" ID="{0514AF57-E2D8-44E8-9187-30EAF8241A60}" ShortID="540015572">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_06.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="927329085"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parafat_fs_r_06" ID="{0514AF57-E2D8-44E8-9187-30EAF8241A60}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="parafat_foosteps_left" ID="{C83934A1-C8A4-4F1B-9D21-AAA8D181A1D5}"/>
+										<ItemRef Name="parafat_foosteps_right" ID="{39800711-9E0B-4D67-97E4-A210B3576F68}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="parazite_fat_attack" ID="{0844312C-6175-4116-9D85-A25D9F3E2847}" ShortID="420597527">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{13E407FA-ABA4-469D-89AD-04984FA3A9F9}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="400"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6F56179C-0C6A-4018-B13E-74B738E26DCB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-6"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
 										<Sound Name="parazite_fat_attack_02" ID="{A7A995BF-6041-4D7A-85CA-1AC094C49E3A}" ShortID="843565678">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1406,16 +1622,35 @@
 												<ActiveSource Name="parazite_fat_attack_02" ID="{5AF7831D-D122-4A23-A36B-D9348C4CCA9C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="parazite_fat_attack_01" ID="{500AB31E-C934-4105-9E36-BF30DB550498}" ShortID="966206912">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="parazite_fat_attack_01" ID="{0D7D76A4-317B-4FE6-A954-BBDABC192E2E}" ShortID="27039593">
+													<Language>SFX</Language>
+													<AudioFile>Monsters\Parazite_Fat\parazite_fat_attack_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="parazite_fat_attack_01" ID="{0D7D76A4-317B-4FE6-A954-BBDABC192E2E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
-										<ItemRef Name="parazite_fat_attack" ID="{50078B03-ED8E-4442-81D1-BB601A6B8F7C}"/>
+										<ItemRef Name="parazite_fat_hurt" ID="{E9B01F22-A618-4FF0-BCC3-A30C80718483}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="parazite_fat_hurt" ID="{E9B01F22-A618-4FF0-BCC3-A30C80718483}"/>
+										<ItemRef Name="parazite_fat_attack" ID="{0844312C-6175-4116-9D85-A25D9F3E2847}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="parazite_fat_idle_01" ID="{362EC338-16C7-4268-83EB-3B78D8731864}"/>
@@ -1427,12 +1662,15 @@
 										<ItemRef Name="parazite_fat_idle_02" ID="{982A35A0-BBC9-4C3D-ABCB-FFBC69A45623}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
+										<ItemRef Name="parafat_footsteps" ID="{E367DBA5-F33A-4286-95CC-552C4823EF77}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
 										<ItemRef Name="parazite_fat_roar" ID="{01D881DB-4EEE-4CBC-8630-32418E594215}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 							</GroupingInfo>
 						</SwitchContainer>
-						<SwitchContainer Name="Parazite_Slider" ID="{E4E5A0BE-6AC0-4E12-908F-A391E6786CF0}" ShortID="148295390">
+						<SwitchContainer Name="Parazite_Slider" ID="{C83A0784-3859-4754-A4E3-143178AE568D}" ShortID="6574554">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -1442,7 +1680,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="parazite_slider_deathcry" ID="{E40DE364-4B65-4D2B-9930-29F5CA281C00}" ShortID="367213068">
+								<Sound Name="parazite_slider_idle_02" ID="{CE21F872-3C1D-4300-9A58-B8556C22B76E}" ShortID="142453789">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -1452,13 +1690,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="parazite_slider_deathcry" ID="{39C972E7-6E48-44A8-B76F-20C09D043C98}" ShortID="567299047">
+										<AudioFileSource Name="parazite_slider_idle_02" ID="{CA9C551B-298F-417B-A46D-DB528ECD805F}" ShortID="851310907">
 											<Language>SFX</Language>
-											<AudioFile>Monsters\Parazite_Slider\parazite_slider_deathcry.wav</AudioFile>
+											<AudioFile>Monsters\Parazite_Slider\parazite_slider_idle_02.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="parazite_slider_deathcry" ID="{39C972E7-6E48-44A8-B76F-20C09D043C98}" Platform="Linked"/>
+										<ActiveSource Name="parazite_slider_idle_02" ID="{CA9C551B-298F-417B-A46D-DB528ECD805F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="parazite_slider_hurt" ID="{9257FE9D-F001-4B65-AC18-824CD5A4F6BE}" ShortID="72718184">
@@ -1480,44 +1718,6 @@
 										<ActiveSource Name="parazite_slider_hurt" ID="{F408257B-EDD3-40E4-B568-7E6864DBD5FC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="parazite_slider_idle_01" ID="{AD02A2EA-0A7C-4ED0-95E6-E2DAAF3FDF37}" ShortID="1022723097">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="parazite_slider_idle_01" ID="{42B4D626-A6D0-48D2-8AAA-FF964AD1FE54}" ShortID="392068734">
-											<Language>SFX</Language>
-											<AudioFile>Monsters\Parazite_Slider\parazite_slider_idle_01.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="parazite_slider_idle_01" ID="{42B4D626-A6D0-48D2-8AAA-FF964AD1FE54}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="parazite_slider_idle_02" ID="{CE21F872-3C1D-4300-9A58-B8556C22B76E}" ShortID="142453789">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="parazite_slider_idle_02" ID="{CA9C551B-298F-417B-A46D-DB528ECD805F}" ShortID="851310907">
-											<Language>SFX</Language>
-											<AudioFile>Monsters\Parazite_Slider\parazite_slider_idle_02.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="parazite_slider_idle_02" ID="{CA9C551B-298F-417B-A46D-DB528ECD805F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="parazite_slider_roar" ID="{E8E6805B-0060-47BB-9D4C-432D59E3BE41}" ShortID="681407347">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1537,7 +1737,42 @@
 										<ActiveSource Name="parazite_slider_roar" ID="{3F58996C-656C-49EE-B118-2E2765B8E117}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<RandomSequenceContainer Name="parazite_slider_attack" ID="{A522B68A-1059-4A69-BC4F-8E2912D4D884}" ShortID="345962631">
+								<RandomSequenceContainer Name="parazite_slider_footsteps" ID="{3A056793-6D4D-4DFB-9569-B3C2648066C5}" ShortID="871951440">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E8171C84-A3F1-4844-80E8-7F2C05BE391B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-400"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-30</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6A23FB07-7233-4E86-A5FF-4448A0C1082D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -1547,7 +1782,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="parazite_slider_attack_01" ID="{A5E6C501-7A99-441A-BA6C-A2E9790C5C2E}" ShortID="947288140">
+										<RandomSequenceContainer Name="parazite_slider_foosteps_right" ID="{1B1A5FB5-716E-42CF-8C2E-ABE27E0C61FF}" ShortID="975090888">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -1557,15 +1792,306 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="parazite_slider_attack_01" ID="{459361A2-D705-41B9-BDB2-38752E016C9F}" ShortID="943810638">
+												<Sound Name="parazite_slider_fs_r_01" ID="{F59E4005-71FC-4985-BC72-381FE654440B}" ShortID="762891053">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_slider_fs_r_01" ID="{C9B7FA85-B7D2-4388-B5E1-043D85C3AC75}" ShortID="910526488">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_slider_fs_r_01" ID="{C9B7FA85-B7D2-4388-B5E1-043D85C3AC75}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parazite_slider_fs_r_02" ID="{5F0D88E9-B007-4139-AA67-5D7B5E5CF2AB}" ShortID="938160020">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_slider_fs_r_02" ID="{EF123C52-7240-4E9B-B704-AB71E647123B}" ShortID="238313399">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_slider_fs_r_02" ID="{EF123C52-7240-4E9B-B704-AB71E647123B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parazite_slider_fs_r_03" ID="{0D43D30B-5009-4DD9-8B53-C82EABC1AF2D}" ShortID="636147065">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_slider_fs_r_03" ID="{CFE2C85F-2B6C-4412-BC41-1754811C420D}" ShortID="646649483">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_slider_fs_r_03" ID="{CFE2C85F-2B6C-4412-BC41-1754811C420D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parazite_slider_fs_r_04" ID="{72DD4BBA-885E-47F4-BB05-45F529EDEFFE}" ShortID="815357586">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_slider_fs_r_04" ID="{3C74A4DD-E9AE-4E04-A071-E736A9B4EC5C}" ShortID="752115054">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_04.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_slider_fs_r_04" ID="{3C74A4DD-E9AE-4E04-A071-E736A9B4EC5C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parazite_slider_fs_r_05" ID="{3E7BD1DB-88A3-47D9-AE0F-DFF0D5712A40}" ShortID="500163956">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_slider_fs_r_05" ID="{8AD5EAF0-6311-42A3-959C-5A4389458761}" ShortID="666459443">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_05.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_slider_fs_r_05" ID="{8AD5EAF0-6311-42A3-959C-5A4389458761}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="parazite_slider_foosteps_left" ID="{C5353CE2-0CA1-41BB-90AB-E43ED25C8F6A}" ShortID="381317334">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="parazite_slider_fs_l_01" ID="{1BA7418E-0DA6-44AE-9444-CA5F54F90F92}" ShortID="945093731">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_slider_fs_l_01" ID="{A7EDFB2A-05CE-40F6-AA0C-DE0654F5D8CE}" ShortID="564117148">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="325761520"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_slider_fs_l_01" ID="{A7EDFB2A-05CE-40F6-AA0C-DE0654F5D8CE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parazite_slider_fs_l_02" ID="{D3F9E72B-2BF3-4CEF-81DE-3AF491CE193F}" ShortID="383203392">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_slider_fs_l_02" ID="{113B94F1-B772-4E93-9AFC-295A406EB1A6}" ShortID="555439417">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="44237600"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_slider_fs_l_02" ID="{113B94F1-B772-4E93-9AFC-295A406EB1A6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parazite_slider_fs_l_03" ID="{748C4461-EF91-4CDE-BCD3-E722A8CD6D4E}" ShortID="752769517">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_slider_fs_l_03" ID="{3C77A0DA-C2B3-4AC1-8D5E-C52FC7300A2D}" ShortID="979816979">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_03.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="327672237"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_slider_fs_l_03" ID="{3C77A0DA-C2B3-4AC1-8D5E-C52FC7300A2D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parazite_slider_fs_l_04" ID="{B54D3C3D-A1BC-4377-A681-3C8A743DDD09}" ShortID="994066088">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_slider_fs_l_04" ID="{9068729F-F6EC-4619-B40F-DAF1FEDD365A}" ShortID="389815067">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_04.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="319432036"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_slider_fs_l_04" ID="{9068729F-F6EC-4619-B40F-DAF1FEDD365A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parazite_slider_fs_l_05" ID="{F784E3B3-2A45-440F-9E38-49244318D6DE}" ShortID="556751742">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_slider_fs_l_05" ID="{9193A175-12EA-4139-B632-449D7726446F}" ShortID="598734012">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_05.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="286759907"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_slider_fs_l_05" ID="{9193A175-12EA-4139-B632-449D7726446F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="parazite_slider_deathcry" ID="{E40DE364-4B65-4D2B-9930-29F5CA281C00}" ShortID="367213068">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="parazite_slider_deathcry" ID="{39C972E7-6E48-44A8-B76F-20C09D043C98}" ShortID="567299047">
 													<Language>SFX</Language>
-													<AudioFile>Monsters\Parazite_Slider\parazite_slider_attack_01.wav</AudioFile>
+													<AudioFile>Monsters\Parazite_Slider\parazite_slider_deathcry.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="parazite_slider_attack_01" ID="{459361A2-D705-41B9-BDB2-38752E016C9F}" Platform="Linked"/>
+												<ActiveSource Name="parazite_slider_deathcry" ID="{39C972E7-6E48-44A8-B76F-20C09D043C98}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="parazite_slider_idle_01" ID="{AD02A2EA-0A7C-4ED0-95E6-E2DAAF3FDF37}" ShortID="1022723097">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="parazite_slider_idle_01" ID="{42B4D626-A6D0-48D2-8AAA-FF964AD1FE54}" ShortID="392068734">
+													<Language>SFX</Language>
+													<AudioFile>Monsters\Parazite_Slider\parazite_slider_idle_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="parazite_slider_idle_01" ID="{42B4D626-A6D0-48D2-8AAA-FF964AD1FE54}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="parazite_slider_attack" ID="{264CF190-5BCD-42B6-8777-1B3199D3FE47}" ShortID="992763485">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{530B93CA-3150-4DDA-B866-D6B245C943FB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="400"/>
+															<Property Name="Min" Type="Real64" Value="-400"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{88DEAD6A-990A-485E-B9A6-50136BC3112F}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
 										<Sound Name="parazite_slider_attack_02" ID="{22E5383A-720E-4277-AA53-F31036A0BF5F}" ShortID="62110818">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1585,6 +2111,25 @@
 												<ActiveSource Name="parazite_slider_attack_02" ID="{B88D3D29-4D42-4981-B6D3-932551DE36DA}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="parazite_slider_attack_01" ID="{A5E6C501-7A99-441A-BA6C-A2E9790C5C2E}" ShortID="947288140">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="parazite_slider_attack_01" ID="{459361A2-D705-41B9-BDB2-38752E016C9F}" ShortID="943810638">
+													<Language>SFX</Language>
+													<AudioFile>Monsters\Parazite_Slider\parazite_slider_attack_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="parazite_slider_attack_01" ID="{459361A2-D705-41B9-BDB2-38752E016C9F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
@@ -1594,24 +2139,21 @@
 										<ItemRef Name="parazite_slider_roar" ID="{E8E6805B-0060-47BB-9D4C-432D59E3BE41}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="parazite_slider_deathcry" ID="{E40DE364-4B65-4D2B-9930-29F5CA281C00}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
 										<ItemRef Name="parazite_slider_idle_02" ID="{CE21F872-3C1D-4300-9A58-B8556C22B76E}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="parazite_slider_attack" ID="{A522B68A-1059-4A69-BC4F-8E2912D4D884}"/>
+										<ItemRef Name="parazite_slider_attack" ID="{264CF190-5BCD-42B6-8777-1B3199D3FE47}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="parazite_slider_footsteps" ID="{3A056793-6D4D-4DFB-9569-B3C2648066C5}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="parazite_slider_hurt" ID="{9257FE9D-F001-4B65-AC18-824CD5A4F6BE}"/>
 									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="parazite_slider_idle_01" ID="{AD02A2EA-0A7C-4ED0-95E6-E2DAAF3FDF37}"/>
-									</GroupingBehavior>
 								</GroupingBehaviorList>
 							</GroupingInfo>
 						</SwitchContainer>
-						<SwitchContainer Name="Parazite_Spider" ID="{A9C9DEFF-226E-4063-BC07-47BD08E3D68D}" ShortID="303744236">
+						<SwitchContainer Name="Parazite_Spider" ID="{A08C2BAF-AF20-457E-8107-2EEEAA25AD65}" ShortID="881342469">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -1640,25 +2182,6 @@
 										<ActiveSource Name="parazite_spider_deathcry" ID="{37EECD57-99A4-42F3-B7FF-BBAD6FEFE54B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="parazite_spider_hurt" ID="{E8C44B4A-29B2-410A-BFBE-E5F35F4E252D}" ShortID="253995261">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="parazite_spider_hurt" ID="{A92C9F79-2690-4BDA-91D2-57C03FBB524E}" ShortID="578367749">
-											<Language>SFX</Language>
-											<AudioFile>Monsters\Parazite_Spider\parazite_spider_hurt.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="parazite_spider_hurt" ID="{A92C9F79-2690-4BDA-91D2-57C03FBB524E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="parazite_spider_idle_01" ID="{196D696D-CAD6-4CF4-A133-C13195C19F6D}" ShortID="190293121">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1676,25 +2199,6 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="parazite_spider_idle_01" ID="{5E3F3542-2BBE-4BFF-B15D-B7D0066F2078}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="parazite_spider_idle_02" ID="{466EBE5E-9885-49FA-89AF-8D0525AA3964}" ShortID="713994642">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="parazite_spider_idle_02" ID="{6ADCF9D4-F7F6-4E23-9BFF-B27088E32FB9}" ShortID="246269153">
-											<Language>SFX</Language>
-											<AudioFile>Monsters\Parazite_Spider\parazite_spider_idle_02.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="parazite_spider_idle_02" ID="{6ADCF9D4-F7F6-4E23-9BFF-B27088E32FB9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="parazite_spider_roar" ID="{B69CC30A-FEE8-4008-8958-12A7214B7E78}" ShortID="580241152">
@@ -1716,7 +2220,352 @@
 										<ActiveSource Name="parazite_spider_roar" ID="{5BF212D0-61F4-4704-8FC2-86AD68476B5E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<RandomSequenceContainer Name="parazite_spider_attack" ID="{818547BC-5FA1-497C-9D96-ECAEE49F94C1}" ShortID="667381309">
+								<Sound Name="parazite_spider_hurt" ID="{E8C44B4A-29B2-410A-BFBE-E5F35F4E252D}" ShortID="253995261">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="parazite_spider_hurt" ID="{A92C9F79-2690-4BDA-91D2-57C03FBB524E}" ShortID="578367749">
+											<Language>SFX</Language>
+											<AudioFile>Monsters\Parazite_Spider\parazite_spider_hurt.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="parazite_spider_hurt" ID="{A92C9F79-2690-4BDA-91D2-57C03FBB524E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="parazite_spider_idle_02" ID="{466EBE5E-9885-49FA-89AF-8D0525AA3964}" ShortID="713994642">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="parazite_spider_idle_02" ID="{6ADCF9D4-F7F6-4E23-9BFF-B27088E32FB9}" ShortID="246269153">
+											<Language>SFX</Language>
+											<AudioFile>Monsters\Parazite_Spider\parazite_spider_idle_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="parazite_spider_idle_02" ID="{6ADCF9D4-F7F6-4E23-9BFF-B27088E32FB9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="parazite_spider_footsteps" ID="{B0B1C25C-9A52-4426-958B-D3105B2EA40A}" ShortID="943906443">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DE5CC575-DA17-42A4-BF7A-69E1BDA3DF04}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-400"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-30</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D5EAE1B7-8077-4DFD-9E23-9808AB09F79D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="parazite_spider_foosteps_right" ID="{FE20FB31-BD17-4BC4-A793-FC3A75799AB7}" ShortID="812679539">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="parazite_spider_fs_r_01" ID="{A6B34A07-1DFF-4564-815D-7E61A4A22458}" ShortID="781605686">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_spider_fs_r_01" ID="{8E8D39DB-2CD8-49C3-A9CB-AF5DB60C44D4}" ShortID="950207451">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_01.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_spider_fs_r_01" ID="{8E8D39DB-2CD8-49C3-A9CB-AF5DB60C44D4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parazite_spider_fs_r_02" ID="{EFDAC1AE-0A08-4A7A-A26A-EF4A31A40611}" ShortID="575137440">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_spider_fs_r_02" ID="{034AF61E-CCD5-4881-89E9-88675562D76A}" ShortID="714754446">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_02.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_spider_fs_r_02" ID="{034AF61E-CCD5-4881-89E9-88675562D76A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parazite_spider_fs_r_03" ID="{FC3695E5-80C8-4BC7-9AA0-B31BC64C290A}" ShortID="732310770">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_spider_fs_r_03" ID="{9B1651F3-0CA2-43CA-AC30-7EE9B3848174}" ShortID="450946323">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_03.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_spider_fs_r_03" ID="{9B1651F3-0CA2-43CA-AC30-7EE9B3848174}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parazite_spider_fs_r_04" ID="{CE022F2D-65F3-47D3-B974-9165251D6470}" ShortID="187346711">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_spider_fs_r_04" ID="{7A9AD2D0-D75C-4D03-8EF8-6E7A4EA5D06A}" ShortID="1017871053">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_04.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_spider_fs_r_04" ID="{7A9AD2D0-D75C-4D03-8EF8-6E7A4EA5D06A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parazite_spider_fs_r_05" ID="{BB435A4C-5532-4CDC-9024-584E40B09656}" ShortID="272474166">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_spider_fs_r_05" ID="{A5FFAAA8-5465-47A8-8D50-B4DC35998520}" ShortID="574127620">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_05.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_spider_fs_r_05" ID="{A5FFAAA8-5465-47A8-8D50-B4DC35998520}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="parazite_spider_foosteps_left" ID="{8ABAB177-4438-423A-AA6D-25106DB44412}" ShortID="699834595">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="parazite_spider_fs_l_01" ID="{71EF194D-C153-4514-B058-F8EF7BB3B41A}" ShortID="632277499">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_spider_fs_l_01" ID="{60919841-C3FF-4B50-BF69-B1B013B418F0}" ShortID="899685373">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="939968845"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_spider_fs_l_01" ID="{60919841-C3FF-4B50-BF69-B1B013B418F0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parazite_spider_fs_l_02" ID="{FC312A4F-1559-4630-8C60-269BDE5B1C6B}" ShortID="31247874">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_spider_fs_l_02" ID="{A5634099-69AE-4A6A-BCE5-987CC5A735F0}" ShortID="168982002">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="306957271"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_spider_fs_l_02" ID="{A5634099-69AE-4A6A-BCE5-987CC5A735F0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parazite_spider_fs_l_03" ID="{DEACE1D8-E756-4007-A8D9-0FF8D38C7FAE}" ShortID="714756285">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_spider_fs_l_03" ID="{7E53ADD9-1C4F-4120-B0C3-9C9129521E0B}" ShortID="756245281">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_03.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="132571646"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_spider_fs_l_03" ID="{7E53ADD9-1C4F-4120-B0C3-9C9129521E0B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parazite_spider_fs_l_04" ID="{DBD26D61-69A3-4F71-9CF0-42C79FA66A85}" ShortID="1001970931">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_spider_fs_l_04" ID="{26570142-075D-49D1-9FBF-6B75D2D37F14}" ShortID="605685705">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_04.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="348496548"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_spider_fs_l_04" ID="{26570142-075D-49D1-9FBF-6B75D2D37F14}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="parazite_spider_fs_l_05" ID="{A8A39439-1840-4573-A03B-B8A02AC184D3}" ShortID="182117987">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="parazite_spider_fs_l_05" ID="{9FD176D0-64E5-49BA-848E-2CBE338874EA}" ShortID="542299296">
+															<Language>SFX</Language>
+															<AudioFile>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_05.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="875352032"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="parazite_spider_fs_l_05" ID="{9FD176D0-64E5-49BA-848E-2CBE338874EA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="parazite_spider_attack" ID="{426D60B5-C59E-4993-BA48-738F4EBC156F}" ShortID="96543378">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6041E8C5-A025-4428-8B07-BA26BF92F4B9}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="400"/>
+															<Property Name="Min" Type="Real64" Value="-600"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-24</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B7910006-0196-4DFA-9091-4F5D6EBD56A4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-6"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -1779,13 +2628,16 @@
 										<ItemRef Name="parazite_spider_hurt" ID="{E8C44B4A-29B2-410A-BFBE-E5F35F4E252D}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
+										<ItemRef Name="parazite_spider_footsteps" ID="{B0B1C25C-9A52-4426-958B-D3105B2EA40A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
 										<ItemRef Name="parazite_spider_idle_02" ID="{466EBE5E-9885-49FA-89AF-8D0525AA3964}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="parazite_spider_idle_01" ID="{196D696D-CAD6-4CF4-A133-C13195C19F6D}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="parazite_spider_attack" ID="{818547BC-5FA1-497C-9D96-ECAEE49F94C1}"/>
+										<ItemRef Name="parazite_spider_attack" ID="{426D60B5-C59E-4993-BA48-738F4EBC156F}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 							</GroupingInfo>
@@ -1794,16 +2646,16 @@
 					<GroupingInfo>
 						<GroupingBehaviorList>
 							<GroupingBehavior>
-								<ItemRef Name="Parazite_Fat" ID="{7236409F-B980-4E0E-8C47-CA0D22999C51}"/>
+								<ItemRef Name="Parazite" ID="{E4A5176C-9CDD-4A59-91E2-D2A6B2D4398A}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="Parazite_Slider" ID="{E4E5A0BE-6AC0-4E12-908F-A391E6786CF0}"/>
+								<ItemRef Name="Parazite_Slider" ID="{C83A0784-3859-4754-A4E3-143178AE568D}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="Parazite" ID="{060EE2EA-8340-49C4-92C3-E56DBF07DBAF}"/>
+								<ItemRef Name="Parazite_Fat" ID="{422BD2A4-1E57-416C-B5B0-2D35DFAF69FB}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="Parazite_Spider" ID="{A9C9DEFF-226E-4063-BC07-47BD08E3D68D}"/>
+								<ItemRef Name="Parazite_Spider" ID="{A08C2BAF-AF20-457E-8107-2EEEAA25AD65}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
 					</GroupingInfo>

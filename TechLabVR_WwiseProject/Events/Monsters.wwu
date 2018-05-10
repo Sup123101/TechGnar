@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E6407E52-2104-4A17-A316-18E4D889890A}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Monsters" ID="{E6407E52-2104-4A17-A316-18E4D889890A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Parazite" ID="{9B5DB3FF-0FD4-46D7-8757-AB1A29960430}" ShortID="272657398"/>
+				<Folder Name="Parazite_Fat" ID="{9069EB5F-6087-4637-A660-43AFCD667A85}" ShortID="895599650"/>
+				<Folder Name="Parazite_Slider" ID="{D1E104A9-CDFA-4AB3-998B-FA2D888B5645}" ShortID="394681473"/>
+				<Folder Name="Parazite_Spider" ID="{2056D255-A0F3-41C5-BD40-A7A12ADF1B69}" ShortID="838512538"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
