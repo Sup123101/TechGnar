@@ -3,15 +3,15 @@
 	<Events>
 		<WorkUnit Name="SFX" ID="{8574EEF3-7BAB-4444-AEEC-EEEA83EFB252}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="rotating_pillar_amb_01" ID="{97116055-5770-4A80-BF3F-2C703ED14B00}">
+				<Event Name="rotating_pillar" ID="{97116055-5770-4A80-BF3F-2C703ED14B00}">
 					<ChildrenList>
-						<Action Name="" ID="{9520FC90-54C5-4CC5-BA1A-15D9CE4E8263}" ShortID="547871014">
+						<Action Name="" ID="{3AB59672-224F-4DCD-82E4-7E7D2225CCFA}" ShortID="212913615">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="rotating_pillar_ambience_01" ID="{DBCBBBBD-5F7D-405C-8CCE-F1BD08392266}" WorkUnitID="{755FAD23-AD0A-4261-BFD5-0801EF5992FF}"/>
+									<ObjectRef Name="rotating_pillar_loop_01" ID="{F730A184-3F04-46DE-BFE4-B59F5EC421AF}" WorkUnitID="{755FAD23-AD0A-4261-BFD5-0801EF5992FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -19,13 +19,13 @@
 				</Event>
 				<Event Name="rotating_pillar_amb_03" ID="{BA05019D-96DA-4B4D-9917-D361ADCA787E}">
 					<ChildrenList>
-						<Action Name="" ID="{B423DEA5-54E8-4F4C-ABD1-EE19AD1DFBD4}" ShortID="967312616">
+						<Action Name="" ID="{A1311197-2C75-4BF3-B388-77021C926760}" ShortID="665665213">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="rotating_pillar_ambience_03" ID="{A31776BF-61A8-4F79-8712-D36EC687BD30}" WorkUnitID="{755FAD23-AD0A-4261-BFD5-0801EF5992FF}"/>
+									<ObjectRef Name="rotating_pillar_loop_01" ID="{F730A184-3F04-46DE-BFE4-B59F5EC421AF}" WorkUnitID="{755FAD23-AD0A-4261-BFD5-0801EF5992FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -33,13 +33,13 @@
 				</Event>
 				<Event Name="rotating_pillar_amb_02" ID="{18C499F0-9FA1-44E0-9080-B6A1B1E34B16}">
 					<ChildrenList>
-						<Action Name="" ID="{02260AC6-3639-4634-B216-A6FAD4674F49}" ShortID="787960330">
+						<Action Name="" ID="{4050974E-C8A0-4139-9052-0D28915DEE74}" ShortID="708509309">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="rotating_pillar_ambience_02" ID="{E750481A-5D68-4726-A572-045AD836100B}" WorkUnitID="{755FAD23-AD0A-4261-BFD5-0801EF5992FF}"/>
+									<ObjectRef Name="rotating_pillar_loop_01" ID="{F730A184-3F04-46DE-BFE4-B59F5EC421AF}" WorkUnitID="{755FAD23-AD0A-4261-BFD5-0801EF5992FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

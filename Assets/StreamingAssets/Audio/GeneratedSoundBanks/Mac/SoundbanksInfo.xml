@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\TechLabVR_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\user\Documents\GitHub\TechGnar\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\K Deezy\Desktop\EP-410\Projects\Final Project\TechGnar\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\user\Documents\GitHub\TechGnar\TechLabVR_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -20,29 +20,9 @@
 				<Event Id="836873062" Name="amb_rooms" ObjectPath="\Events\Ambience\amb_rooms"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="201798180" Language="SFX">
-					<ShortName>Ambience\ambience_room_tone_01.wav</ShortName>
-					<Path>SFX\Ambience\ambience_room_tone_01_C48A0388.wem</Path>
-				</File>
-				<File Id="417865825" Language="SFX">
-					<ShortName>Ambience\ambience_room_tone_05.wav</ShortName>
-					<Path>SFX\Ambience\ambience_room_tone_05_32CC547A.wem</Path>
-				</File>
-				<File Id="625160649" Language="SFX">
-					<ShortName>Ambience\ambience_room_tone_03.wav</ShortName>
-					<Path>SFX\Ambience\ambience_room_tone_03_D4840DA9.wem</Path>
-				</File>
-				<File Id="734053125" Language="SFX">
-					<ShortName>ambience_room_tone_06.wav</ShortName>
-					<Path>SFX\ambience_room_tone_06_C1A6DEAA.wem</Path>
-				</File>
-				<File Id="744544597" Language="SFX">
-					<ShortName>Ambience\ambience_room_tone_04.wav</ShortName>
-					<Path>SFX\Ambience\ambience_room_tone_04_1E95D5AE.wem</Path>
-				</File>
-				<File Id="1005860630" Language="SFX">
-					<ShortName>Ambience\ambience_room_tone_02.wav</ShortName>
-					<Path>SFX\Ambience\ambience_room_tone_02_C892F798.wem</Path>
+				<File Id="540937567" Language="SFX">
+					<ShortName>Ambience\ambience_hallway.wav</ShortName>
+					<Path>SFX\Ambience\ambience_hallway_F17FB28C.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -51,10 +31,11 @@
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
+				<Event Id="128625444" Name="door_close" ObjectPath="\Events\SFX\door_close"/>
 				<Event Id="535830432" Name="door_open" ObjectPath="\Events\SFX\door_open"/>
 				<Event Id="3855638709" Name="exhaust_vent" ObjectPath="\Events\SFX\exhaust_vent"/>
 				<Event Id="3931031181" Name="reaktor" ObjectPath="\Events\SFX\reaktor"/>
-				<Event Id="1363715233" Name="rotating_pillar_amb_01" ObjectPath="\Events\SFX\rotating_pillar_amb_01" MaxAttenuation="10.000000"/>
+				<Event Id="4131734268" Name="rotating_pillar" ObjectPath="\Events\SFX\rotating_pillar" MaxAttenuation="10.000000"/>
 				<Event Id="1363715234" Name="rotating_pillar_amb_02" ObjectPath="\Events\SFX\rotating_pillar_amb_02" MaxAttenuation="10.000000"/>
 				<Event Id="1363715235" Name="rotating_pillar_amb_03" ObjectPath="\Events\SFX\rotating_pillar_amb_03" MaxAttenuation="10.000000"/>
 				<Event Id="1433397863" Name="steam" ObjectPath="\Events\SFX\steam"/>
@@ -69,10 +50,6 @@
 					<ShortName>SFX\vent_exhaust_loop.wav</ShortName>
 					<Path>SFX\SFX\vent_exhaust_loop_F17FB28C.wem</Path>
 				</File>
-				<File Id="613481814" Language="SFX">
-					<ShortName>SFX\rotating_pillar_ambience_loop.wav</ShortName>
-					<Path>SFX\SFX\rotating_pillar_ambience_loop_3922F7D2.wem</Path>
-				</File>
 				<File Id="698957205" Language="SFX">
 					<ShortName>SFX\door_open.wav</ShortName>
 					<Path>SFX\SFX\door_open_1C9C67B2.wem</Path>
@@ -81,13 +58,13 @@
 					<ShortName>SFX\rotating_pillar_loop.wav</ShortName>
 					<Path>SFX\SFX\rotating_pillar_loop_F17FB28C.wem</Path>
 				</File>
+				<File Id="992565190" Language="SFX">
+					<ShortName>SFX\door_close.wav</ShortName>
+					<Path>SFX\SFX\door_close_1C9C67B2.wem</Path>
+				</File>
 				<File Id="1001242266" Language="SFX">
 					<ShortName>SFX\steam_loop.wav</ShortName>
 					<Path>SFX\SFX\steam_loop_F17FB28C.wem</Path>
-				</File>
-				<File Id="1025574941" Language="SFX">
-					<ShortName>SFX\rotating_pillar_loop.wav</ShortName>
-					<Path>SFX\SFX\rotating_pillar_loop_B31F02AC.wem</Path>
 				</File>
 				<File Id="1053339145" Language="SFX">
 					<ShortName>SFX\turbine_loop.wav</ShortName>
@@ -104,6 +81,24 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Music\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Music\Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="43484705" Language="SFX">
+					<ShortName>Music\01_Intro_Loop\01_intro_loop_full.wav</ShortName>
+					<Path>SFX\Music\01_Intro_Loop\01_intro_loop_full_F17FB28C.wem</Path>
+				</File>
+				<File Id="684270713" Language="SFX">
+					<ShortName>Music\04_Drop_Loop\04_drop_loop_full.wav</ShortName>
+					<Path>SFX\Music\04_Drop_Loop\04_drop_loop_full_F17FB28C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

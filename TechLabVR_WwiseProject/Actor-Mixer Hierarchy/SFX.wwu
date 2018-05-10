@@ -3,277 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="SFX" ID="{755FAD23-AD0A-4261-BFD5-0801EF5992FF}" PersistMode="Standalone">
 			<ChildrenList>
-				<BlendContainer Name="rotating_pillar_ambience_02" ID="{E750481A-5D68-4726-A572-045AD836100B}" ShortID="190145217">
-					<PropertyList>
-						<Property Name="InitialDelay" Type="Real64">
-							<ValueList>
-								<Value>0.33</Value>
-							</ValueList>
-						</Property>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="rotating_pillar_ambience_loop_02" ID="{6F1EEB8A-58A8-4B16-970C-63F704F7F67D}" ShortID="783023493">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-18</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="rotating_pillar_ambience_loop" ID="{EADA7DF3-8B50-455C-B3CA-A166796F81C3}" ShortID="814707924">
-									<PropertyList>
-										<Property Name="TrimEnd" Type="Real64" Value="4.174999322536"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>SFX\rotating_pillar_ambience_loop.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="613481814"/>
-									</ConvertedFileIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="rotating_pillar_ambience_loop" ID="{EADA7DF3-8B50-455C-B3CA-A166796F81C3}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="rotating_pillar_loop_02" ID="{09591AFE-754D-4CE2-AAA4-584A1ACFB202}" ShortID="235911734">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-18</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="rotating_pillar_loop" ID="{0E592898-5ED6-429C-897C-6F2F3D91F412}" ShortID="1025574941">
-									<PropertyList>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>SFX\rotating_pillar_loop.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="rotating_pillar_loop" ID="{0E592898-5ED6-429C-897C-6F2F3D91F412}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</BlendContainer>
-				<BlendContainer Name="rotating_pillar_ambience_01" ID="{DBCBBBBD-5F7D-405C-8CCE-F1BD08392266}" ShortID="918021194">
-					<PropertyList>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="rotating_pillar_ambience_loop_01" ID="{5ED27373-166C-414F-8812-D2DAC46BB075}" ShortID="855350150">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-18</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="rotating_pillar_ambience_loop" ID="{9DCED2C6-8C12-44E6-94AB-A12AE98561F3}" ShortID="323215244">
-									<PropertyList>
-										<Property Name="TrimEnd" Type="Real64" Value="4.174999322536"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>SFX\rotating_pillar_ambience_loop.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="613481814"/>
-									</ConvertedFileIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="rotating_pillar_ambience_loop" ID="{9DCED2C6-8C12-44E6-94AB-A12AE98561F3}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="rotating_pillar_loop_01" ID="{F730A184-3F04-46DE-BFE4-B59F5EC421AF}" ShortID="210314680">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-18</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="rotating_pillar_loop" ID="{FE4EED96-3333-4DAB-A268-87962B536F9B}" ShortID="207643417">
-									<Language>SFX</Language>
-									<AudioFile>SFX\rotating_pillar_loop.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="811640702"/>
-									</ConvertedFileIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="rotating_pillar_loop" ID="{FE4EED96-3333-4DAB-A268-87962B536F9B}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</BlendContainer>
-				<BlendContainer Name="rotating_pillar_ambience_03" ID="{A31776BF-61A8-4F79-8712-D36EC687BD30}" ShortID="483114655">
-					<PropertyList>
-						<Property Name="InitialDelay" Type="Real64">
-							<ValueList>
-								<Value>0.66</Value>
-							</ValueList>
-						</Property>
-						<Property Name="PositioningType" Type="int16" Value="1"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="rotating_pillar_ambience_loop_03" ID="{C9BCC9D8-CDF8-443E-91D9-263641F8AF99}" ShortID="364267114">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-18</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="rotating_pillar_ambience_loop" ID="{6C8C6A02-3A80-4328-973C-35DB3C93842A}" ShortID="613481814">
-									<PropertyList>
-										<Property Name="TrimEnd" Type="Real64" Value="4.174999322536"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>SFX\rotating_pillar_ambience_loop.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="rotating_pillar_ambience_loop" ID="{6C8C6A02-3A80-4328-973C-35DB3C93842A}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="rotating_pillar_loop_03" ID="{05EAB0BC-CE91-4D2E-8D25-948DDC34F4D7}" ShortID="1059768830">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-18</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="rotating_pillar_loop" ID="{5423B6FA-2113-4299-B70F-558B587CE2F1}" ShortID="811640702">
-									<Language>SFX</Language>
-									<AudioFile>SFX\rotating_pillar_loop.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="rotating_pillar_loop" ID="{5423B6FA-2113-4299-B70F-558B587CE2F1}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</BlendContainer>
 				<Sound Name="door_close" ID="{DE4B3EE3-D887-4DDA-94E9-CE379F69BB21}" ShortID="458136225">
 					<PropertyList>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
@@ -455,6 +184,40 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="door_open" ID="{C1AAC01A-6608-48CD-A4A5-73C25ED3EAE4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="rotating_pillar_loop_01" ID="{F730A184-3F04-46DE-BFE4-B59F5EC421AF}" ShortID="210314680">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="rotating_pillar_loop" ID="{FE4EED96-3333-4DAB-A268-87962B536F9B}" ShortID="207643417">
+							<Language>SFX</Language>
+							<AudioFile>SFX\rotating_pillar_loop.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="811640702"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="rotating_pillar_loop" ID="{FE4EED96-3333-4DAB-A268-87962B536F9B}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
