@@ -36,11 +36,14 @@
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-42</Value>
+								<Value>-24</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="reaktor" ID="{8F0E86AC-6AE4-4E34-BF7F-877D426B5FCC}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
 						</Reference>
@@ -69,6 +72,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="exhaust_vent" ID="{EF9BF802-D7E3-419F-A400-BF9139FDF870}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
 						</Reference>
@@ -92,11 +98,14 @@
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-34</Value>
+								<Value>-28</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="steam" ID="{7883F8A0-83B8-4677-B6CB-D42689DDA81A}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
 						</Reference>
@@ -127,7 +136,7 @@
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-40</Value>
+								<Value>-24</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -192,7 +201,7 @@
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-24</Value>
+								<Value>-18</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

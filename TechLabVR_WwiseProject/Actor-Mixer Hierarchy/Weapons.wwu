@@ -398,13 +398,9 @@
 								</Sound>
 								<Sound Name="glock_cock_open" ID="{B012DC13-8BD5-4AED-A6B5-7B7D9BE2F38B}" ShortID="788470935">
 									<PropertyList>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PositioningType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
-										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
 										</Reference>
