@@ -4,7 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2179486487	Heartbeat			\Player\Heartbeat	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	314357346	player_spawn	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Player\player_spawn_1C9C67B2.wem		\Actor-Mixer Hierarchy\Player\Player\player_spawn		207040
+	314357346	player_spawn	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Player\player_spawn_BC22586A.wem		\Actor-Mixer Hierarchy\Player\Player\player_spawn		72728
 	342551430	player_teleport	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Player\player_teleport_1C9C67B2.wem		\Actor-Mixer Hierarchy\Player\Player\player_teleport		60702
 	525297488	player_heartbeat	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Player\player_heartbeat_F17FB28C.wem		\Actor-Mixer Hierarchy\Player\Player\player_heartbeat		1249404
 

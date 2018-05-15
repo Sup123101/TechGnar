@@ -1,13 +1,18 @@
 Event	ID	Name			Wwise Object Path	Notes
-	836873062	amb_rooms			\Ambience\amb_rooms	
+	836872992	amb_room5			\Ambience\amb_room5	
+	836872993	amb_room4			\Ambience\amb_room4	
+	836872995	amb_room6			\Ambience\amb_room6	
+	836872996	amb_room1			\Ambience\amb_room1	
+	836872998	amb_room3			\Ambience\amb_room3	
+	836872999	amb_room2			\Ambience\amb_room2	
 	2160321640	amb_hallway			\Ambience\amb_hallway	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	201798180	ambience_room_tone_01	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Ambience\ambience_room_tone_01_C48A0388.wem		\Actor-Mixer Hierarchy\Ambience\Room_Tones\ambience_room_tone_01		2664620
-	417865825	ambience_room_tone_05	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Ambience\ambience_room_tone_05_32CC547A.wem		\Actor-Mixer Hierarchy\Ambience\Room_Tones\ambience_room_tone_05		2688064
+	201798180	ambience_room_tone_01	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Ambience\ambience_room_tone_01_98CAB5A6.wem		\Actor-Mixer Hierarchy\Ambience\ambience_room_tone_01		2664620
+	417865825	ambience_room_tone_05	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Ambience\ambience_room_tone_05_EF6C1AC8.wem		\Actor-Mixer Hierarchy\Ambience\ambience_room_tone_05		2688064
 	540937567	ambience_hallway	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Ambience\ambience_hallway_F17FB28C.wem		\Actor-Mixer Hierarchy\Ambience\ambience_hallway		1724832
-	625160649	ambience_room_tone_03	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Ambience\ambience_room_tone_03_D4840DA9.wem		\Actor-Mixer Hierarchy\Ambience\Room_Tones\ambience_room_tone_03		2688064
-	734053125	ambience_room_tone_06	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\ambience_room_tone_06_C1A6DEAA.wem		\Actor-Mixer Hierarchy\Ambience\Room_Tones\ambience_room_tone_06		2789072
-	744544597	ambience_room_tone_04	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Ambience\ambience_room_tone_04_1E95D5AE.wem		\Actor-Mixer Hierarchy\Ambience\Room_Tones\ambience_room_tone_04		2430064
-	1005860630	ambience_room_tone_02	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Ambience\ambience_room_tone_02_C892F798.wem		\Actor-Mixer Hierarchy\Ambience\Room_Tones\ambience_room_tone_02		1800064
+	625160649	ambience_room_tone_03	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Ambience\ambience_room_tone_03_05F4882B.wem		\Actor-Mixer Hierarchy\Ambience\ambience_room_tone_03		2688064
+	734053125	ambience_room_tone_06	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\ambience_room_tone_06_923A4758.wem		\Actor-Mixer Hierarchy\Ambience\ambience_room_tone_06		2789072
+	744544597	ambience_room_tone_04	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Ambience\ambience_room_tone_04_3550BD24.wem		\Actor-Mixer Hierarchy\Ambience\ambience_room_tone_04		2430064
+	1005860630	ambience_room_tone_02	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Ambience\ambience_room_tone_02_77478EB2.wem		\Actor-Mixer Hierarchy\Ambience\ambience_room_tone_02		1800064
 

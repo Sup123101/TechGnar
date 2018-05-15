@@ -6,6 +6,11 @@
 				<SwitchContainer Name="Monster_Type" ID="{60589950-59EB-4D0C-97C3-8170CB3FF6E2}" ShortID="843440062">
 					<PropertyList>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -16,6 +21,9 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{05933565-8673-42FD-B855-59E14A7A416F}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -31,6 +39,18 @@
 							<ChildrenList>
 								<Sound Name="parazite_idle_01" ID="{9F553593-C9BF-4334-B533-0BA700F2FABA}" ShortID="382736825">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{184E4834-F16F-4D6F-AFE4-6E5EEF6B38FB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="17"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -78,6 +98,18 @@
 								</Sound>
 								<Sound Name="parazite_roar" ID="{A4FD7143-C6D9-4EF2-BABF-6804E93DF10F}" ShortID="389826794">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6713F4EC-56C3-4E40-850F-0303205456B0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -131,6 +163,18 @@
 								</Sound>
 								<Sound Name="parazite_idle_02" ID="{3778C2E3-1D32-4157-9528-A814B85F2767}" ShortID="674341875">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8CABC6DB-5761-4ABA-8669-2701BBDE0774}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="16"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -186,6 +230,18 @@
 								</Sound>
 								<RandomSequenceContainer Name="parazite_attack" ID="{B0D2B64B-5874-4FE9-9200-204BE6195AB6}" ShortID="696973821">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{553FE2DD-0EBB-4EE2-8B7F-43E9972A4599}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -283,6 +339,11 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="parafat_footsteps" ID="{6DE28353-35BC-4827-AE8B-781556B1C644}" ShortID="835097896">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>43</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -302,7 +363,7 @@
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>4</Value>
+												<Value>-3</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -604,6 +665,18 @@
 								</RandomSequenceContainer>
 								<Sound Name="parazite_deathcry" ID="{8DB9130A-D701-4EDC-9D0B-1975A5301124}" ShortID="434170995">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C30BEF67-C7AB-47DC-86CD-73F06C80D2EA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -663,6 +736,16 @@
 											<ValueList>
 												<Value>12</Value>
 											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C8536D2A-8B1C-4786-93EF-03A385DD2D63}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="13"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -678,6 +761,9 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{7D07FCDB-14A3-4A1F-AB3D-923E896B4A2E}">
@@ -763,6 +849,18 @@
 							<ChildrenList>
 								<Sound Name="parazite_fat_deathcry" ID="{DB374975-18F2-4E91-AA9F-EACE9A96EFA2}" ShortID="904405667">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F0CBAB98-993A-46DE-9454-E492C21D52E2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -810,6 +908,18 @@
 								</Sound>
 								<Sound Name="parazite_fat_idle_02" ID="{982A35A0-BBC9-4C3D-ABCB-FFBC69A45623}" ShortID="720624990">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6DC869C9-C5A9-4C5C-8ACB-EC9F73271ED0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -857,6 +967,18 @@
 								</Sound>
 								<Sound Name="parazite_fat_hurt" ID="{E9B01F22-A618-4FF0-BCC3-A30C80718483}" ShortID="823079433">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{47F6DC2A-561A-4678-8A2B-DCEA4EFC33D3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -907,6 +1029,18 @@
 								</Sound>
 								<Sound Name="parazite_fat_roar" ID="{01D881DB-4EEE-4CBC-8630-32418E594215}" ShortID="674273347">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{EE9E2F72-F99E-4E46-B14C-B9728B5E8CC5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -959,6 +1093,18 @@
 								</Sound>
 								<Sound Name="parazite_fat_idle_01" ID="{362EC338-16C7-4268-83EB-3B78D8731864}" ShortID="258079718">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CEEB6267-B6E7-4597-9211-46742A89725E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -1011,6 +1157,11 @@
 								</Sound>
 								<RandomSequenceContainer Name="parafat_footsteps" ID="{E367DBA5-F33A-4286-95CC-552C4823EF77}" ShortID="762154363">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>42</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -1030,7 +1181,7 @@
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>4</Value>
+												<Value>-3</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -1489,6 +1640,18 @@
 							<ChildrenList>
 								<Sound Name="parazite_slider_idle_02" ID="{CE21F872-3C1D-4300-9A58-B8556C22B76E}" ShortID="142453789">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C33B8CF8-8EFF-4F10-A80F-C6339F975B51}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -1503,6 +1666,9 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{5BEAB541-8323-439C-A885-A26AFEA53685}">
@@ -1536,6 +1702,18 @@
 								</Sound>
 								<Sound Name="parazite_slider_hurt" ID="{9257FE9D-F001-4B65-AC18-824CD5A4F6BE}" ShortID="72718184">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E6B3E294-2947-47FF-A100-53123A02D6A4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="17"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -1583,6 +1761,18 @@
 								</Sound>
 								<Sound Name="parazite_slider_roar" ID="{E8E6805B-0060-47BB-9D4C-432D59E3BE41}" ShortID="681407347">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B48523B1-7C3B-4F83-B712-7A5595F9F910}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -1630,6 +1820,11 @@
 								</Sound>
 								<RandomSequenceContainer Name="parazite_slider_footsteps" ID="{3A056793-6D4D-4DFB-9569-B3C2648066C5}" ShortID="871951440">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>42</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -1649,7 +1844,7 @@
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>2</Value>
+												<Value>-3</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -1910,6 +2105,18 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="parazite_slider_attack" ID="{264CF190-5BCD-42B6-8777-1B3199D3FE47}" ShortID="992763485">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{81E2968E-AA33-4069-9513-1F26F006FBA0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="17"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -2006,6 +2213,18 @@
 								</RandomSequenceContainer>
 								<Sound Name="parazite_slider_idle_01" ID="{AD02A2EA-0A7C-4ED0-95E6-E2DAAF3FDF37}" ShortID="1022723097">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{36666E93-AE1D-4017-95B8-3641846C4821}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="16"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -2020,6 +2239,9 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{6F2018F1-82AC-42FB-A3AB-F27585C94F33}">
@@ -2053,6 +2275,18 @@
 								</Sound>
 								<Sound Name="parazite_slider_deathcry" ID="{E40DE364-4B65-4D2B-9930-29F5CA281C00}" ShortID="367213068">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2B91623E-C01C-44BC-9209-C059BEAD1ADC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="16"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -2146,6 +2380,18 @@
 							<ChildrenList>
 								<Sound Name="parazite_spider_deathcry" ID="{46955804-988C-475D-81CE-83CEBAD4BD41}" ShortID="815469095">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{623BF9DE-B86A-4293-A790-27FFC8A18ED1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -2193,6 +2439,18 @@
 								</Sound>
 								<Sound Name="parazite_spider_idle_01" ID="{196D696D-CAD6-4CF4-A133-C13195C19F6D}" ShortID="190293121">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F4A3BCA0-94F5-448A-AC13-5FE218AB1F46}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -2240,6 +2498,18 @@
 								</Sound>
 								<Sound Name="parazite_spider_roar" ID="{B69CC30A-FEE8-4008-8958-12A7214B7E78}" ShortID="580241152">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9651A46B-6F23-4C93-BFC6-A148FDEEED92}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -2254,6 +2524,9 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{84E5F67E-3AC9-43C0-B1CF-EEF8E3576254}">
@@ -2287,6 +2560,18 @@
 								</Sound>
 								<Sound Name="parazite_spider_hurt" ID="{E8C44B4A-29B2-410A-BFBE-E5F35F4E252D}" ShortID="253995261">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D449C340-A322-4DC7-8FC7-28419CA07180}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -2334,6 +2619,18 @@
 								</Sound>
 								<Sound Name="parazite_spider_idle_02" ID="{466EBE5E-9885-49FA-89AF-8D0525AA3964}" ShortID="713994642">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4199626B-9005-4451-A824-97D9AC310A8F}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -2348,6 +2645,9 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{16DAD853-B369-4882-8FEE-B843A1812FBF}">
@@ -2381,6 +2681,21 @@
 								</Sound>
 								<RandomSequenceContainer Name="parazite_spider_footsteps" ID="{B0B1C25C-9A52-4426-958B-D3105B2EA40A}" ShortID="943906443">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>43</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{11B95500-DA2D-4EA6-A7AE-7E5391367122}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -2400,7 +2715,7 @@
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>1</Value>
+												<Value>-3</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -2661,6 +2976,18 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="parazite_spider_attack" ID="{426D60B5-C59E-4993-BA48-738F4EBC156F}" ShortID="96543378">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{ED9DDD46-DF3D-4D5C-850B-146EB04BC8CE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="17"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -2700,6 +3027,9 @@
 										<Sound Name="parazite_spider_attack_01" ID="{5A52DBA7-72FA-4A73-8D93-FF7B52ABFAC3}" ShortID="861538211">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{3DBF086E-4DFF-4A26-80F5-F5EA20B64B2E}"/>

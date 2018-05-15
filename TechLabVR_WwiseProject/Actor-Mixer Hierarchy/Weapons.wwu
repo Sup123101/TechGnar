@@ -6,6 +6,11 @@
 				<SwitchContainer Name="Guns" ID="{6361BE33-B401-4316-B689-97C77868D9C4}" ShortID="1015010132">
 					<PropertyList>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">

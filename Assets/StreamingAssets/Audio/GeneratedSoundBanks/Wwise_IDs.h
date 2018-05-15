@@ -22,7 +22,12 @@ namespace AK
         static const AkUniqueID AK47_SHELLS = 1858740156U;
         static const AkUniqueID AK47_STOP = 3280450433U;
         static const AkUniqueID AMB_HALLWAY = 2160321640U;
-        static const AkUniqueID AMB_ROOMS = 836873062U;
+        static const AkUniqueID AMB_ROOM1 = 836872996U;
+        static const AkUniqueID AMB_ROOM2 = 836872999U;
+        static const AkUniqueID AMB_ROOM3 = 836872998U;
+        static const AkUniqueID AMB_ROOM4 = 836872993U;
+        static const AkUniqueID AMB_ROOM5 = 836872992U;
+        static const AkUniqueID AMB_ROOM6 = 836872995U;
         static const AkUniqueID DOOR_CLOSE = 128625444U;
         static const AkUniqueID DOOR_OPEN = 535830432U;
         static const AkUniqueID ENEMY_IMPACT = 823792036U;

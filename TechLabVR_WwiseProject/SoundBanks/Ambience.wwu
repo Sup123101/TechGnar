@@ -5,8 +5,13 @@
 			<ChildrenList>
 				<SoundBank Name="Ambience" ID="{A3FFAB91-CE3C-4D9A-8D47-8FE318F777ED}">
 					<ObjectInclusionList>
+						<ObjectRef Name="amb_room5" ID="{2EEF1A6C-2C75-42B6-B62B-6C9A5674D021}" WorkUnitID="{382F1BD1-8B7C-49CD-9D9D-234544CE3E39}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="amb_room4" ID="{A6712690-3EA2-4369-B56E-58ACBCF019CB}" WorkUnitID="{382F1BD1-8B7C-49CD-9D9D-234544CE3E39}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="amb_room2" ID="{D7C14CC6-C37D-440F-B5A0-BBF2B008788D}" WorkUnitID="{382F1BD1-8B7C-49CD-9D9D-234544CE3E39}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="amb_room1" ID="{D335A76B-A611-46E1-AB32-154325A6311F}" WorkUnitID="{382F1BD1-8B7C-49CD-9D9D-234544CE3E39}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="amb_room6" ID="{92C3ECFA-4E31-4958-80C6-29ED2673D7A8}" WorkUnitID="{382F1BD1-8B7C-49CD-9D9D-234544CE3E39}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="amb_room3" ID="{E4E24457-AD08-4A2E-AF81-23F68746196C}" WorkUnitID="{382F1BD1-8B7C-49CD-9D9D-234544CE3E39}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="amb_hallway" ID="{314D77A1-3C17-4A49-B56F-0F5FF5B8CDB0}" WorkUnitID="{382F1BD1-8B7C-49CD-9D9D-234544CE3E39}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="amb_rooms" ID="{15B67064-ED70-4BEB-8165-BA5A29CCD484}" WorkUnitID="{382F1BD1-8B7C-49CD-9D9D-234544CE3E39}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

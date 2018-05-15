@@ -36,6 +36,38 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="player_spawn" ID="{7B772EE8-5B24-424A-A1DE-D2ABF43D9D2F}" ShortID="896232369">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{01BEA7D4-960A-44F9-B47D-17D129E2AECE}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="15"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0D06533D-46EB-4F9E-B1A8-752081F12729}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
+													<Property Name="Min" Type="Real64" Value="-25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -46,6 +78,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="player_spawn" ID="{A41F5786-DC68-46D3-A7BC-388337F8A835}" ShortID="314357346">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.352086720867209"/>
+										<Property Name="TrimBegin" Type="Real64" Value="7.02439024390243E-02"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.482168021680217"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Player\player_spawn.wav</AudioFile>
 								</AudioFileSource>

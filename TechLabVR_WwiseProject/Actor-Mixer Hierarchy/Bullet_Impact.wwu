@@ -4,12 +4,26 @@
 		<WorkUnit Name="Bullet_Impact" ID="{00C15B8B-AD37-4E36-96AA-FCA79F84BC80}" PersistMode="Standalone">
 			<ChildrenList>
 				<RandomSequenceContainer Name="Enemy_Hit" ID="{0AC49FB9-156A-495D-8A31-1221FD67039F}" ShortID="100149833">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Impacts" ID="{5AD89BCE-20AD-418C-BD67-9E67ACB6A0FD}" WorkUnitID="{E7C1DB28-3EB4-4AA7-9EAA-4D3057C90178}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{05933565-8673-42FD-B855-59E14A7A416F}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -73,12 +87,26 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Level_Hit" ID="{72608245-5C9E-444D-A8A6-4F76F68D1A84}" ShortID="405519023">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Impacts" ID="{5AD89BCE-20AD-418C-BD67-9E67ACB6A0FD}" WorkUnitID="{E7C1DB28-3EB4-4AA7-9EAA-4D3057C90178}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{05933565-8673-42FD-B855-59E14A7A416F}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

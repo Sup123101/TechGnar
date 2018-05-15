@@ -16,17 +16,22 @@
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2160321640" Name="amb_hallway" ObjectPath="\Events\Ambience\amb_hallway"/>
-				<Event Id="836873062" Name="amb_rooms" ObjectPath="\Events\Ambience\amb_rooms"/>
+				<Event Id="2160321640" Name="amb_hallway" ObjectPath="\Events\Ambience\amb_hallway" MaxAttenuation="13.000000"/>
+				<Event Id="836872996" Name="amb_room1" ObjectPath="\Events\Ambience\amb_room1" MaxAttenuation="23.000000"/>
+				<Event Id="836872999" Name="amb_room2" ObjectPath="\Events\Ambience\amb_room2" MaxAttenuation="28.000000"/>
+				<Event Id="836872998" Name="amb_room3" ObjectPath="\Events\Ambience\amb_room3" MaxAttenuation="25.000000"/>
+				<Event Id="836872993" Name="amb_room4" ObjectPath="\Events\Ambience\amb_room4" MaxAttenuation="50.000000"/>
+				<Event Id="836872992" Name="amb_room5" ObjectPath="\Events\Ambience\amb_room5" MaxAttenuation="23.000000"/>
+				<Event Id="836872995" Name="amb_room6" ObjectPath="\Events\Ambience\amb_room6"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="201798180" Language="SFX">
 					<ShortName>Ambience\ambience_room_tone_01.wav</ShortName>
-					<Path>SFX\Ambience\ambience_room_tone_01_C48A0388.wem</Path>
+					<Path>SFX\Ambience\ambience_room_tone_01_98CAB5A6.wem</Path>
 				</File>
 				<File Id="417865825" Language="SFX">
 					<ShortName>Ambience\ambience_room_tone_05.wav</ShortName>
-					<Path>SFX\Ambience\ambience_room_tone_05_32CC547A.wem</Path>
+					<Path>SFX\Ambience\ambience_room_tone_05_EF6C1AC8.wem</Path>
 				</File>
 				<File Id="540937567" Language="SFX">
 					<ShortName>Ambience\ambience_hallway.wav</ShortName>
@@ -34,19 +39,19 @@
 				</File>
 				<File Id="625160649" Language="SFX">
 					<ShortName>Ambience\ambience_room_tone_03.wav</ShortName>
-					<Path>SFX\Ambience\ambience_room_tone_03_D4840DA9.wem</Path>
+					<Path>SFX\Ambience\ambience_room_tone_03_05F4882B.wem</Path>
 				</File>
 				<File Id="734053125" Language="SFX">
 					<ShortName>ambience_room_tone_06.wav</ShortName>
-					<Path>SFX\ambience_room_tone_06_C1A6DEAA.wem</Path>
+					<Path>SFX\ambience_room_tone_06_923A4758.wem</Path>
 				</File>
 				<File Id="744544597" Language="SFX">
 					<ShortName>Ambience\ambience_room_tone_04.wav</ShortName>
-					<Path>SFX\Ambience\ambience_room_tone_04_1E95D5AE.wem</Path>
+					<Path>SFX\Ambience\ambience_room_tone_04_3550BD24.wem</Path>
 				</File>
 				<File Id="1005860630" Language="SFX">
 					<ShortName>Ambience\ambience_room_tone_02.wav</ShortName>
-					<Path>SFX\Ambience\ambience_room_tone_02_C892F798.wem</Path>
+					<Path>SFX\Ambience\ambience_room_tone_02_77478EB2.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -57,13 +62,13 @@
 			<IncludedEvents>
 				<Event Id="128625444" Name="door_close" ObjectPath="\Events\SFX\door_close" MaxAttenuation="5.000000"/>
 				<Event Id="535830432" Name="door_open" ObjectPath="\Events\SFX\door_open" MaxAttenuation="5.000000"/>
-				<Event Id="823792036" Name="Enemy_Impact" ObjectPath="\Events\SFX\Enemy_Impact"/>
-				<Event Id="3855638709" Name="exhaust_vent" ObjectPath="\Events\SFX\exhaust_vent" MaxAttenuation="10.000000"/>
-				<Event Id="287322247" Name="Metal_Impact" ObjectPath="\Events\SFX\Metal_Impact"/>
+				<Event Id="823792036" Name="Enemy_Impact" ObjectPath="\Events\SFX\Enemy_Impact" MaxAttenuation="20.000000"/>
+				<Event Id="3855638709" Name="exhaust_vent" ObjectPath="\Events\SFX\exhaust_vent" MaxAttenuation="6.000000"/>
+				<Event Id="287322247" Name="Metal_Impact" ObjectPath="\Events\SFX\Metal_Impact" MaxAttenuation="20.000000"/>
 				<Event Id="3931031181" Name="reaktor" ObjectPath="\Events\SFX\reaktor" MaxAttenuation="20.000000"/>
-				<Event Id="4131734268" Name="rotating_pillar" ObjectPath="\Events\SFX\rotating_pillar" MaxAttenuation="8.000000"/>
-				<Event Id="1433397863" Name="steam" ObjectPath="\Events\SFX\steam" MaxAttenuation="15.000000"/>
-				<Event Id="3513896636" Name="turbine_fan" ObjectPath="\Events\SFX\turbine_fan" MaxAttenuation="7.000000"/>
+				<Event Id="4131734268" Name="rotating_pillar" ObjectPath="\Events\SFX\rotating_pillar" MaxAttenuation="6.000000"/>
+				<Event Id="1433397863" Name="steam" ObjectPath="\Events\SFX\steam" MaxAttenuation="11.000000"/>
+				<Event Id="3513896636" Name="turbine_fan" ObjectPath="\Events\SFX\turbine_fan" MaxAttenuation="3.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="6297302" Language="SFX">
@@ -305,7 +310,7 @@
 			<IncludedMemoryFiles>
 				<File Id="314357346" Language="SFX">
 					<ShortName>Player\player_spawn.wav</ShortName>
-					<Path>SFX\Player\player_spawn_1C9C67B2.wem</Path>
+					<Path>SFX\Player\player_spawn_BC22586A.wem</Path>
 				</File>
 				<File Id="342551430" Language="SFX">
 					<ShortName>Player\player_teleport.wav</ShortName>
