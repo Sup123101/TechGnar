@@ -53,7 +53,7 @@ public class EnemyAI : MonoBehaviour
 				PlayerVisible = true;
                 positionPlayer = GameObject.Find("[VRTK][AUTOGEN][HeadsetColliderContainer]");
                 //positionPlayer = GameObject.Find("Camera (eye)");
-                print("Player Detected");
+             //   print("Player Detected");
                 playrbounds = true;
                 PlayerManager.enemiesnearby += 1;
 			}
@@ -70,7 +70,7 @@ public class EnemyAI : MonoBehaviour
                 PlayerVisible = false;
                 positionPlayer = GameObject.Find("[VRTK][AUTOGEN][HeadsetColliderContainer]");
                 //positionPlayer = GameObject.Find("Camera (eye)");
-                print("Player Ran Away");
+             //   print("Player Ran Away");
                 playrbounds = false;
                 PlayerManager.enemiesnearby -= 1;
             }

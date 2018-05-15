@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{668FF646-A605-4A3C-BD45-2B79CCCAE850}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Player" ID="{668FF646-A605-4A3C-BD45-2B79CCCAE850}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Teleport" ID="{7DB4FC32-486E-42A4-911D-5FE0F78148BB}">
+					<ChildrenList>
+						<Action Name="" ID="{4A32B5A1-C1D4-4DF6-858E-10840D111D75}" ShortID="804102941">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_teleport" ID="{1FDECE3B-3BD4-424D-8E3F-8B69E52D81AB}" WorkUnitID="{0D1C02D1-53CE-40A3-A973-68531C42E6F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Spawn" ID="{83DBD734-DF6D-46D0-AFCA-CF87E0161AF4}">
+					<ChildrenList>
+						<Action Name="" ID="{A6F2A4A1-B613-4541-9DDB-88A3B4371ED0}" ShortID="675410543">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_spawn" ID="{7B772EE8-5B24-424A-A1DE-D2ABF43D9D2F}" WorkUnitID="{0D1C02D1-53CE-40A3-A973-68531C42E6F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Heartbeat" ID="{204DCCC0-A441-41C7-BCA7-D0273F8472D1}">
+					<ChildrenList>
+						<Action Name="" ID="{D9E709BE-5E70-4E8C-A0FD-175C2657ED93}" ShortID="243244268">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player_heartbeat" ID="{4DD67ACD-E2BD-435D-93C8-BE985A7D4D16}" WorkUnitID="{0D1C02D1-53CE-40A3-A973-68531C42E6F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

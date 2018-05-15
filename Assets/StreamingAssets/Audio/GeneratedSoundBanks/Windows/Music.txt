@@ -2,6 +2,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3991942870	Music			\Music\Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	43484705	01_intro_loop_full	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Music\01_Intro_Loop\01_intro_loop_full_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\Norm\01_intro_loop_full\01_intro_loop_full		1946548
-	684270713	04_drop_loop_full	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Music\04_Drop_Loop\04_drop_loop_full_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\Attack\04_drop_loop_full\04_drop_loop_full		1946548
+	43484705	01_intro_loop_full	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Music\01_Intro_Loop\01_intro_loop_full_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\Norm\01_intro_loop_full\01_intro_loop_full		1946548
+	684270713	04_drop_loop_full	C:\Users\Sup\Documents\GitHub\TGPS\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Music\04_Drop_Loop\04_drop_loop_full_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music\Attack\04_drop_loop_full\04_drop_loop_full		1946548
 

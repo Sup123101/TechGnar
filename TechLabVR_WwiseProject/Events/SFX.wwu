@@ -115,6 +115,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Metal_Impact" ID="{040C3007-1B7B-4AFE-A8A8-FA9822078E38}">
+					<ChildrenList>
+						<Action Name="" ID="{BD819507-0799-47DF-960A-52CCAE645867}" ShortID="39590321">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level_Hit" ID="{72608245-5C9E-444D-A8A6-4F76F68D1A84}" WorkUnitID="{00C15B8B-AD37-4E36-96AA-FCA79F84BC80}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

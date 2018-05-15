@@ -26,6 +26,10 @@ namespace VRWeapons.BulletTypes
                 Debug.DrawRay(muzzleDir.position, shotLocation, Color.red, 15f);
                 if (Physics.Raycast(muzzleDir.position, shotLocation, out hit, range, shotMask))
                 {
+                    if (hit.collider.gameObject.tag == "Untagged")
+                    {
+                        AkSoundEngine.PostEvent("Metal_Impact", this.gameObject);
+                    }
                     if (hit.collider.gameObject.tag == "HitedEnemy")
                     {
                         print("hiting an enemy");
@@ -34,7 +38,11 @@ namespace VRWeapons.BulletTypes
                         HitBlood.transform.position = hit.point;
                         HitBlood.transform.rotation = hit.transform.rotation;
                         EnemyDamage enemDamage = hit.collider.gameObject.GetComponent<EnemyDamage>();
-                        enemDamage.SetDamage(3);
+                        if (enemDamage != null)
+                        {
+                            enemDamage.SetDamage(3);
+                        }
+                        
                     }
                     ExecuteEvents.Execute<IAttackReceiver>(hit.collider.gameObject, null, ((handler, eventData) => handler.ReceiveAttack(thisWeapon.NewAttack(damage, transform.position, hit))));
 

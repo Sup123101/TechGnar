@@ -137,6 +137,7 @@ namespace VRTK
         public virtual void Teleport(DestinationMarkerEventArgs teleportArgs)
         {
             DoTeleport(this, teleportArgs);
+            
         }
 
         /// <summary>
@@ -151,6 +152,7 @@ namespace VRTK
         {
             DestinationMarkerEventArgs teleportArgs = BuildTeleportArgs(target, destinationPosition, destinationRotation, forceDestinationPosition);
             Teleport(teleportArgs);
+            
         }
 
         /// <summary>

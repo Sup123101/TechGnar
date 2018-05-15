@@ -72,6 +72,99 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Level_Hit" ID="{72608245-5C9E-444D-A8A6-4F76F68D1A84}" ShortID="405519023">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="level_impact_03" ID="{02E047B2-86FF-4480-89ED-DAAE13AE0683}" ShortID="342196037">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="bullet_metal_impact" ID="{36196BC7-F11A-4479-B363-4270F02A33BC}" ShortID="184446124">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.123931287880186"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.526707973490786"/>
+										<Property Name="TrimBegin" Type="Real64" Value="17.3929816834346"/>
+										<Property Name="TrimEnd" Type="Real64" Value="18.2788967491407"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>bullet_metal_impact.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="20399787"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="bullet_metal_impact" ID="{36196BC7-F11A-4479-B363-4270F02A33BC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="level_impact_01" ID="{418C02CD-1F7E-4864-9283-E7E5EBBECA8B}" ShortID="164367115">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="bullet_metal_impact" ID="{E1FFA782-AFCC-49A2-AC4B-97544A92BBBC}" ShortID="593131322">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.19170621093966"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.278845397730414"/>
+										<Property Name="TrimBegin" Type="Real64" Value="13.7767054316183"/>
+										<Property Name="TrimEnd" Type="Real64" Value="14.9095148598981"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>bullet_metal_impact.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="bullet_metal_impact" ID="{E1FFA782-AFCC-49A2-AC4B-97544A92BBBC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="level_impact_02" ID="{8D7970CB-841C-42CC-8D21-C3CE334A6994}" ShortID="559042521">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="bullet_metal_impact" ID="{6A27691A-18E7-4BDB-AF8D-08AF627E0CF0}" ShortID="20399787">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="8.13299076713712E-02"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.18444461204043"/>
+										<Property Name="TrimBegin" Type="Real64" Value="15.3800664685682"/>
+										<Property Name="TrimEnd" Type="Real64" Value="16.9485718308018"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>bullet_metal_impact.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="620837882"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="bullet_metal_impact" ID="{6A27691A-18E7-4BDB-AF8D-08AF627E0CF0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

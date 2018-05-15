@@ -38,7 +38,7 @@ public class EnemyPlaySound : MonoBehaviour
                         
                         if (gameObject.name == "Fat")
                         {
-                            print("fat animation is  + " + nAnim.animationName);
+                           // print("fat animation is  + " + nAnim.animationName);
                             
                             /*
                             if (nAnim.animationName == "Base Layer.idle")

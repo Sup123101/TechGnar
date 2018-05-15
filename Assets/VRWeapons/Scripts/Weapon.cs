@@ -331,7 +331,7 @@ namespace VRWeapons
                     }
                     if (gameObject.name == "lowpoly_shotgun")
                     {
-                        AkSoundEngine.PostEvent("shotgun_handle", this.gameObject);
+                        AkSoundEngine.PostEvent("Shotgun_Handle", this.gameObject);
                     }
                 }
                 if (soundToPlay == SlideForward)
@@ -346,7 +346,7 @@ namespace VRWeapons
                     }
                     if (gameObject.name == "lowpoly_shotgun")
                     {
-                        AkSoundEngine.PostEvent("shotgun_cock_close", this.gameObject);
+                        AkSoundEngine.PostEvent("Shotgun_Cock_Close", this.gameObject);
                     }
                 }
                 if (soundToPlay == SlideBack)
@@ -354,6 +354,7 @@ namespace VRWeapons
                     if (gameObject.name == "lowpoly_glock")
                     {
                         AkSoundEngine.PostEvent("Glock_Cock_Open", this.gameObject);
+                        AkSoundEngine.PostEvent("Glock_Shells", this.gameObject);
                     }
                     if (gameObject.name == "lowpoly_ak47")
                     {
@@ -361,7 +362,8 @@ namespace VRWeapons
                     }
                     if (gameObject.name == "lowpoly_shotgun")
                     {
-                        AkSoundEngine.PostEvent("shotgun_cock_open", this.gameObject);
+                        AkSoundEngine.PostEvent("Shotgun_Cock_Open", this.gameObject);
+                        AkSoundEngine.PostEvent("Shotgun_Shells", this.gameObject);
                     }
                 }
                 audioSource.clip = soundToPlay;
@@ -450,14 +452,17 @@ namespace VRWeapons
                         if (gameObject.name == "lowpoly_glock")
                         {
                             AkSoundEngine.PostEvent("Glock_Fire", this.gameObject);
+                            AkSoundEngine.PostEvent("Glock_Shells", this.gameObject);
                         }
                         if (gameObject.name == "lowpoly_shotgun")
                         {
-                            AkSoundEngine.PostEvent("shotgun_fire", this.gameObject);
+                            AkSoundEngine.PostEvent("Shotgun_Fire", this.gameObject);
+                            
                         }
                         if (gameObject.name == "lowpoly_ak47")
                         {
                             AkSoundEngine.PostEvent("AK47_Fire", this.gameObject);
+                            AkSoundEngine.PostEvent("AK47_Shells", this.gameObject);
                         }
                         if (shotHaptics != null)
                         {

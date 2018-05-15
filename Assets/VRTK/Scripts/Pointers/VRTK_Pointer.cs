@@ -523,6 +523,7 @@ namespace VRTK
 
         protected virtual void DoActivationButtonReleased(object sender, ControllerInteractionEventArgs e)
         {
+            AkSoundEngine.PostEvent("Teleport", this.gameObject);
             if (EnabledPointerRenderer())
             {
                 controllerReference = e.controllerReference;

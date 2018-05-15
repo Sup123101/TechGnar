@@ -7,7 +7,7 @@ public class Health : MonoBehaviour
 {
 
 	public int health = 100;
-
+    bool healthSoundSet = false;
 	//public Text textHealth;
 	//public RawImage Blood;
 
@@ -40,7 +40,14 @@ public class Health : MonoBehaviour
 	}
     private void Update()
     {
-        
+        if (healthSoundSet == false)
+        {
+            if (health <= 40)
+            {
+                healthSoundSet = true;
+                AkSoundEngine.PostEvent("Heartbeat", this.gameObject);
+            }
+        }
 
     }
 

@@ -14,7 +14,7 @@ public class ListenerAttacher : MonoBehaviour {
 		
 			ear1.AddComponent<AkAudioListener> ();
 		
-		print ("tried to add listener");
+		//print ("tried to add listener");
 	}
 
 

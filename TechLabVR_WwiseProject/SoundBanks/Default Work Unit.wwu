@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{53D62207-31AA-4E2C-873D-FB300E05058F}" SchemaVersion="85">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{53D62207-31AA-4E2C-873D-FB300E05058F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{53D62207-31AA-4E2C-873D-FB300E05058F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Player" ID="{B772A4CE-C92E-4655-A3B4-596F5DF3BDD0}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Heartbeat" ID="{204DCCC0-A441-41C7-BCA7-D0273F8472D1}" WorkUnitID="{668FF646-A605-4A3C-BD45-2B79CCCAE850}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Teleport" ID="{7DB4FC32-486E-42A4-911D-5FE0F78148BB}" WorkUnitID="{668FF646-A605-4A3C-BD45-2B79CCCAE850}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Spawn" ID="{83DBD734-DF6D-46D0-AFCA-CF87E0161AF4}" WorkUnitID="{668FF646-A605-4A3C-BD45-2B79CCCAE850}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>
