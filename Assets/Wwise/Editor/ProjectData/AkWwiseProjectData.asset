@@ -53,12 +53,6 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Ambience
         ObjectType: 7
-  - Guid: '{A76C0A13-47C5-4583-901E-1891FABD3E0C}'
-    m_lastTimePart2: -1999259176
-    m_lastTimePsrt1: 535411320
-    ParentPhysicalPath: 
-    PhysicalPath: SoundBanks\Combat.wwu
-    List: []
   - Guid: '{53D62207-31AA-4E2C-873D-FB300E05058F}'
     m_lastTimePart2: -1999259177
     m_lastTimePsrt1: -573588537
@@ -110,15 +104,9 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SFX
         ObjectType: 7
-  - Guid: '{2F5B163E-5764-4C0D-B80C-099A6B3E5017}'
-    m_lastTimePart2: -1999259176
-    m_lastTimePsrt1: 535435895
-    ParentPhysicalPath: 
-    PhysicalPath: SoundBanks\Vox.wwu
-    List: []
   - Guid: '{5052B89B-ACC5-46D0-BC59-ADC3E880B3E8}'
-    m_lastTimePart2: -1999259109
-    m_lastTimePsrt1: 1107158019
+    m_lastTimePart2: -1999258996
+    m_lastTimePsrt1: 2013643544
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Weapons.wwu
     List:
@@ -173,8 +161,8 @@ MonoBehaviour:
     PhysicalPath: Events\Default Work Unit.wwu
     List: []
   - Guid: '{E6407E52-2104-4A17-A316-18E4D889890A}'
-    m_lastTimePart2: -1999259161
-    m_lastTimePsrt1: -1462555051
+    m_lastTimePart2: -1999258996
+    m_lastTimePsrt1: 2013583406
     ParentPhysicalPath: 
     PhysicalPath: Events\Monsters.wwu
     List:
@@ -635,8 +623,8 @@ MonoBehaviour:
       maxDuration: 0
       minDuration: 0
   - Guid: '{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}'
-    m_lastTimePart2: -1999259109
-    m_lastTimePsrt1: 1107208150
+    m_lastTimePart2: -1999258996
+    m_lastTimePsrt1: 2013603713
     ParentPhysicalPath: 
     PhysicalPath: Events\Weapons.wwu
     List:
@@ -720,6 +708,20 @@ MonoBehaviour:
       - ElementName: AK47
         ObjectType: 4
       - ElementName: AK47_Magazine_Load
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 23967cc9a068954db63df41d2854460a
+      ID: 1858740156
+      Name: AK47_Shells
+      Path: Weapons\AK47\AK47_Shells
+      PathAndIcons:
+      - ElementName: Weapons
+        ObjectType: 12
+      - ElementName: AK47
+        ObjectType: 4
+      - ElementName: AK47_Shells
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -822,72 +824,100 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - Guid: ff6addfe6357af4e861adb7d0682648f
+      ID: -674323071
+      Name: Glock_Shells
+      Path: Weapons\Glock\Glock_Shells
+      PathAndIcons:
+      - ElementName: Weapons
+        ObjectType: 12
+      - ElementName: Glock
+        ObjectType: 4
+      - ElementName: Glock_Shells
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - Guid: 27e5382d2f2d134e895f8bae62468cbe
       ID: -569020371
-      Name: shotgun_cock_close
-      Path: Weapons\Shotgun\shotgun_cock_close
+      Name: Shotgun_Cock_Close
+      Path: Weapons\Shotgun\Shotgun_Cock_Close
       PathAndIcons:
       - ElementName: Weapons
         ObjectType: 12
       - ElementName: Shotgun
         ObjectType: 4
-      - ElementName: shotgun_cock_close
+      - ElementName: Shotgun_Cock_Close
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - Guid: 9a6d36e80b961b41854ffa187faa8312
       ID: -459914649
-      Name: shotgun_cock_open
-      Path: Weapons\Shotgun\shotgun_cock_open
+      Name: Shotgun_Cock_Open
+      Path: Weapons\Shotgun\Shotgun_Cock_Open
       PathAndIcons:
       - ElementName: Weapons
         ObjectType: 12
       - ElementName: Shotgun
         ObjectType: 4
-      - ElementName: shotgun_cock_open
+      - ElementName: Shotgun_Cock_Open
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - Guid: 6cc119f78c4c0c488fc197a84b53517a
       ID: -312771696
-      Name: shotgun_fire
-      Path: Weapons\Shotgun\shotgun_fire
+      Name: Shotgun_Fire
+      Path: Weapons\Shotgun\Shotgun_Fire
       PathAndIcons:
       - ElementName: Weapons
         ObjectType: 12
       - ElementName: Shotgun
         ObjectType: 4
-      - ElementName: shotgun_fire
+      - ElementName: Shotgun_Fire
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - Guid: 94b57209cde98c4399a1597f82a8f746
       ID: 1742261478
-      Name: shotgun_handle
-      Path: Weapons\Shotgun\shotgun_handle
+      Name: Shotgun_Handle
+      Path: Weapons\Shotgun\Shotgun_Handle
       PathAndIcons:
       - ElementName: Weapons
         ObjectType: 12
       - ElementName: Shotgun
         ObjectType: 4
-      - ElementName: shotgun_handle
+      - ElementName: Shotgun_Handle
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - Guid: eddb3dc08f8f064b9b309f48257981db
       ID: -1471042112
-      Name: shotgun_load
-      Path: Weapons\Shotgun\shotgun_load
+      Name: Shotgun_Load
+      Path: Weapons\Shotgun\Shotgun_Load
       PathAndIcons:
       - ElementName: Weapons
         ObjectType: 12
       - ElementName: Shotgun
         ObjectType: 4
-      - ElementName: shotgun_load
+      - ElementName: Shotgun_Load
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: d6a6764af4a8e24cb21cd381fcede53e
+      ID: -1585501283
+      Name: Shotgun_Shells
+      Path: Weapons\Shotgun\Shotgun_Shells
+      PathAndIcons:
+      - ElementName: Weapons
+        ObjectType: 12
+      - ElementName: Shotgun
+        ObjectType: 4
+      - ElementName: Shotgun_Shells
         ObjectType: 3
       maxAttenuation: 0
       maxDuration: 0
@@ -899,7 +929,6 @@ MonoBehaviour:
   - /TechLabVR_WwiseProject/Auxiliary Busses/Default Work Unit/Master Audio Bus
   - /TechLabVR_WwiseProject/Events
   - /TechLabVR_WwiseProject/Events/Ambience
-  - /TechLabVR_WwiseProject/Events/SFX
   language: English(US)
   lowerPoolSize: 2048
   m_lastPopulateTimePart2: 0
