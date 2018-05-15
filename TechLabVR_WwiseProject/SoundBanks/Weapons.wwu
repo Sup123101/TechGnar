@@ -8,18 +8,21 @@
 						<ObjectRef Name="Glock_Handle" ID="{CC8A2285-0BAB-4057-973E-89BDF4902E16}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AK47_Handle" ID="{81BEC7E1-9AD4-40CE-8534-94330E5D1DCB}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AK47_Fire" ID="{F5CEA04B-6976-40CF-8E0D-3E8F5A1B0A97}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="shotgun_cock_open" ID="{E8366D9A-960B-411B-854F-FA187FAA8312}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Shotgun_Cock_Open" ID="{E8366D9A-960B-411B-854F-FA187FAA8312}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AK47_Magazine_Drop" ID="{FFB14899-7D29-411C-8130-10DF844B62B6}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AK47_Stop" ID="{4087DB6C-3DEF-4160-AA21-D013D154728E}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="shotgun_handle" ID="{0972B594-E9CD-438C-99A1-597F82A8F746}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="shotgun_fire" ID="{F719C16C-4C8C-480C-8FC1-97A84B53517A}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Shotgun_Handle" ID="{0972B594-E9CD-438C-99A1-597F82A8F746}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Shotgun_Fire" ID="{F719C16C-4C8C-480C-8FC1-97A84B53517A}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Glock_Fire" ID="{45F218B3-92D9-487B-8395-032F6218A154}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AK47_Cock_Open" ID="{93114DB3-02A8-4892-B603-F258CBD3293B}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Glock_Cock_Close" ID="{1BC95D0C-3DC8-48C0-96A6-9D6140A63194}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Glock_Magazine_Drop" ID="{44A5FD14-6B2C-499B-B42C-5FFC0760567F}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AK47_Magazine_Load" ID="{80A521EF-121E-4BCD-BB26-094E747828F8}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AK47_Cock_Close" ID="{E8B05099-7541-4CD6-837F-A23EB893BC5E}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="shotgun_cock_close" ID="{2D38E527-2D2F-4E13-895F-8BAE62468CBE}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Shotgun_Shells" ID="{4A76A6D6-A8F4-4CE2-B21C-D381FCEDE53E}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AK47_Shells" ID="{C97C9623-68A0-4D95-B63D-F41D2854460A}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Shotgun_Cock_Close" ID="{2D38E527-2D2F-4E13-895F-8BAE62468CBE}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Glock_Shells" ID="{FEDD6AFF-5763-4EAF-861A-DB7D0682648F}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Glock_Cock_Open" ID="{93092B54-EED0-4EEF-A3BD-7CA0A6B9CF2C}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Glock_Magazine_Load" ID="{242B6480-FEC8-4F6D-82A4-CC2C24EC5CC6}" WorkUnitID="{FA7CFC85-5D7B-4680-AB1F-57884CF203F8}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

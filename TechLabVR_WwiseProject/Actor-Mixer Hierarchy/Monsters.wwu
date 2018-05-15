@@ -42,9 +42,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>4</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{59A524D2-A979-47E6-8640-0D27092F20A1}">
@@ -92,9 +89,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>4</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{CB0AEDB2-053C-4F0B-BB8C-397E4633681E}">
@@ -119,8 +113,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="parazite_roar" ID="{2757B392-9B67-4D2D-84A1-7E2964DEA238}" ShortID="209308923">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="8.12346637102734E-02"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="4.19275683665927E-02"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0812346637102734"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0419275683665927"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.539817442719882"/>
 												<Property Name="TrimEnd" Type="Real64" Value="2.58378640059128"/>
 											</PropertyList>
@@ -148,9 +142,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>4</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{2977299C-F22C-42E5-8FAA-D85B822DDC29}">
@@ -175,8 +166,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="parazite_idle_02" ID="{797B08C4-C52B-4C0B-8E6A-657898B8574D}" ShortID="949746928">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="4.44998011137629E-02"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="4.44998011137629E-02"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0444998011137629"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0444998011137629"/>
 												<Property Name="TrimEnd" Type="Real64" Value="1.82745849907186"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -206,9 +197,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>3</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{44F5B1F2-A0D0-47EF-B27C-F1BCF3CA4085}">
@@ -311,7 +299,7 @@
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>2</Value>
+												<Value>-6</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -611,63 +599,6 @@
 										<ItemRef Name="parafat_foosteps_left" ID="{BE24AC00-3A75-405F-88F9-8DC97A32C2F9}"/>
 									</Playlist>
 								</RandomSequenceContainer>
-								<Sound Name="parazite_hurt" ID="{28C75538-B980-49FE-B8C3-86B13280C8B6}" ShortID="713263929">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>-300</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{A4F66E00-4E1C-491A-8915-1638E1D6EFCE}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="200"/>
-															<Property Name="Min" Type="Real64" Value="-300"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>4</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{D0A107B7-35C9-4502-9316-753E249CBF1E}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="3"/>
-															<Property Name="Min" Type="Real64" Value="-3"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="parazite_hurt" ID="{8349DA8D-68A7-4B92-B2C3-82561E530784}" ShortID="389249030">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="4.80060814842289E-02"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="8.84294275586126E-03"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>parazite_hurt.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="parazite_hurt" ID="{8349DA8D-68A7-4B92-B2C3-82561E530784}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="parazite_deathcry" ID="{8DB9130A-D701-4EDC-9D0B-1975A5301124}" ShortID="434170995">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
@@ -684,9 +615,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>3</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{779CF622-B26D-4CFD-A542-99FDCC8FEEF3}">
@@ -711,8 +639,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="parazite_idle_02" ID="{3753D333-A80E-4091-B3B4-5AAF780FDED2}" ShortID="1056250187">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="4.44998011137629E-02"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="4.44998011137629E-02"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0444998011137629"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0444998011137629"/>
 												<Property Name="TrimBegin" Type="Real64" Value="1.81855853884911"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -726,6 +654,64 @@
 										<ActiveSource Name="parazite_idle_02" ID="{3753D333-A80E-4091-B3B4-5AAF780FDED2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="parazite_hurt" ID="{BFDA054D-965B-4D4A-9605-4689E35D282C}" ShortID="803842094">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{951F32EE-D795-4050-A18F-8AFA04E051BD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="400"/>
+															<Property Name="Min" Type="Real64" Value="-500"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7D07FCDB-14A3-4A1F-AB3D-923E896B4A2E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="parazite_roar" ID="{FB58D877-1E56-478D-972D-156CD6F9C2A4}" ShortID="857859856">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0230481210406894"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0850220213287285"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.57553790223848"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.44025959533964"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Monsters\Parazite\parazite_roar.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="parazite_roar" ID="{FB58D877-1E56-478D-972D-156CD6F9C2A4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -733,13 +719,13 @@
 										<ItemRef Name="parazite_deathcry" ID="{8DB9130A-D701-4EDC-9D0B-1975A5301124}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="parazite_hurt" ID="{28C75538-B980-49FE-B8C3-86B13280C8B6}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
 										<ItemRef Name="parazite_roar" ID="{A4FD7143-C6D9-4EF2-BABF-6804E93DF10F}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="parazite_attack" ID="{B0D2B64B-5874-4FE9-9200-204BE6195AB6}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="parazite_hurt" ID="{BFDA054D-965B-4D4A-9605-4689E35D282C}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="parafat_footsteps" ID="{6DE28353-35BC-4827-AE8B-781556B1C644}"/>
@@ -788,9 +774,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-2</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{3F987FC2-4482-4FD7-8907-A0ECAB993A24}">
@@ -838,9 +821,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-24</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{846A4C78-628F-4E63-B59E-3DB4DFB8A509}">
@@ -889,7 +869,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>7</Value>
+												<Value>4</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -938,9 +918,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-24</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{F639AEA1-5DB8-4C74-A859-43E3329BC619}">
@@ -965,8 +942,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="parazite_fat_roar" ID="{56BF7E94-0F2B-4361-AB44-3CBB2301C749}" ShortID="968453602">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="6.27846914264597E-02"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="8.37129219019463E-02"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0627846914264597"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0837129219019463"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.278506451712245"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -993,9 +970,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-24</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{CCF54665-1421-4760-8C30-F0DCB18D55B6}">
@@ -1053,7 +1027,7 @@
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-1</Value>
+												<Value>-4</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -1373,6 +1347,18 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="parazite_fat_attack" ID="{0844312C-6175-4116-9D85-A25D9F3E2847}" ShortID="420597527">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{EDB82470-E28A-46ED-8E60-D9F574D7E815}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="12"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -1421,8 +1407,8 @@
 											<ChildrenList>
 												<AudioFileSource Name="parazite_fat_attack_02" ID="{5AF7831D-D122-4A23-A36B-D9348C4CCA9C}" ShortID="49365923">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="8.63286215816703E-02"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="6.50592510470559E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0863286215816703"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0650592510470559"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.195177753141168"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.903322677999508"/>
 													</PropertyList>
@@ -1446,7 +1432,7 @@
 											<ChildrenList>
 												<AudioFileSource Name="parazite_fat_attack_01" ID="{0D7D76A4-317B-4FE6-A954-BBDABC192E2E}" ShortID="27039593">
 													<PropertyList>
-														<Property Name="FadeInDuration" Type="Real64" Value="1.50135501355013E-02"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0150135501355013"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.113539972899729"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.130430216802168"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.792903116531165"/>
@@ -1514,9 +1500,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{5BEAB541-8323-439C-A885-A26AFEA53685}">
@@ -1564,9 +1547,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{34383825-001C-4BC0-B941-FE88F4750610}">
@@ -1614,9 +1594,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{2FB5670B-784F-45DF-A7F6-B72BC42CB795}">
@@ -1669,7 +1646,7 @@
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>8</Value>
+												<Value>-8</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -1944,9 +1921,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{88DEAD6A-990A-485E-B9A6-50136BC3112F}">
@@ -2043,9 +2017,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{6F2018F1-82AC-42FB-A3AB-F27585C94F33}">
@@ -2093,9 +2064,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{B7A73B3F-6236-4DA8-9871-6D241C98C975}">
@@ -2189,9 +2157,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{3F3A2A6D-F77E-47B2-A91F-42AA0A81BCDB}">
@@ -2239,9 +2204,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{9AAC4B11-5E5E-421C-AF5D-FEE3E2336531}">
@@ -2289,9 +2251,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{84E5F67E-3AC9-43C0-B1CF-EEF8E3576254}">
@@ -2339,9 +2298,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{2F0D10C8-790C-4CF3-85F3-9E85C4B355EE}">
@@ -2389,9 +2345,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{16DAD853-B369-4882-8FEE-B843A1812FBF}">
@@ -2444,7 +2397,7 @@
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>8</Value>
+												<Value>-6</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -2719,9 +2672,6 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{B7910006-0196-4DFA-9091-4F5D6EBD56A4}">

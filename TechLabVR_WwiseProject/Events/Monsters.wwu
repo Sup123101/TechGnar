@@ -41,7 +41,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="parazite_hurt" ID="{28C75538-B980-49FE-B8C3-86B13280C8B6}" WorkUnitID="{45F71E92-D72F-41CA-8481-7719C81F8222}"/>
+											<ObjectRef Name="parazite_hurt" ID="{BFDA054D-965B-4D4A-9605-4689E35D282C}" WorkUnitID="{45F71E92-D72F-41CA-8481-7719C81F8222}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID AK47_HANDLE = 4090582527U;
         static const AkUniqueID AK47_MAGAZINE_DROP = 1532367873U;
         static const AkUniqueID AK47_MAGAZINE_LOAD = 4199788282U;
+        static const AkUniqueID AK47_SHELLS = 1858740156U;
         static const AkUniqueID AK47_STOP = 3280450433U;
         static const AkUniqueID AMB_HALLWAY = 2160321640U;
         static const AkUniqueID AMB_ROOMS = 836873062U;
@@ -32,6 +33,7 @@ namespace AK
         static const AkUniqueID GLOCK_HANDLE = 256833090U;
         static const AkUniqueID GLOCK_MAGAZINE_DROP = 775637278U;
         static const AkUniqueID GLOCK_MAGAZINE_LOAD = 2469014961U;
+        static const AkUniqueID GLOCK_SHELLS = 3620644225U;
         static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID PARAZITE_ATTACK = 2166508184U;
         static const AkUniqueID PARAZITE_DEATHCRY = 4201162726U;
@@ -63,6 +65,7 @@ namespace AK
         static const AkUniqueID SHOTGUN_COCK_OPEN = 3835052647U;
         static const AkUniqueID SHOTGUN_FIRE = 3982195600U;
         static const AkUniqueID SHOTGUN_HANDLE = 1742261478U;
+        static const AkUniqueID SHOTGUN_SHELLS = 2709466013U;
         static const AkUniqueID STEAM = 1433397863U;
         static const AkUniqueID TURBINE_FAN = 3513896636U;
     } // namespace EVENTS

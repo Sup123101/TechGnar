@@ -9,7 +9,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Door" ID="{ADBB7F94-339E-4EAA-B5AE-FF6819F32878}" WorkUnitID="{E7C1DB28-3EB4-4AA7-9EAA-4D3057C90178}"/>
+							<ObjectRef Name="door" ID="{ADBB7F94-339E-4EAA-B5AE-FF6819F32878}" WorkUnitID="{AF4FC90E-DAEB-42F8-84FC-3F97765FD6EB}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -40,7 +40,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="reaktor" ID="{8F0E86AC-6AE4-4E34-BF7F-877D426B5FCC}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
+							<ObjectRef Name="reaktor" ID="{8F0E86AC-6AE4-4E34-BF7F-877D426B5FCC}" WorkUnitID="{AF4FC90E-DAEB-42F8-84FC-3F97765FD6EB}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -71,7 +71,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="exhaust_vent" ID="{EF9BF802-D7E3-419F-A400-BF9139FDF870}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
+							<ObjectRef Name="exhaust_vent" ID="{EF9BF802-D7E3-419F-A400-BF9139FDF870}" WorkUnitID="{AF4FC90E-DAEB-42F8-84FC-3F97765FD6EB}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -102,7 +102,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="steam" ID="{7883F8A0-83B8-4677-B6CB-D42689DDA81A}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
+							<ObjectRef Name="steam" ID="{7883F8A0-83B8-4677-B6CB-D42689DDA81A}" WorkUnitID="{AF4FC90E-DAEB-42F8-84FC-3F97765FD6EB}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -140,7 +140,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="turbine_fan" ID="{355785BC-6C50-4BE6-A182-114D43007BB1}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
+							<ObjectRef Name="turbine_fan" ID="{355785BC-6C50-4BE6-A182-114D43007BB1}" WorkUnitID="{AF4FC90E-DAEB-42F8-84FC-3F97765FD6EB}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -172,7 +172,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Door" ID="{ADBB7F94-339E-4EAA-B5AE-FF6819F32878}" WorkUnitID="{E7C1DB28-3EB4-4AA7-9EAA-4D3057C90178}"/>
+							<ObjectRef Name="door" ID="{ADBB7F94-339E-4EAA-B5AE-FF6819F32878}" WorkUnitID="{AF4FC90E-DAEB-42F8-84FC-3F97765FD6EB}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -203,7 +203,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{7EB9D0B5-8306-477A-AF38-13C2513E5457}"/>
+							<ObjectRef Name="rotating_pillar" ID="{F540E375-E21C-414F-A966-BABE767337AA}" WorkUnitID="{AF4FC90E-DAEB-42F8-84FC-3F97765FD6EB}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>

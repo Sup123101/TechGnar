@@ -4,19 +4,19 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Amb_Test" Hash="3920148867" Timestamp="1525307684"/>
-				<File Name="Ambience" Hash="2080372146" Timestamp="1526334982"/>
-				<File Name="Guns" Hash="875308815" Timestamp="1526358662"/>
-				<File Name="Init" Hash="3986949263" Timestamp="1526358273"/>
-				<File Name="Monsters" Hash="81791235" Timestamp="1526356094"/>
-				<File Name="Music" Hash="267580354" Timestamp="1526334982"/>
-				<File Name="SFX" Hash="3425954449" Timestamp="1526356094"/>
+				<File Name="Ambience" Hash="3504819610" Timestamp="1526370289"/>
+				<File Name="Guns" Hash="1262919042" Timestamp="1526370289"/>
+				<File Name="Init" Hash="3986949263" Timestamp="1526370289"/>
+				<File Name="Monsters" Hash="3551034439" Timestamp="1526370412"/>
+				<File Name="Music" Hash="1155769988" Timestamp="1526370289"/>
+				<File Name="SFX" Hash="3011420534" Timestamp="1526370289"/>
 				<File Name="amb_room_01_sb" Hash="451167462" Timestamp="1525554467"/>
 				<File Name="amb_soundbank" Hash="2839277071" Timestamp="1525329978"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3967487996" Timestamp="1526358662"/>
+				<File Name="" Hash="2854440994" Timestamp="1526370412"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -24,19 +24,19 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Amb_Test" Hash="3920148867" Timestamp="1525314720"/>
-				<File Name="Ambience" Hash="2080372146" Timestamp="1526334982"/>
-				<File Name="Guns" Hash="875308815" Timestamp="1526358662"/>
-				<File Name="Init" Hash="3610194601" Timestamp="1526358273"/>
-				<File Name="Monsters" Hash="81791235" Timestamp="1526356094"/>
-				<File Name="Music" Hash="267580354" Timestamp="1526334982"/>
-				<File Name="SFX" Hash="3425954449" Timestamp="1526356094"/>
+				<File Name="Ambience" Hash="3504819610" Timestamp="1526370291"/>
+				<File Name="Guns" Hash="1262919042" Timestamp="1526370291"/>
+				<File Name="Init" Hash="3610194601" Timestamp="1526370291"/>
+				<File Name="Monsters" Hash="3551034439" Timestamp="1526370412"/>
+				<File Name="Music" Hash="1155769988" Timestamp="1526370291"/>
+				<File Name="SFX" Hash="3011420534" Timestamp="1526370291"/>
 				<File Name="amb_room_01_sb" Hash="451167462" Timestamp="1525554468"/>
 				<File Name="amb_soundbank" Hash="2839277071" Timestamp="1525330944"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="618843770" Timestamp="1526358662"/>
+				<File Name="" Hash="1562213084" Timestamp="1526370412"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

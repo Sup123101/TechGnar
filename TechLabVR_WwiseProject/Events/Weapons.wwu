@@ -99,6 +99,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="AK47_Shells" ID="{C97C9623-68A0-4D95-B63D-F41D2854460A}">
+							<ChildrenList>
+								<Action Name="" ID="{3CF5903E-8C88-4231-B488-B4FADB08CB31}" ShortID="788718028">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AK47_Shell_Casings" ID="{60C6233B-4CE3-4DE6-B022-41837CD6A923}" WorkUnitID="{6F6B0E93-3719-4632-81DC-7E4C66573C47}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Glock" ID="{288A8C9C-C218-44B3-AD87-C4F9256258EB}" ShortID="397410639">
@@ -187,11 +201,25 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Glock_Shells" ID="{FEDD6AFF-5763-4EAF-861A-DB7D0682648F}">
+							<ChildrenList>
+								<Action Name="" ID="{C40CA900-2356-4E85-B7B7-814E03B04055}" ShortID="900996331">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Glock_Shell_Casings" ID="{5D25E8D0-2DE9-49A8-8260-069C60B20245}" WorkUnitID="{6F6B0E93-3719-4632-81DC-7E4C66573C47}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Shotgun" ID="{1D2857DF-408D-4627-9B8B-22B4CFC9F3A7}" ShortID="306975756">
 					<ChildrenList>
-						<Event Name="shotgun_cock_close" ID="{2D38E527-2D2F-4E13-895F-8BAE62468CBE}">
+						<Event Name="Shotgun_Cock_Close" ID="{2D38E527-2D2F-4E13-895F-8BAE62468CBE}">
 							<ChildrenList>
 								<Action Name="" ID="{A0329BDF-76A5-475C-9F37-8D3BF8BB75F5}" ShortID="504989700">
 									<PropertyList>
@@ -205,7 +233,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="shotgun_handle" ID="{0972B594-E9CD-438C-99A1-597F82A8F746}">
+						<Event Name="Shotgun_Handle" ID="{0972B594-E9CD-438C-99A1-597F82A8F746}">
 							<ChildrenList>
 								<Action Name="" ID="{A330B640-B64D-46A1-B855-C9043AA12A3A}" ShortID="358872931">
 									<PropertyList>
@@ -219,8 +247,8 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="shotgun_load" ID="{C03DDBED-8F8F-4B06-9B30-9F48257981DB}"/>
-						<Event Name="shotgun_fire" ID="{F719C16C-4C8C-480C-8FC1-97A84B53517A}">
+						<Event Name="Shotgun_Load" ID="{C03DDBED-8F8F-4B06-9B30-9F48257981DB}"/>
+						<Event Name="Shotgun_Fire" ID="{F719C16C-4C8C-480C-8FC1-97A84B53517A}">
 							<ChildrenList>
 								<Action Name="" ID="{443402E1-476F-40AD-AA91-20EF1EF93DBF}" ShortID="732435581">
 									<PropertyList>
@@ -234,7 +262,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="shotgun_cock_open" ID="{E8366D9A-960B-411B-854F-FA187FAA8312}">
+						<Event Name="Shotgun_Cock_Open" ID="{E8366D9A-960B-411B-854F-FA187FAA8312}">
 							<ChildrenList>
 								<Action Name="" ID="{623E5453-C1A1-4619-8092-DEF75133AE5A}" ShortID="120604745">
 									<PropertyList>
@@ -243,6 +271,20 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="shotgun_cock_open" ID="{1106AFF2-D760-4747-8876-F6AABADB76E3}" WorkUnitID="{6F6B0E93-3719-4632-81DC-7E4C66573C47}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Shotgun_Shells" ID="{4A76A6D6-A8F4-4CE2-B21C-D381FCEDE53E}">
+							<ChildrenList>
+								<Action Name="" ID="{C578707B-B832-4D44-B509-0ACC00CFDF3E}" ShortID="830311718">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Shotgun_Shell_Casings" ID="{14A497B9-AF23-426A-9F69-45C76E259F50}" WorkUnitID="{6F6B0E93-3719-4632-81DC-7E4C66573C47}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

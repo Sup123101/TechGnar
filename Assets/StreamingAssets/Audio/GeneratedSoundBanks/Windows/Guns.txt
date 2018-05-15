@@ -6,38 +6,55 @@ Event	ID	Name			Wwise Object Path	Notes
 	1215033667	Glock_Cock_Open			\Weapons\Glock\Glock_Cock_Open	
 	1334806561	Glock_Cock_Close			\Weapons\Glock\Glock_Cock_Close	
 	1532367873	AK47_Magazine_Drop			\Weapons\AK47\AK47_Magazine_Drop	
-	1742261478	shotgun_handle			\Weapons\Shotgun\shotgun_handle	
+	1742261478	Shotgun_Handle			\Weapons\Shotgun\Shotgun_Handle	
+	1858740156	AK47_Shells			\Weapons\AK47\AK47_Shells	
 	2108918404	AK47_Cock_Open			\Weapons\AK47\AK47_Cock_Open	
 	2469014961	Glock_Magazine_Load			\Weapons\Glock\Glock_Magazine_Load	
+	2709466013	Shotgun_Shells			\Weapons\Shotgun\Shotgun_Shells	
 	3280450433	AK47_Stop			\Weapons\AK47\AK47_Stop	
 	3305383501	AK47_Fire			\Weapons\AK47\AK47_Fire	
-	3725946925	shotgun_cock_close			\Weapons\Shotgun\shotgun_cock_close	
-	3835052647	shotgun_cock_open			\Weapons\Shotgun\shotgun_cock_open	
-	3982195600	shotgun_fire			\Weapons\Shotgun\shotgun_fire	
+	3620644225	Glock_Shells			\Weapons\Glock\Glock_Shells	
+	3725946925	Shotgun_Cock_Close			\Weapons\Shotgun\Shotgun_Cock_Close	
+	3835052647	Shotgun_Cock_Open			\Weapons\Shotgun\Shotgun_Cock_Open	
+	3982195600	Shotgun_Fire			\Weapons\Shotgun\Shotgun_Fire	
 	4090582527	AK47_Handle			\Weapons\AK47\AK47_Handle	
 	4199788282	AK47_Magazine_Load			\Weapons\AK47\AK47_Magazine_Load	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	47819783	AK47_handling_04	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\AK47\AK47_handling_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_Handling\AK47_handling_04		35204
-	177346667	shotgun_handling_03	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Shotgun\shotgun_handling_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\shotgun_handle\shotgun_handling_03		44164
-	193196945	glock_cock_close	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Glock\glock_cock_close_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\glock_cock_close		29744
-	232090594	glock_handling_01	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Glock\glock_handling_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\glock_handle\glock_handling_01		62964
-	426118636	AK47_handling_02	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\AK47\AK47_handling_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_Handling\AK47_handling_02		42948
-	445735424	shotgun_cock_close	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Shotgun\shotgun_cock_close_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\shotgun_cock_close		53468
-	511788316	glock_fire	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Glock\glock_fire_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\glock_fire		100704
-	516201628	glock_handling_03	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Glock\glock_handling_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\glock_handle\glock_handling_03		75544
-	525658761	shotgun_handling_04	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Shotgun\shotgun_handling_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\shotgun_handle\shotgun_handling_04		50516
-	588354083	AK47_magazine_drop	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\AK47\AK47_magazine_drop_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_magazine_drop		58432
-	597416433	AK47_cock_close	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\AK47\AK47_cock_close_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_cock_close		59028
-	600128573	shotgun_fire	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Shotgun\shotgun_fire_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\shotgun_fire		90064
-	686176446	AK47_handling_01	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\AK47\AK47_handling_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_Handling\AK47_handling_01		139428
-	815946321	glock_cock_open	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Glock\glock_cock_open_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\glock_cock_open		60704
-	820372991	glock_magazine_drop	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Glock\glock_magazine_drop_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\glock_magazine_drop		58432
-	829583925	AK47_handling_03	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\AK47\AK47_handling_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_Handling\AK47_handling_03		53668
-	870671133	shotgun_handling_02	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Shotgun\shotgun_handling_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\shotgun_handle\shotgun_handling_02		54572
-	938478499	AK47_fire_loop	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\AK47\AK47_fire_loop_F17FB28C.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_fire_loop		147800
-	954587653	AK47_cock_open	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\AK47\AK47_cock_open_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_cock_open		42948
-	970815530	shotgun_cock_open	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Shotgun\shotgun_cock_open_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\shotgun_cock_open		31764
-	979201449	shotgun_handling_01	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Shotgun\shotgun_handling_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\shotgun_handle\shotgun_handling_01		88264
-	1004413430	glock_handling_02	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Glock\glock_handling_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\glock_handle\glock_handling_02		36232
+	18823860	AK47_shell_casing_06	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\AK47_shell_casing_06_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_Shell_Casings\AK47_shell_casing_06		27626
+	47819783	AK47_handling_04	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\AK47\AK47_handling_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_Handling\AK47_handling_04		35204
+	125615507	glock_shell_casing_04	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\glock_shell_casing_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\Glock_Shell_Casings\glock_shell_casing_04		30754
+	177346667	shotgun_handling_03	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Shotgun\shotgun_handling_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\shotgun_handle\shotgun_handling_03		44164
+	193196945	glock_cock_close	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Glock\glock_cock_close_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\glock_cock_close		29744
+	232090594	glock_handling_01	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Glock\glock_handling_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\glock_handle\glock_handling_01		62964
+	276693912	AK47_shell_casing_04	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\AK47_shell_casing_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_Shell_Casings\AK47_shell_casing_04		16258
+	346780330	glock_shell_casing_02	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\glock_shell_casing_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\Glock_Shell_Casings\glock_shell_casing_02		44164
+	370040544	shotgun_shell_casing_01	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\shotgun_shell_casing_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\Shotgun_Shell_Casings\shotgun_shell_casing_01		22114
+	373396500	glock_shell_casing_03	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\glock_shell_casing_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\Glock_Shell_Casings\glock_shell_casing_03		37876
+	419911257	shotgun_shell_casing_04	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\shotgun_shell_casing_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\Shotgun_Shell_Casings\shotgun_shell_casing_04		23724
+	426118636	AK47_handling_02	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\AK47\AK47_handling_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_Handling\AK47_handling_02		42948
+	445735424	shotgun_cock_close	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Shotgun\shotgun_cock_close_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\shotgun_cock_close		53468
+	480195941	AK47_shell_casing_01	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\AK47_shell_casing_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_Shell_Casings\AK47_shell_casing_01		20046
+	511788316	glock_fire	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Glock\glock_fire_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\glock_fire		100704
+	516201628	glock_handling_03	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Glock\glock_handling_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\glock_handle\glock_handling_03		75544
+	524839767	shotgun_shell_casing_03	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\shotgun_shell_casing_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\Shotgun_Shell_Casings\shotgun_shell_casing_03		14762
+	525658761	shotgun_handling_04	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Shotgun\shotgun_handling_04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\shotgun_handle\shotgun_handling_04		50516
+	565674083	AK47_shell_casing_03	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\AK47_shell_casing_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_Shell_Casings\AK47_shell_casing_03		31760
+	588354083	AK47_magazine_drop	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\AK47\AK47_magazine_drop_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_magazine_drop		58432
+	597416433	AK47_cock_close	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\AK47\AK47_cock_close_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_cock_close		59028
+	600128573	shotgun_fire	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Shotgun\shotgun_fire_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\shotgun_fire		90064
+	600440334	glock_shell_casing_01	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\glock_shell_casing_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\Glock_Shell_Casings\glock_shell_casing_01		34744
+	631808638	AK47_shell_casing_05	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\AK47_shell_casing_05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_Shell_Casings\AK47_shell_casing_05		25842
+	648308684	AK47_shell_casing_02	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\AK47_shell_casing_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_Shell_Casings\AK47_shell_casing_02		23492
+	686176446	AK47_handling_01	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\AK47\AK47_handling_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_Handling\AK47_handling_01		139428
+	810851221	shotgun_shell_casing_02	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\shotgun_shell_casing_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\Shotgun_Shell_Casings\shotgun_shell_casing_02		17844
+	815946321	glock_cock_open	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Glock\glock_cock_open_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\glock_cock_open		60704
+	820372991	glock_magazine_drop	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Glock\glock_magazine_drop_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\glock_magazine_drop		58432
+	829583925	AK47_handling_03	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\AK47\AK47_handling_03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_Handling\AK47_handling_03		53668
+	870671133	shotgun_handling_02	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Shotgun\shotgun_handling_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\shotgun_handle\shotgun_handling_02		54572
+	938478499	AK47_fire_loop	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\AK47\AK47_fire_loop_F17FB28C.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_fire_loop		147800
+	954587653	AK47_cock_open	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\AK47\AK47_cock_open_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\AK47\AK47_cock_open		42948
+	970815530	shotgun_cock_open	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Shotgun\shotgun_cock_open_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\shotgun_cock_open		31764
+	979201449	shotgun_handling_01	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Shotgun\shotgun_handling_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Shotgun\shotgun_handle\shotgun_handling_01		88264
+	1004413430	glock_handling_02	Y:\SESSIONS\~BERKLEE\My Courses\KKumar_EP-410\Assignments, Projects\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Weapons\Glock\glock_handling_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Weapons\Guns\Glock\glock_handle\glock_handling_02		36232
 

@@ -4,6 +4,9 @@
 		<WorkUnit Name="Weapons" ID="{6F6B0E93-3719-4632-81DC-7E4C66573C47}" PersistMode="Standalone">
 			<ChildrenList>
 				<SwitchContainer Name="Guns" ID="{6361BE33-B401-4316-B689-97C77868D9C4}" ShortID="1015010132">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
@@ -126,120 +129,6 @@
 										<ActiveSource Name="AK47_magazine_drop" ID="{A11AFDBE-3663-4D11-B156-3AE01F61F7E3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="AK47_shell_casing_01" ID="{22AE1513-EC58-41F0-800F-1825B5D801AA}" ShortID="783657012">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AK47_shell_casing_01" ID="{AD4253F0-D9FA-4A92-B286-23656CEDF6F3}" ShortID="480195941">
-											<Language>SFX</Language>
-											<AudioFile>AK47_shell_casing_01.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="AK47_shell_casing_01" ID="{AD4253F0-D9FA-4A92-B286-23656CEDF6F3}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="AK47_shell_casing_02" ID="{2C0C8CF6-76A5-4483-81CD-147E79D4889C}" ShortID="175633690">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AK47_shell_casing_02" ID="{1C9AD7AA-02FF-4B1D-B0A9-59E24503FF42}" ShortID="648308684">
-											<Language>SFX</Language>
-											<AudioFile>AK47_shell_casing_02.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="AK47_shell_casing_02" ID="{1C9AD7AA-02FF-4B1D-B0A9-59E24503FF42}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="AK47_shell_casing_03" ID="{C1642D3B-C859-4C52-8AD5-04B18EB4BC48}" ShortID="175899044">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AK47_shell_casing_03" ID="{9F5020A8-A9B5-4993-B065-75241BD0B0C7}" ShortID="565674083">
-											<Language>SFX</Language>
-											<AudioFile>AK47_shell_casing_03.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="AK47_shell_casing_03" ID="{9F5020A8-A9B5-4993-B065-75241BD0B0C7}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="AK47_shell_casing_04" ID="{21179D96-9A38-4520-B700-23CE62848AE2}" ShortID="704496236">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AK47_shell_casing_04" ID="{2FBB99EA-2B20-4925-9D9D-6ED7D7C7BC66}" ShortID="276693912">
-											<Language>SFX</Language>
-											<AudioFile>AK47_shell_casing_04.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="AK47_shell_casing_04" ID="{2FBB99EA-2B20-4925-9D9D-6ED7D7C7BC66}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="AK47_shell_casing_05" ID="{80394200-4613-4A0B-9C95-2553E69BB6A8}" ShortID="114587449">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AK47_shell_casing_05" ID="{2681B623-F388-4A91-A186-44F9C70A69F8}" ShortID="631808638">
-											<Language>SFX</Language>
-											<AudioFile>AK47_shell_casing_05.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="AK47_shell_casing_05" ID="{2681B623-F388-4A91-A186-44F9C70A69F8}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="AK47_shell_casing_06" ID="{25C3F709-31D4-49D7-97E1-5C88F1D66D9F}" ShortID="660835642">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AK47_shell_casing_06" ID="{6E2A1183-9CD3-483E-B463-227D1F35B66E}" ShortID="18823860">
-											<Language>SFX</Language>
-											<AudioFile>AK47_shell_casing_06.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="AK47_shell_casing_06" ID="{6E2A1183-9CD3-483E-B463-227D1F35B66E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<RandomSequenceContainer Name="AK47_Handling" ID="{9D976C0B-F8CA-4EC0-9E9A-8B3AB54033C3}" ShortID="548379319">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -328,26 +217,210 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="AK47_Shell_Casings" ID="{60C6233B-4CE3-4DE6-B022-41837CD6A923}" ShortID="608036815">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{04869297-EF1A-4525-8B20-2453FC891497}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-300</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C9070479-28BF-4413-9FA2-B9A509802A86}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-400"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{83DFE2F3-4B55-416C-9750-05901F2B2784}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AK47_shell_casing_01" ID="{22AE1513-EC58-41F0-800F-1825B5D801AA}" ShortID="783657012">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{05933565-8673-42FD-B855-59E14A7A416F}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AK47_shell_casing_01" ID="{AD4253F0-D9FA-4A92-B286-23656CEDF6F3}" ShortID="480195941">
+													<Language>SFX</Language>
+													<AudioFile>AK47_shell_casing_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AK47_shell_casing_01" ID="{AD4253F0-D9FA-4A92-B286-23656CEDF6F3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AK47_shell_casing_02" ID="{2C0C8CF6-76A5-4483-81CD-147E79D4889C}" ShortID="175633690">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{05933565-8673-42FD-B855-59E14A7A416F}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AK47_shell_casing_02" ID="{1C9AD7AA-02FF-4B1D-B0A9-59E24503FF42}" ShortID="648308684">
+													<Language>SFX</Language>
+													<AudioFile>AK47_shell_casing_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AK47_shell_casing_02" ID="{1C9AD7AA-02FF-4B1D-B0A9-59E24503FF42}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AK47_shell_casing_03" ID="{C1642D3B-C859-4C52-8AD5-04B18EB4BC48}" ShortID="175899044">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{05933565-8673-42FD-B855-59E14A7A416F}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AK47_shell_casing_03" ID="{9F5020A8-A9B5-4993-B065-75241BD0B0C7}" ShortID="565674083">
+													<Language>SFX</Language>
+													<AudioFile>AK47_shell_casing_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AK47_shell_casing_03" ID="{9F5020A8-A9B5-4993-B065-75241BD0B0C7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AK47_shell_casing_04" ID="{21179D96-9A38-4520-B700-23CE62848AE2}" ShortID="704496236">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{05933565-8673-42FD-B855-59E14A7A416F}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AK47_shell_casing_04" ID="{2FBB99EA-2B20-4925-9D9D-6ED7D7C7BC66}" ShortID="276693912">
+													<Language>SFX</Language>
+													<AudioFile>AK47_shell_casing_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AK47_shell_casing_04" ID="{2FBB99EA-2B20-4925-9D9D-6ED7D7C7BC66}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AK47_shell_casing_05" ID="{80394200-4613-4A0B-9C95-2553E69BB6A8}" ShortID="114587449">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{05933565-8673-42FD-B855-59E14A7A416F}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AK47_shell_casing_05" ID="{2681B623-F388-4A91-A186-44F9C70A69F8}" ShortID="631808638">
+													<Language>SFX</Language>
+													<AudioFile>AK47_shell_casing_05.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AK47_shell_casing_05" ID="{2681B623-F388-4A91-A186-44F9C70A69F8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AK47_shell_casing_06" ID="{25C3F709-31D4-49D7-97E1-5C88F1D66D9F}" ShortID="660835642">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{05933565-8673-42FD-B855-59E14A7A416F}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AK47_shell_casing_06" ID="{6E2A1183-9CD3-483E-B463-227D1F35B66E}" ShortID="18823860">
+													<Language>SFX</Language>
+													<AudioFile>AK47_shell_casing_06.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AK47_shell_casing_06" ID="{6E2A1183-9CD3-483E-B463-227D1F35B66E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
-										<ItemRef Name="AK47_shell_casing_05" ID="{80394200-4613-4A0B-9C95-2553E69BB6A8}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="AK47_shell_casing_06" ID="{25C3F709-31D4-49D7-97E1-5C88F1D66D9F}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
 										<ItemRef Name="AK47_Handling" ID="{9D976C0B-F8CA-4EC0-9E9A-8B3AB54033C3}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="AK47_shell_casing_01" ID="{22AE1513-EC58-41F0-800F-1825B5D801AA}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="AK47_magazine_drop" ID="{3882FF19-4839-422C-ABD9-88368591838A}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="AK47_shell_casing_03" ID="{C1642D3B-C859-4C52-8AD5-04B18EB4BC48}"/>
+										<ItemRef Name="AK47_Shell_Casings" ID="{60C6233B-4CE3-4DE6-B022-41837CD6A923}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="AK47_cock_close" ID="{41019553-ECF5-4458-84A8-E552506BE1E5}"/>
@@ -356,16 +429,10 @@
 										<ItemRef Name="AK47_fire_single" ID="{CC0E5A80-2830-4B23-AB3D-34D8A122919B}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="AK47_shell_casing_04" ID="{21179D96-9A38-4520-B700-23CE62848AE2}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
 										<ItemRef Name="AK47_cock_open" ID="{F92605B6-63F4-412B-8D69-9714E400FC03}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="AK47_fire_loop" ID="{7763F5E2-6057-47D3-8DE7-318810C98AB7}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="AK47_shell_casing_02" ID="{2C0C8CF6-76A5-4483-81CD-147E79D4889C}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 							</GroupingInfo>
@@ -459,82 +526,6 @@
 										<ActiveSource Name="glock_magazine_drop" ID="{333EEB82-3627-436B-A3B6-02910F1AE9ED}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="glock_shell_casing_01" ID="{00134105-F424-4E3A-BB86-A15BAF4DD7BD}" ShortID="498609974">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="glock_shell_casing_01" ID="{8EA5A36D-76F1-40D7-870B-F7F21B2D596B}" ShortID="600440334">
-											<Language>SFX</Language>
-											<AudioFile>glock_shell_casing_01.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="glock_shell_casing_01" ID="{8EA5A36D-76F1-40D7-870B-F7F21B2D596B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="glock_shell_casing_02" ID="{B4DEFBBB-B9EF-4DAF-B502-C1988EB4178A}" ShortID="860664284">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="glock_shell_casing_02" ID="{81BC4842-F27D-4AE5-BBFF-DF04A2DF2EF9}" ShortID="346780330">
-											<Language>SFX</Language>
-											<AudioFile>glock_shell_casing_02.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="glock_shell_casing_02" ID="{81BC4842-F27D-4AE5-BBFF-DF04A2DF2EF9}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="glock_shell_casing_03" ID="{C7178A49-5D05-4CB2-A35C-481C9DA358D5}" ShortID="8128320">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="glock_shell_casing_03" ID="{71BFE146-E6F9-4C78-9127-03843395243B}" ShortID="373396500">
-											<Language>SFX</Language>
-											<AudioFile>glock_shell_casing_03.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="glock_shell_casing_03" ID="{71BFE146-E6F9-4C78-9127-03843395243B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="glock_shell_casing_04" ID="{E6FE253C-E880-4AE2-B46B-60A149F0216C}" ShortID="704786156">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="glock_shell_casing_04" ID="{C2A4B643-1082-46AC-8310-91A7B39E99D0}" ShortID="125615507">
-											<Language>SFX</Language>
-											<AudioFile>glock_shell_casing_04.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="glock_shell_casing_04" ID="{C2A4B643-1082-46AC-8310-91A7B39E99D0}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<RandomSequenceContainer Name="glock_handle" ID="{2D98671D-DE8B-4293-BB5B-34688FF72241}" ShortID="76779418">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -604,12 +595,155 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Glock_Shell_Casings" ID="{5D25E8D0-2DE9-49A8-8260-069C60B20245}" ShortID="1057398757">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{064ADEE2-286C-409E-B5BC-471ABC8F3B67}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C9340B68-1DE2-4A67-B105-016B922982CD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C00829E8-EDC1-421C-98F7-3DDEC3BB4D33}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-6"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="glock_shell_casing_01" ID="{00134105-F424-4E3A-BB86-A15BAF4DD7BD}" ShortID="498609974">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{05933565-8673-42FD-B855-59E14A7A416F}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="glock_shell_casing_01" ID="{8EA5A36D-76F1-40D7-870B-F7F21B2D596B}" ShortID="600440334">
+													<Language>SFX</Language>
+													<AudioFile>glock_shell_casing_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="glock_shell_casing_01" ID="{8EA5A36D-76F1-40D7-870B-F7F21B2D596B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="glock_shell_casing_04" ID="{E6FE253C-E880-4AE2-B46B-60A149F0216C}" ShortID="704786156">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{05933565-8673-42FD-B855-59E14A7A416F}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="glock_shell_casing_04" ID="{C2A4B643-1082-46AC-8310-91A7B39E99D0}" ShortID="125615507">
+													<Language>SFX</Language>
+													<AudioFile>glock_shell_casing_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="glock_shell_casing_04" ID="{C2A4B643-1082-46AC-8310-91A7B39E99D0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="glock_shell_casing_03" ID="{C7178A49-5D05-4CB2-A35C-481C9DA358D5}" ShortID="8128320">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{05933565-8673-42FD-B855-59E14A7A416F}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="glock_shell_casing_03" ID="{71BFE146-E6F9-4C78-9127-03843395243B}" ShortID="373396500">
+													<Language>SFX</Language>
+													<AudioFile>glock_shell_casing_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="glock_shell_casing_03" ID="{71BFE146-E6F9-4C78-9127-03843395243B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="glock_shell_casing_02" ID="{B4DEFBBB-B9EF-4DAF-B502-C1988EB4178A}" ShortID="860664284">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{05933565-8673-42FD-B855-59E14A7A416F}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="glock_shell_casing_02" ID="{81BC4842-F27D-4AE5-BBFF-DF04A2DF2EF9}" ShortID="346780330">
+													<Language>SFX</Language>
+													<AudioFile>glock_shell_casing_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="glock_shell_casing_02" ID="{81BC4842-F27D-4AE5-BBFF-DF04A2DF2EF9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
-									<GroupingBehavior>
-										<ItemRef Name="glock_shell_casing_01" ID="{00134105-F424-4E3A-BB86-A15BAF4DD7BD}"/>
-									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="glock_cock_open" ID="{B012DC13-8BD5-4AED-A6B5-7B7D9BE2F38B}"/>
 									</GroupingBehavior>
@@ -617,16 +751,10 @@
 										<ItemRef Name="glock_handle" ID="{2D98671D-DE8B-4293-BB5B-34688FF72241}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="glock_shell_casing_04" ID="{E6FE253C-E880-4AE2-B46B-60A149F0216C}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="glock_shell_casing_03" ID="{C7178A49-5D05-4CB2-A35C-481C9DA358D5}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
 										<ItemRef Name="glock_fire" ID="{17490994-6B4B-494B-8421-3C9872F0913B}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="glock_shell_casing_02" ID="{B4DEFBBB-B9EF-4DAF-B502-C1988EB4178A}"/>
+										<ItemRef Name="Glock_Shell_Casings" ID="{5D25E8D0-2DE9-49A8-8260-069C60B20245}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="glock_cock_close" ID="{861131D3-D61E-4135-96BC-1F4C93206E48}"/>
@@ -702,82 +830,6 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="shotgun_fire" ID="{4E961FC6-C3CC-4BB0-ADB4-00704902E215}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="shotgun_shell_casing_01" ID="{56EFB6E1-36A5-46E6-988F-80C0AB30D90A}" ShortID="313957102">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="shotgun_shell_casing_01" ID="{9CFCF102-E017-40F4-8F07-B2D085D4F6E4}" ShortID="370040544">
-											<Language>SFX</Language>
-											<AudioFile>shotgun_shell_casing_01.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="shotgun_shell_casing_01" ID="{9CFCF102-E017-40F4-8F07-B2D085D4F6E4}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="shotgun_shell_casing_02" ID="{445A2B34-503C-44EB-AAD9-32435E4057E7}" ShortID="390342937">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="shotgun_shell_casing_02" ID="{D1A7B191-DCE3-47A7-8E8B-3D7AEFA1FA01}" ShortID="810851221">
-											<Language>SFX</Language>
-											<AudioFile>shotgun_shell_casing_02.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="shotgun_shell_casing_02" ID="{D1A7B191-DCE3-47A7-8E8B-3D7AEFA1FA01}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="shotgun_shell_casing_03" ID="{675ECCF7-3282-405A-92FD-23C4D8717958}" ShortID="256434360">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="shotgun_shell_casing_03" ID="{B0104C27-1B57-4AD3-8DD0-36A83EFA7EF0}" ShortID="524839767">
-											<Language>SFX</Language>
-											<AudioFile>shotgun_shell_casing_03.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="shotgun_shell_casing_03" ID="{B0104C27-1B57-4AD3-8DD0-36A83EFA7EF0}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="shotgun_shell_casing_04" ID="{BBAF398F-AB51-4256-BA23-08D126EE2C68}" ShortID="291489533">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="shotgun_shell_casing_04" ID="{6B5848BC-B0E9-44A6-BE3F-54F64F60E533}" ShortID="419911257">
-											<Language>SFX</Language>
-											<AudioFile>shotgun_shell_casing_04.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="shotgun_shell_casing_04" ID="{6B5848BC-B0E9-44A6-BE3F-54F64F60E533}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<RandomSequenceContainer Name="shotgun_handle" ID="{5CB911A2-64D3-4654-A98C-38F07A3FD2FF}" ShortID="650783348">
@@ -868,6 +920,149 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Shotgun_Shell_Casings" ID="{14A497B9-AF23-426A-9F69-45C76E259F50}" ShortID="14316372">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{92AA1FBC-BE5D-43EB-826D-AF5B08CE9204}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="15"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F2E746A5-6C0D-4122-84E0-CB0ADC684296}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="400"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9F26DE63-B346-4F94-8BB1-AAC738FE90AC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-6"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="shotgun_shell_casing_01" ID="{56EFB6E1-36A5-46E6-988F-80C0AB30D90A}" ShortID="313957102">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{05933565-8673-42FD-B855-59E14A7A416F}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="shotgun_shell_casing_01" ID="{9CFCF102-E017-40F4-8F07-B2D085D4F6E4}" ShortID="370040544">
+													<Language>SFX</Language>
+													<AudioFile>shotgun_shell_casing_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="shotgun_shell_casing_01" ID="{9CFCF102-E017-40F4-8F07-B2D085D4F6E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="shotgun_shell_casing_02" ID="{445A2B34-503C-44EB-AAD9-32435E4057E7}" ShortID="390342937">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{05933565-8673-42FD-B855-59E14A7A416F}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="shotgun_shell_casing_02" ID="{D1A7B191-DCE3-47A7-8E8B-3D7AEFA1FA01}" ShortID="810851221">
+													<Language>SFX</Language>
+													<AudioFile>shotgun_shell_casing_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="shotgun_shell_casing_02" ID="{D1A7B191-DCE3-47A7-8E8B-3D7AEFA1FA01}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="shotgun_shell_casing_03" ID="{675ECCF7-3282-405A-92FD-23C4D8717958}" ShortID="256434360">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{05933565-8673-42FD-B855-59E14A7A416F}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="shotgun_shell_casing_03" ID="{B0104C27-1B57-4AD3-8DD0-36A83EFA7EF0}" ShortID="524839767">
+													<Language>SFX</Language>
+													<AudioFile>shotgun_shell_casing_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="shotgun_shell_casing_03" ID="{B0104C27-1B57-4AD3-8DD0-36A83EFA7EF0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="shotgun_shell_casing_04" ID="{BBAF398F-AB51-4256-BA23-08D126EE2C68}" ShortID="291489533">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{47DCAA98-FCD6-4F38-ABC0-9080246F2AD7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{05933565-8673-42FD-B855-59E14A7A416F}" WorkUnitID="{4AAFD399-6878-488D-9662-CCA6D16F6617}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="shotgun_shell_casing_04" ID="{6B5848BC-B0E9-44A6-BE3F-54F64F60E533}" ShortID="419911257">
+													<Language>SFX</Language>
+													<AudioFile>shotgun_shell_casing_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="shotgun_shell_casing_04" ID="{6B5848BC-B0E9-44A6-BE3F-54F64F60E533}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -875,25 +1070,16 @@
 										<ItemRef Name="shotgun_cock_close" ID="{A346EC17-0E7B-43DF-A67B-577456F2825F}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="shotgun_shell_casing_02" ID="{445A2B34-503C-44EB-AAD9-32435E4057E7}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="shotgun_shell_casing_04" ID="{BBAF398F-AB51-4256-BA23-08D126EE2C68}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
 										<ItemRef Name="shotgun_handle" ID="{5CB911A2-64D3-4654-A98C-38F07A3FD2FF}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Shotgun_Shell_Casings" ID="{14A497B9-AF23-426A-9F69-45C76E259F50}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="shotgun_fire" ID="{0E8534C6-07EE-4B5F-9B9D-A64328A1C979}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="shotgun_shell_casing_01" ID="{56EFB6E1-36A5-46E6-988F-80C0AB30D90A}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
 										<ItemRef Name="shotgun_cock_open" ID="{1106AFF2-D760-4747-8876-F6AABADB76E3}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="shotgun_shell_casing_03" ID="{675ECCF7-3282-405A-92FD-23C4D8717958}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 							</GroupingInfo>
