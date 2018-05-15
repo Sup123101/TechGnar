@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Sup\Downloads\TechGnar\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="85412153" Language="SFX">
+			<ObjectPath>\SoundBanks\Ambience\Ambience</ObjectPath>
+			<ShortName>Ambience</ShortName>
+			<Path>Ambience.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2160321640" Name="amb_hallway" ObjectPath="\Events\Ambience\amb_hallway"/>
+				<Event Id="836873062" Name="amb_rooms" ObjectPath="\Events\Ambience\amb_rooms"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="201798180" Language="SFX">
+					<ShortName>Ambience\ambience_room_tone_01.wav</ShortName>
+					<Path>SFX\Ambience\ambience_room_tone_01_C48A0388.wem</Path>
+				</File>
+				<File Id="417865825" Language="SFX">
+					<ShortName>Ambience\ambience_room_tone_05.wav</ShortName>
+					<Path>SFX\Ambience\ambience_room_tone_05_32CC547A.wem</Path>
+				</File>
+				<File Id="540937567" Language="SFX">
+					<ShortName>Ambience\ambience_hallway.wav</ShortName>
+					<Path>SFX\Ambience\ambience_hallway_F17FB28C.wem</Path>
+				</File>
+				<File Id="625160649" Language="SFX">
+					<ShortName>Ambience\ambience_room_tone_03.wav</ShortName>
+					<Path>SFX\Ambience\ambience_room_tone_03_D4840DA9.wem</Path>
+				</File>
+				<File Id="734053125" Language="SFX">
+					<ShortName>ambience_room_tone_06.wav</ShortName>
+					<Path>SFX\ambience_room_tone_06_C1A6DEAA.wem</Path>
+				</File>
+				<File Id="744544597" Language="SFX">
+					<ShortName>Ambience\ambience_room_tone_04.wav</ShortName>
+					<Path>SFX\Ambience\ambience_room_tone_04_1E95D5AE.wem</Path>
+				</File>
+				<File Id="1005860630" Language="SFX">
+					<ShortName>Ambience\ambience_room_tone_02.wav</ShortName>
+					<Path>SFX\Ambience\ambience_room_tone_02_C892F798.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="393239870" Language="SFX">
+			<ObjectPath>\SoundBanks\SFX\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="128625444" Name="door_close" ObjectPath="\Events\SFX\door_close" MaxAttenuation="5.000000"/>
+				<Event Id="535830432" Name="door_open" ObjectPath="\Events\SFX\door_open" MaxAttenuation="5.000000"/>
+				<Event Id="823792036" Name="Enemy_Impact" ObjectPath="\Events\SFX\Enemy_Impact"/>
+				<Event Id="3855638709" Name="exhaust_vent" ObjectPath="\Events\SFX\exhaust_vent" MaxAttenuation="10.000000"/>
+				<Event Id="3931031181" Name="reaktor" ObjectPath="\Events\SFX\reaktor" MaxAttenuation="20.000000"/>
+				<Event Id="4131734268" Name="rotating_pillar" ObjectPath="\Events\SFX\rotating_pillar" MaxAttenuation="8.000000"/>
+				<Event Id="1433397863" Name="steam" ObjectPath="\Events\SFX\steam" MaxAttenuation="15.000000"/>
+				<Event Id="3513896636" Name="turbine_fan" ObjectPath="\Events\SFX\turbine_fan" MaxAttenuation="7.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="6297302" Language="SFX">
+					<ShortName>SFX\reactor_loop.wav</ShortName>
+					<Path>SFX\SFX\reactor_loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="357225778" Language="SFX">
+					<ShortName>Bullet_Impact\bullet_impact_body_02.wav</ShortName>
+					<Path>SFX\Bullet_Impact\bullet_impact_body_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="581330187" Language="SFX">
+					<ShortName>SFX\vent_exhaust_loop.wav</ShortName>
+					<Path>SFX\SFX\vent_exhaust_loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="698957205" Language="SFX">
+					<ShortName>SFX\door_open.wav</ShortName>
+					<Path>SFX\SFX\door_open_1C9C67B2.wem</Path>
+				</File>
+				<File Id="751770877" Language="SFX">
+					<ShortName>Bullet_Impact\bullet_impact_body_01.wav</ShortName>
+					<Path>SFX\Bullet_Impact\bullet_impact_body_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="811640702" Language="SFX">
+					<ShortName>SFX\rotating_pillar_loop.wav</ShortName>
+					<Path>SFX\SFX\rotating_pillar_loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="816466795" Language="SFX">
+					<ShortName>Bullet_Impact\bullet_impact_body_wet.wav</ShortName>
+					<Path>SFX\Bullet_Impact\bullet_impact_body_wet_1C9C67B2.wem</Path>
+				</File>
+				<File Id="992565190" Language="SFX">
+					<ShortName>SFX\door_close.wav</ShortName>
+					<Path>SFX\SFX\door_close_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1001242266" Language="SFX">
+					<ShortName>SFX\steam_loop.wav</ShortName>
+					<Path>SFX\SFX\steam_loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="1053339145" Language="SFX">
+					<ShortName>SFX\turbine_loop.wav</ShortName>
+					<Path>SFX\SFX\turbine_loop_F17FB28C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="688956056" Language="SFX">
+			<ObjectPath>\SoundBanks\Weapons\Guns</ObjectPath>
+			<ShortName>Guns</ShortName>
+			<Path>Guns.bnk</Path>
+			<IncludedEvents>
+				<Event Id="861520496" Name="AK47_Cock_Close" ObjectPath="\Events\Weapons\AK47\AK47_Cock_Close"/>
+				<Event Id="2108918404" Name="AK47_Cock_Open" ObjectPath="\Events\Weapons\AK47\AK47_Cock_Open"/>
+				<Event Id="3305383501" Name="AK47_Fire" ObjectPath="\Events\Weapons\AK47\AK47_Fire"/>
+				<Event Id="4090582527" Name="AK47_Handle" ObjectPath="\Events\Weapons\AK47\AK47_Handle"/>
+				<Event Id="1532367873" Name="AK47_Magazine_Drop" ObjectPath="\Events\Weapons\AK47\AK47_Magazine_Drop"/>
+				<Event Id="4199788282" Name="AK47_Magazine_Load" ObjectPath="\Events\Weapons\AK47\AK47_Magazine_Load"/>
+				<Event Id="3280450433" Name="AK47_Stop" ObjectPath="\Events\Weapons\AK47\AK47_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="1334806561" Name="Glock_Cock_Close" ObjectPath="\Events\Weapons\Glock\Glock_Cock_Close"/>
+				<Event Id="1215033667" Name="Glock_Cock_Open" ObjectPath="\Events\Weapons\Glock\Glock_Cock_Open"/>
+				<Event Id="1072738028" Name="Glock_Fire" ObjectPath="\Events\Weapons\Glock\Glock_Fire"/>
+				<Event Id="256833090" Name="Glock_Handle" ObjectPath="\Events\Weapons\Glock\Glock_Handle"/>
+				<Event Id="775637278" Name="Glock_Magazine_Drop" ObjectPath="\Events\Weapons\Glock\Glock_Magazine_Drop"/>
+				<Event Id="2469014961" Name="Glock_Magazine_Load" ObjectPath="\Events\Weapons\Glock\Glock_Magazine_Load"/>
+				<Event Id="3725946925" Name="shotgun_cock_close" ObjectPath="\Events\Weapons\Shotgun\shotgun_cock_close"/>
+				<Event Id="3835052647" Name="shotgun_cock_open" ObjectPath="\Events\Weapons\Shotgun\shotgun_cock_open"/>
+				<Event Id="3982195600" Name="shotgun_fire" ObjectPath="\Events\Weapons\Shotgun\shotgun_fire"/>
+				<Event Id="1742261478" Name="shotgun_handle" ObjectPath="\Events\Weapons\Shotgun\shotgun_handle"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="47819783" Language="SFX">
+					<ShortName>Weapons\AK47\AK47_handling_04.wav</ShortName>
+					<Path>SFX\Weapons\AK47\AK47_handling_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="177346667" Language="SFX">
+					<ShortName>Weapons\Shotgun\shotgun_handling_03.wav</ShortName>
+					<Path>SFX\Weapons\Shotgun\shotgun_handling_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="193196945" Language="SFX">
+					<ShortName>Weapons\Glock\glock_cock_close.wav</ShortName>
+					<Path>SFX\Weapons\Glock\glock_cock_close_1C9C67B2.wem</Path>
+				</File>
+				<File Id="232090594" Language="SFX">
+					<ShortName>Weapons\Glock\glock_handling_01.wav</ShortName>
+					<Path>SFX\Weapons\Glock\glock_handling_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="426118636" Language="SFX">
+					<ShortName>Weapons\AK47\AK47_handling_02.wav</ShortName>
+					<Path>SFX\Weapons\AK47\AK47_handling_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="445735424" Language="SFX">
+					<ShortName>Weapons\Shotgun\shotgun_cock_close.wav</ShortName>
+					<Path>SFX\Weapons\Shotgun\shotgun_cock_close_1C9C67B2.wem</Path>
+				</File>
+				<File Id="511788316" Language="SFX">
+					<ShortName>Weapons\Glock\glock_fire.wav</ShortName>
+					<Path>SFX\Weapons\Glock\glock_fire_1C9C67B2.wem</Path>
+				</File>
+				<File Id="516201628" Language="SFX">
+					<ShortName>Weapons\Glock\glock_handling_03.wav</ShortName>
+					<Path>SFX\Weapons\Glock\glock_handling_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="525658761" Language="SFX">
+					<ShortName>Weapons\Shotgun\shotgun_handling_04.wav</ShortName>
+					<Path>SFX\Weapons\Shotgun\shotgun_handling_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="588354083" Language="SFX">
+					<ShortName>Weapons\AK47\AK47_magazine_drop.wav</ShortName>
+					<Path>SFX\Weapons\AK47\AK47_magazine_drop_1C9C67B2.wem</Path>
+				</File>
+				<File Id="597416433" Language="SFX">
+					<ShortName>Weapons\AK47\AK47_cock_close.wav</ShortName>
+					<Path>SFX\Weapons\AK47\AK47_cock_close_1C9C67B2.wem</Path>
+				</File>
+				<File Id="600128573" Language="SFX">
+					<ShortName>Weapons\Shotgun\shotgun_fire.wav</ShortName>
+					<Path>SFX\Weapons\Shotgun\shotgun_fire_1C9C67B2.wem</Path>
+				</File>
+				<File Id="686176446" Language="SFX">
+					<ShortName>Weapons\AK47\AK47_handling_01.wav</ShortName>
+					<Path>SFX\Weapons\AK47\AK47_handling_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="815946321" Language="SFX">
+					<ShortName>Weapons\Glock\glock_cock_open.wav</ShortName>
+					<Path>SFX\Weapons\Glock\glock_cock_open_1C9C67B2.wem</Path>
+				</File>
+				<File Id="820372991" Language="SFX">
+					<ShortName>Weapons\Glock\glock_magazine_drop.wav</ShortName>
+					<Path>SFX\Weapons\Glock\glock_magazine_drop_1C9C67B2.wem</Path>
+				</File>
+				<File Id="829583925" Language="SFX">
+					<ShortName>Weapons\AK47\AK47_handling_03.wav</ShortName>
+					<Path>SFX\Weapons\AK47\AK47_handling_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="870671133" Language="SFX">
+					<ShortName>Weapons\Shotgun\shotgun_handling_02.wav</ShortName>
+					<Path>SFX\Weapons\Shotgun\shotgun_handling_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="938478499" Language="SFX">
+					<ShortName>Weapons\AK47\AK47_fire_loop.wav</ShortName>
+					<Path>SFX\Weapons\AK47\AK47_fire_loop_F17FB28C.wem</Path>
+				</File>
+				<File Id="954587653" Language="SFX">
+					<ShortName>Weapons\AK47\AK47_cock_open.wav</ShortName>
+					<Path>SFX\Weapons\AK47\AK47_cock_open_1C9C67B2.wem</Path>
+				</File>
+				<File Id="970815530" Language="SFX">
+					<ShortName>Weapons\Shotgun\shotgun_cock_open.wav</ShortName>
+					<Path>SFX\Weapons\Shotgun\shotgun_cock_open_1C9C67B2.wem</Path>
+				</File>
+				<File Id="979201449" Language="SFX">
+					<ShortName>Weapons\Shotgun\shotgun_handling_01.wav</ShortName>
+					<Path>SFX\Weapons\Shotgun\shotgun_handling_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1004413430" Language="SFX">
+					<ShortName>Weapons\Glock\glock_handling_02.wav</ShortName>
+					<Path>SFX\Weapons\Glock\glock_handling_02_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3858746980" Language="SFX">
+			<ObjectPath>\SoundBanks\Monsters\Monsters</ObjectPath>
+			<ShortName>Monsters</ShortName>
+			<Path>Monsters.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2166508184" Name="Parazite_Attack" ObjectPath="\Events\Monsters\Parazite\Parazite_Attack"/>
+				<Event Id="4201162726" Name="Parazite_Deathcry" ObjectPath="\Events\Monsters\Parazite\Parazite_Deathcry"/>
+				<Event Id="4028325912" Name="Parazite_Fat_Attack" ObjectPath="\Events\Monsters\Parazite_Fat\Parazite_Fat_Attack"/>
+				<Event Id="1574009190" Name="Parazite_Fat_Deathcry" ObjectPath="\Events\Monsters\Parazite_Fat\Parazite_Fat_Deathcry"/>
+				<Event Id="452090273" Name="Parazite_Fat_Footsteps" ObjectPath="\Events\Monsters\Parazite_Fat\Parazite_Fat_Footsteps"/>
+				<Event Id="513602239" Name="Parazite_Fat_Hurt" ObjectPath="\Events\Monsters\Parazite_Fat\Parazite_Fat_Hurt"/>
+				<Event Id="1968761522" Name="Parazite_Fat_Idle" ObjectPath="\Events\Monsters\Parazite_Fat\Parazite_Fat_Idle"/>
+				<Event Id="662494520" Name="Parazite_Fat_Roar" ObjectPath="\Events\Monsters\Parazite_Fat\Parazite_Fat_Roar"/>
+				<Event Id="485526817" Name="Parazite_Footsteps" ObjectPath="\Events\Monsters\Parazite\Parazite_Footsteps"/>
+				<Event Id="977680703" Name="Parazite_Hurt" ObjectPath="\Events\Monsters\Parazite\Parazite_Hurt"/>
+				<Event Id="2432839986" Name="Parazite_Idle" ObjectPath="\Events\Monsters\Parazite\Parazite_Idle"/>
+				<Event Id="1126572984" Name="Parazite_Roar" ObjectPath="\Events\Monsters\Parazite\Parazite_Roar"/>
+				<Event Id="4089318266" Name="Parazite_Slider_Attack" ObjectPath="\Events\Monsters\Parazite_Slider\Parazite_Slider_Attack"/>
+				<Event Id="3934567672" Name="Parazite_Slider_Deathcry" ObjectPath="\Events\Monsters\Parazite_Slider\Parazite_Slider_Deathcry"/>
+				<Event Id="1099228435" Name="Parazite_Slider_Footsteps" ObjectPath="\Events\Monsters\Parazite_Slider\Parazite_Slider_Footsteps"/>
+				<Event Id="2041802445" Name="Parazite_Slider_Hurt" ObjectPath="\Events\Monsters\Parazite_Slider\Parazite_Slider_Hurt"/>
+				<Event Id="3828674428" Name="Parazite_Slider_Idle" ObjectPath="\Events\Monsters\Parazite_Slider\Parazite_Slider_Idle"/>
+				<Event Id="208664726" Name="Parazite_Slider_Roar" ObjectPath="\Events\Monsters\Parazite_Slider\Parazite_Slider_Roar"/>
+				<Event Id="1994036678" Name="Parazite_Spider_Attack" ObjectPath="\Events\Monsters\Parazite_Spider\Parazite_Spider_Attack"/>
+				<Event Id="254622204" Name="Parazite_Spider_Deathcry" ObjectPath="\Events\Monsters\Parazite_Spider\Parazite_Spider_Deathcry"/>
+				<Event Id="2888247367" Name="Parazite_Spider_Footsteps" ObjectPath="\Events\Monsters\Parazite_Spider\Parazite_Spider_Footsteps"/>
+				<Event Id="121055129" Name="Parazite_Spider_Hurt" ObjectPath="\Events\Monsters\Parazite_Spider\Parazite_Spider_Hurt"/>
+				<Event Id="2044707888" Name="Parazite_Spider_Idle" ObjectPath="\Events\Monsters\Parazite_Spider\Parazite_Spider_Idle"/>
+				<Event Id="2046001098" Name="Parazite_Spider_Roar" ObjectPath="\Events\Monsters\Parazite_Spider\Parazite_Spider_Roar"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="8528658" Language="SFX">
+					<ShortName>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_04.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="8995030" Language="SFX">
+					<ShortName>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_05.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="27039593" Language="SFX">
+					<ShortName>Monsters\Parazite_Fat\parazite_fat_attack_01.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Fat\parazite_fat_attack_01_24DFB2AD.wem</Path>
+				</File>
+				<File Id="44237600" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_02.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="49365923" Language="SFX">
+					<ShortName>Monsters\Parazite_Fat\parazite_fat_attack_02.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Fat\parazite_fat_attack_02_CD59E63B.wem</Path>
+				</File>
+				<File Id="58775461" Language="SFX">
+					<ShortName>Monsters\Parazite_Spider\parazite_spider_attack_02.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Spider\parazite_spider_attack_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="99033449" Language="SFX">
+					<ShortName>Monsters\Parazite_Fat\parazite_fat_idle_01.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Fat\parazite_fat_idle_01_2B5CB87B.wem</Path>
+				</File>
+				<File Id="132571646" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_03.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="209022651" Language="SFX">
+					<ShortName>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_05.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="209308923" Language="SFX">
+					<ShortName>Monsters\Parazite\parazite_roar.wav</ShortName>
+					<Path>SFX\Monsters\Parazite\parazite_roar_CBAC6E89.wem</Path>
+				</File>
+				<File Id="238313399" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_02.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="252167856" Language="SFX">
+					<ShortName>Monsters\Parazite_Spider\parazite_spider_deathcry.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Spider\parazite_spider_deathcry_1C9C67B2.wem</Path>
+				</File>
+				<File Id="252372873" Language="SFX">
+					<ShortName>Monsters\Parazite_Fat\parazite_fat_hurt.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Fat\parazite_fat_hurt_1C9C67B2.wem</Path>
+				</File>
+				<File Id="253413461" Language="SFX">
+					<ShortName>Monsters\Parazite\parazite_idle_01.wav</ShortName>
+					<Path>SFX\Monsters\Parazite\parazite_idle_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="285357939" Language="SFX">
+					<ShortName>Monsters\Parazite\parazite_attack_01.wav</ShortName>
+					<Path>SFX\Monsters\Parazite\parazite_attack_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="286759907" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_05.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="288909999" Language="SFX">
+					<ShortName>Monsters\Parazite\parazite_attack_03.wav</ShortName>
+					<Path>SFX\Monsters\Parazite\parazite_attack_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="299641886" Language="SFX">
+					<ShortName>Monsters\Parazite_Spider\parazite_spider_attack_01.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Spider\parazite_spider_attack_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="306957271" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_02.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="317085952" Language="SFX">
+					<ShortName>Monsters\Parazite\parazite_attack_02.wav</ShortName>
+					<Path>SFX\Monsters\Parazite\parazite_attack_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="319432036" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_04.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="325761520" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_01.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="327672237" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_03.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_l_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="334023153" Language="SFX">
+					<ShortName>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_06.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="348496548" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_04.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="354246350" Language="SFX">
+					<ShortName>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_01.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="387095746" Language="SFX">
+					<ShortName>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_04.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="389249030" Language="SFX">
+					<ShortName>parazite_hurt.wav</ShortName>
+					<Path>SFX\parazite_hurt_7184B66E.wem</Path>
+				</File>
+				<File Id="392068734" Language="SFX">
+					<ShortName>Monsters\Parazite_Slider\parazite_slider_idle_01.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Slider\parazite_slider_idle_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="397145370" Language="SFX">
+					<ShortName>Monsters\Parazite_Slider\parazite_slider_attack_02.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Slider\parazite_slider_attack_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="404228874" Language="SFX">
+					<ShortName>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_03.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="428613366" Language="SFX">
+					<ShortName>Monsters\Parazite_Slider\parazite_slider_roar.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Slider\parazite_slider_roar_1C9C67B2.wem</Path>
+				</File>
+				<File Id="450946323" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_03.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="459490492" Language="SFX">
+					<ShortName>Monsters\Parazite_Fat\parazite_fat_deathcry.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Fat\parazite_fat_deathcry_1C9C67B2.wem</Path>
+				</File>
+				<File Id="567299047" Language="SFX">
+					<ShortName>Monsters\Parazite_Slider\parazite_slider_deathcry.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Slider\parazite_slider_deathcry_1C9C67B2.wem</Path>
+				</File>
+				<File Id="574127620" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_05.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="578367749" Language="SFX">
+					<ShortName>Monsters\Parazite_Spider\parazite_spider_hurt.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Spider\parazite_spider_hurt_1C9C67B2.wem</Path>
+				</File>
+				<File Id="646649483" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_03.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="666459443" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_05.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="700129184" Language="SFX">
+					<ShortName>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_02.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="714754446" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_02.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="752115054" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_04.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="777632788" Language="SFX">
+					<ShortName>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_03.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="798082433" Language="SFX">
+					<ShortName>Monsters\Parazite_Slider\parazite_slider_hurt.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Slider\parazite_slider_hurt_1C9C67B2.wem</Path>
+				</File>
+				<File Id="829009623" Language="SFX">
+					<ShortName>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_01.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="875352032" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_05.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="881831072" Language="SFX">
+					<ShortName>Monsters\Parazite_Spider\parazite_spider_idle_01.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Spider\parazite_spider_idle_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="910526488" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_01.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Slider_Footsteps\parazite_slider_fs_r_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="916012426" Language="SFX">
+					<ShortName>Monsters\Parazite_Spider\parazite_spider_roar.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Spider\parazite_spider_roar_1C9C67B2.wem</Path>
+				</File>
+				<File Id="927329085" Language="SFX">
+					<ShortName>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_06.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_r_06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="939968845" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_01.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_l_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="943810638" Language="SFX">
+					<ShortName>Monsters\Parazite_Slider\parazite_slider_attack_01.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Slider\parazite_slider_attack_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="949746928" Language="SFX">
+					<ShortName>Monsters\Parazite\parazite_idle_02.wav</ShortName>
+					<Path>SFX\Monsters\Parazite\parazite_idle_02_ABA23BEF.wem</Path>
+				</File>
+				<File Id="950207451" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_01.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="968453602" Language="SFX">
+					<ShortName>Monsters\Parazite_Fat\parazite_fat_roar.wav</ShortName>
+					<Path>SFX\Monsters\Parazite_Fat\parazite_fat_roar_9AE2DD95.wem</Path>
+				</File>
+				<File Id="1017871053" Language="SFX">
+					<ShortName>Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_04.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\Parazite_Spider_Footsteps\parazite_spider_fs_r_04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1056522826" Language="SFX">
+					<ShortName>Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_02.wav</ShortName>
+					<Path>SFX\Monsters\Footsteps\ParaFat_Footsteps\parafat_fs_l_02_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Music\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Music\Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="43484705" Language="SFX">
+					<ShortName>Music\01_Intro_Loop\01_intro_loop_full.wav</ShortName>
+					<Path>SFX\Music\01_Intro_Loop\01_intro_loop_full_F17FB28C.wem</Path>
+				</File>
+				<File Id="684270713" Language="SFX">
+					<ShortName>Music\04_Drop_Loop\04_drop_loop_full.wav</ShortName>
+					<Path>SFX\Music\04_Drop_Loop\04_drop_loop_full_F17FB28C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

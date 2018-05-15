@@ -1,0 +1,32 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2137943	Life			\Player\Life	
+	939730931	Status			\Player\Status	
+
+State	ID	Name	State Group			Notes
+	0	None	Life			
+	655265632	Alive	Life			
+	2044049779	Dead	Life			
+	0	None	Status			
+	1160234136	Normal	Status			
+	1641806523	Attacking	Status			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	543694036	Vox			\Default Work Unit\Master Audio Bus\Vox	
+	1467963052	Weapons			\Default Work Unit\Master Audio Bus\Weapons	
+	2764240573	Combat			\Default Work Unit\Master Audio Bus\Combat	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3858746980	Monsters			\Default Work Unit\Master Audio Bus\Monsters	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1990128658	Room_Medium	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
