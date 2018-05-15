@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{2F5B163E-5764-4C0D-B80C-099A6B3E5017}" SchemaVersion="85">
-	<SoundBanks>
-		<WorkUnit Name="Vox" ID="{2F5B163E-5764-4C0D-B80C-099A6B3E5017}" PersistMode="Standalone"/>
-	</SoundBanks>
-</WwiseDocument>
