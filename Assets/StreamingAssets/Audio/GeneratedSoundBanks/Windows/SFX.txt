@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	128625444	door_close			\SFX\door_close	
+	535830432	door_open			\SFX\door_open	
+	823792036	Enemy_Impact			\SFX\Enemy_Impact	
+	1433397863	steam			\SFX\steam	
+	3513896636	turbine_fan			\SFX\turbine_fan	
+	3855638709	exhaust_vent			\SFX\exhaust_vent	
+	3931031181	reaktor			\SFX\reaktor	
+	4131734268	rotating_pillar			\SFX\rotating_pillar	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	6297302	reaktor_loop	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\SFX\reactor_loop_F17FB28C.wem		\Actor-Mixer Hierarchy\SFX\reaktor_loop		2160064
+	357225778	bullet_impact_body_02	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Bullet_Impact\bullet_impact_body_02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Bullet_Impact\Enemy_Hit\bullet_impact_body_02		101676
+	581330187	exhaust_vent_loop	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\SFX\vent_exhaust_loop_F17FB28C.wem		\Actor-Mixer Hierarchy\SFX\exhaust_vent_loop		352364
+	698957205	door_open	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\SFX\door_open_1C9C67B2.wem		\Actor-Mixer Hierarchy\SFX\door_open		231400
+	751770877	bullet_impact_body_01	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Bullet_Impact\bullet_impact_body_01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Bullet_Impact\Enemy_Hit\bullet_impact_body_01		62964
+	811640702	rotating_pillar_loop	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\SFX\rotating_pillar_loop_F17FB28C.wem		\Actor-Mixer Hierarchy\SFX\rotating_pillar_loop		352864
+	816466795	bullet_impact_body_wet	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\Bullet_Impact\bullet_impact_body_wet_1C9C67B2.wem		\Actor-Mixer Hierarchy\Bullet_Impact\Enemy_Hit\bullet_impact_body_wet		121340
+	992565190	door_close	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\SFX\door_close_1C9C67B2.wem		\Actor-Mixer Hierarchy\SFX\door_close		126064
+	1001242266	steam_loop	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\SFX\steam_loop_F17FB28C.wem		\Actor-Mixer Hierarchy\SFX\steam_loop		904114
+	1053339145	turbine_fan_loop	C:\Users\Sup\Downloads\TechGnar\TechLabVR_WwiseProject\.cache\Windows\SFX\SFX\turbine_loop_F17FB28C.wem		\Actor-Mixer Hierarchy\SFX\turbine_fan_loop		281200
+

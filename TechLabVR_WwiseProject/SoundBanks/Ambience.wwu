@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{59E4AA5F-BCF6-48F5-8E4E-4A616E80DD25}" SchemaVersion="85">
+	<SoundBanks>
+		<WorkUnit Name="Ambience" ID="{59E4AA5F-BCF6-48F5-8E4E-4A616E80DD25}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Ambience" ID="{A3FFAB91-CE3C-4D9A-8D47-8FE318F777ED}">
+					<ObjectInclusionList>
+						<ObjectRef Name="amb_hallway" ID="{314D77A1-3C17-4A49-B56F-0F5FF5B8CDB0}" WorkUnitID="{382F1BD1-8B7C-49CD-9D9D-234544CE3E39}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="amb_rooms" ID="{15B67064-ED70-4BEB-8165-BA5A29CCD484}" WorkUnitID="{382F1BD1-8B7C-49CD-9D9D-234544CE3E39}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
